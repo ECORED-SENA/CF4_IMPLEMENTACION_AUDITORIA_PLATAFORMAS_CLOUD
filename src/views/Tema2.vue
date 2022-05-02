@@ -14,8 +14,8 @@
     .cajon.p-4.mb-4.color-acento-contenido(data-aos="slide-right")
       p ISO/IEC 27002 es el complemento de la norma ISO 27001, la cual se encarga de la definición de los Sistemas de Gestión de Seguridad de la Información (SGSI), proporcionando una serie de buenas prácticas donde se establecen los dominios, objetivos de control y controles recomendados para un adecuado sistema de gestión de seguridad de la información. Esta norma no se certifica por las entidades que hacen dicha labor y sirve de apoyo en la elección de controles para los planes de tratamiento de los riesgos que se determinan como necesarios en relación al proceso de gestión de riesgos indicado como requisito en ISO/IEC 27001 para los sistemas de gestión de seguridad de la información.
 
-    .row.correr-ambos.my-5
-      .col-xl-12.fondo13
+    .row.correr-ambos.my-5.fondo13
+      .col-xl-12
         .row.justify-content-center.align-items-center
           .col-xl-5.col-md-4(data-aos="slide-right")
             img.mover-arriba2(src="@/assets/curso/tema2/figura1.svg")
@@ -24,8 +24,8 @@
 
     .row.correr-ambos.my-5
       .col-xl-12.fondo14
-        .row.justify-content-center
-          .col-xl-7.col-md-12
+        .row.justify-content-center.align-items-center
+          .col-xl-7.col-md-12.px-5
             p.text-bold.my-5 Temáticas de control de la norma
             ul.lista-ul--color(data-aos="slide-left")
               li 
@@ -46,19 +46,528 @@
               li 
                 i.fas.fa-caret-right
                 span Alineación de las comunicaciones con la nube (redes virtuales).
-          .col-xl-5.col-md-4
-            img(src="@/assets/curso/tema2/figura2.svg")
+          .col-xl-5.col-md-4.px-5
+            img.mb-4(src="@/assets/curso/tema2/figura2.svg")
         .row.justify-content-center
-          .col-xl-3.col-md-4
-            img(src="@/assets/curso/tema2/figura3.svg")
-          .col-xl-9.col-md-12
+          .col-xl-3.col-md-4.px-5
+            img.mt-4(src="@/assets/curso/tema2/figura3.svg")
+          .col-xl-9.col-md-12.px-5
             p.mt-5 De manera general, se clasifican los controles ISO 27002 en 114 controles y 14 dominios globales, con 35 objetivos de control asociados, para que cada organización determine la cantidad y robustez de controles según las necesidades que se determinen. Es importante aclarar que para un proceso de certificación no se debe cumplir con la totalidad de estos, pues se utilizarán solo los que apliquen al ámbito de la organización.
 
             p A continuación, se aborda de manera muy general la estructura y cómo está diseñada la norma ISO 27002:2013, la cual en la actualidad se encuentra estandarizada, sin embargo, es importante mencionar que se encuentra en fase de revisión la nueva versión denominada ISO/IEC 27.002:2021, la cual se espera esté disponible a finales del año 2021 o principios del año 2022.
 
             p La implementación de una norma como ISO 27017 trae múltiples beneficios tanto para el proveedor como para el cliente, los cuales se mencionan a continuación:
-</template>
 
+    .row.mb-5
+      .col-sm-12.col-xl-6.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.fondo16
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/mujer.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              .row
+                .col-xl-2.col-md-2.col-sm-3
+                  img.my-5(src="@/assets/curso/tema2/nube.svg")
+              h4.text-dark.mb-4 Beneficios para los clientes de servicios cloud
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-caret-right
+                  span.text-dark Reducción de riesgos y aseguramiento en las responsabilidades, tanto del cliente como del proveedor de servicios cloud, lo que facilita la toma de decisiones a la hora de iniciar un proyecto de migración de los servicios on-premise a la nube.
+                li
+                  i.fas.fa-caret-right
+                  span.text-dark Gestión adecuada de los contratos de prestación de servicios con proveedores cloud, sus adiciones y ampliaciones requeridas por la organización. 
+      .col-sm-12.col-xl-6.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.fondo15
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/hombre.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              .row
+                .col-xl-2.col-md-2.col-sm-3
+                  img.my-5(src="@/assets/curso/tema2/nube.svg")
+              h4.text-dark.mb-4 Beneficios para los proveedores de servicios cloud
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-caret-right
+                  span.text-dark Aumento de la confianza por parte de los clientes que utilizan o consumen servicios cloud. 
+                p.ms-3.text-dark Ofrecen mayores niveles de seguridad y protección de datos.
+                li
+                  i.fas.fa-caret-right
+                  span.text-dark Generan una ventaja diferenciadora frente a la competencia existente en el mercado cloud.
+                p.ms-3.text-dark Mejora de la reputación y posicionamiento de la marca por la adopción e implementación de un estándar como el de ISO para el servicio cloud.
+                p.ms-3.text-dark Garantía del cumplimiento con las normas legales locales.
+                p.ms-3.mb-5.text-dark Facilidad en la ampliación y accionar en el mercado internacional, ya que estas normas son reconocidas y certificadas a nivel mundial.
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo17.px-5
+        p.my-5 Como ya se ha indicado, la norma ISO 27017 tiene 114 controles y 14 dominios, los cuales se establecen en la siguiente figura:
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
+          h5 Figura 3
+          span <i>Dominios de la norma ISO 27017</i>
+        .row.justify-content-center.my-5.align-items-center
+          .col-xl-10.col-md-12
+            img(src="@/assets/curso/tema2/figura4.svg")
+
+        .row.my-5
+          .col-xl-3.fondo18
+            p.mb-0.text-center.text-white.py-3 Dominio 1. Políticas de Seguridad
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5  
+        .row.justify-content-center
+          .col-xl-5
+            img(src="@/assets/curso/tema2/imagen2.png")
+          .col-xl-7
+            p Para este dominio, se establece la necesidad de que la organización cuente con un documento o política donde se exprese de manera general y clara la posición que frente a la seguridad establece la empresa. De igual manera, se crean las políticas complementarias, como una buena práctica de control a los diferentes procesos desarrollados por las organizaciones en la utilización de sistemas de información, plataformas, dispositivos lógicos y distintas ubicaciones de la empresa. 
+            p Se parte de la premisa típica en seguridad de la información: "lo que no está permitido está prohibido". Cada organización puede identificar sus propias necesidades específicas y, de esta manera, valorar los controles o salvaguardas necesarios que fundamenten las políticas de seguridad que le aplican, estructurando de esta manera una gestión más adecuada.
+        p.my-5.text-center Control: Directrices de la Dirección en seguridad de la información
+        .row.justify-content-center
+          .col-xl-8.col-md-10.col-sm-11
+            ImagenInfograficaB.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/botonesInfo.svg')
+
+              div(x="24.4%" y="87.8%" tooltip="Click para leer...")
+                .row
+                  .col-xl-6
+                    h5.color-texto 1. OBJETIVO
+                    p.color-texto La dirección en seguridad de la información, regulada mediante la ISO 27001, tiene como objetivo dar soporte y administrar la gestión de la seguridad de la información alineando la seguridad con todas las particularidades del negocio, la legislación y las regulaciones.
+                  .col-xl-6
+                    img(src='@/assets/curso/tema2/imagen3.png')
+
+              div.mx-2(x="77.6%" y="87.8%" tooltip="Click para leer...")
+                .row.justify-content-center
+                  .col-xl-5
+                    .h5.mb-2 2. CONTROLES
+                    p La dirección en seguridad de la información, regulada mediante la ISO 27017, tiene dos controles en su direccionamiento.
+                  .col-xl-7.col-sm-12
+                    .row.justify-content-center
+                      .col-xl-11.col-sm-12.mb-2
+                        p.text-center.mb-0.fondo20 Controles
+                    .row.justify-content-center
+                      .col-xl-5.bordes.col-md-5.col-sm-11.mb-2.me-2
+                        p Políticas para la seguridad de la información: la organización debe de crear las políticas de seguridad de la información, aprobarlas por la alta gerencia o dirección, publicarlas y socializarlas a todos los empleados, así como a todas las partes externas involucradas en los procesos core.
+                      .col-xl-5.bordes.col-md-5.col-sm-11.mb-2.me-2
+                        p Revisión de las políticas para la seguridad de la información: el dinamismo de la tecnología, de los procesos y la mejora continua requiere que se hagan revisiones periódicas a las políticas de seguridad de la organización a fin de garantizar sus ajustes, adecuación, efectividad e idoneidad de estas políticas.
+
+        p.mt-5 En la implementación de estos controles, según ISO 27017, se requiere, por parte del cliente de servicios en la nube, definir una política específica para la computación en nube, cuyo contenido sea consistente con los niveles de riesgo para los activos y la seguridad de la información considerados aceptables por la organización.  
+        p-mb-5 Por su parte, el proveedor de servicios cloud debería incrementar sus políticas de seguridad en relación con las actividades de provisión y uso de sus servicios de nube.
+        .row.my-5
+          .col-xl-3.fondo18
+            p.mb-0.text-center.text-white.py-3 Dominio 2. Aspectos organizativos
+
+    .row
+      .col-xl-5(data-aos="slide-left")
+        img(src='@/assets/curso/tema2/imagen4.png')
+      .col-xl-7(data-aos="slide-right")   
+        p Este dominio centra su acción en establecer las estrategias administrativas de la gestión de la seguridad de la información, como factor fundamental para los objetivos y actividades propias de la organización.
+        p.fondo21.p-4 La administración debe generar las condiciones necesarias que permitan la gestión de las actividades propias de la seguridad de la información como aprobación de las políticas de seguridad, la implementación de los controles, la asignación de tareas, segregación de funciones y designación de personas a cargo de la gestión de la seguridad de la información.
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5  
+        p.text-center.my-5 Este dominio cuenta con varios controles, tal como puede ser consultado en la siguiente gráfica:
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2/controles.svg')
+
+          .tarjeta.fondo22.p-3(x="23%" y="53%" numero="+")
+            .h5.mb-2 Asignar responsabilidades
+            p Busca que se definan y asignen las tareas y responsabilidades, de una manera clara, en cuanto a la seguridad de  la información.
+
+          .tarjeta.fondo22.p-3(x="23%" y="62.3%" numero="+")
+            .h5.mb-2 Segregar tareas
+            p Se deben segregar tareas y las áreas responsables a fin de poder identificar, si existiesen, conflictos de interés y evitar cambios o modificaciones no autorizadas, mal intencionadas o un uso inadecuado de los activos.
+ 
+          .tarjeta.fondo22.p-3(x="23%" y="72%" numero="+")
+            .h5.mb-2 Contacto con las autoridades
+            p Siempre debe existir y mantenerse un contacto directo con las autoridades regulatorias y pertinentes ajustadas al core del negocio.
+            p Por su parte, en la implementación de la norma ISO 27017 por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
+            p Por su lado, el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+
+          .tarjeta.fondo22.p-3(x="23%" y="82.5%" numero="+")
+            .h5.mb-2 Contacto con grupos de interés
+            p Busca que la organización haga parte de grupos o comunidades de interés relacionados con la seguridad de la información, y con grupos o sectores relacionados con la industria de la organización, a fin de garantizar el intercambio y actualización permanente.
+            p La seguridad de la información debe hacer parte integral de la gestión de proyectos, sin importar el tipo de proyecto a ser diseñado y desarrollado por la organización.
+
+          .tarjeta.fondo22.p-3(x="23%" y="94%" numero="+")
+            .h5.mb-2 Gestión de proyectos y la seguridad de la información
+            p Por su parte, en la implementación de la norma ISO 27017, por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
+            p Por su lado el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+
+          .tarjeta.fondo22.p-3(x="64.5%" y="53.5%" numero="+")
+            .h5.mb-2 Política de uso de dispositivos móviles
+            p Se debería establecer una política formal y se deberían adoptar las medidas de seguridad adecuadas para la protección contra los riesgos derivados del uso de los recursos de informática móvil y las telecomunicaciones.
+ 
+          .tarjeta.fondo22.p-3(x="64.4%" y="64.3%" numero="+")
+            .h5.mb-2 Teletrabajo
+            p Se deben diseñar e implementar las estrategias necesarias que involucren políticas y medidas de protección de la información que es recibida, procesada y almacenada a través de las conexiones remotas y a través de estrategias como el teletrabajo. 
+
+          .tarjeta.fondo22.p-3(x="95.1%" y="68%" numero="+")
+            .h5.mb-2 Roles y responsabilidades compartidas 
+            p En el entorno de nube: se deberían designar las responsabilidades para los roles compartidos en seguridad en el uso de los servicios de nube, para identificar las partes, documentarlas, comunicarlas e implementarlas.
+            p Para su implementación, el cliente de servicios en la nube debe definir sus políticas y procedimientos existentes en línea con su uso en los servicios de nube y concientizar a los usuarios de sus roles y responsabilidades. Por otra parte, el proveedor debe documentar y comunicar sus capacidades, roles y responsabilidades en seguridad de la información  para el uso de los servicios de nube, junto con los roles y responsabilidades que el cliente necesitaría implementar y gestionar en el ámbito del uso de los servicios.
+        .row.my-5
+          .col-xl-4.fondo18
+            p.mb-0.text-center.text-white.py-3 Dominio 3. Seguridad en cuanto a los recursos humanos
+        .row
+          .col-xl-1.col-md-2.col-sm-2
+            img(src='@/assets/curso/tema2/escudo.svg')
+          .col-xl-11.col-md-10.col-sm-10.mb-5
+            p Busca educar e informar al personal desde su ingreso y en forma continua, cualquiera sea su situación de actividad, acerca de las medidas de seguridad que afectan el desarrollo de sus funciones y las expectativas depositadas en ellos en materia de seguridad y asuntos de confidencialidad. Este dominio cuenta con tres controles, los cuales se describen a continuación:
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
+          h5 Figura 4 
+          span <i>Controles de la seguridad en cuanto a los recursos humanos</i>
+        .row.justify-content-center
+          .col-xl-10.col-md-10.col-sm-11
+            img(src='@/assets/curso/tema2/organigrama.svg')
+        .cajon.p-4.my-5.color-acento-contenido(data-aos="slide-right")
+          p Para la implementación de estos controles en ISO 27017, el cliente debe incluir en sus programas de formación y concientización a gerentes de negocio, administradores, integradores y usuarios de los servicios de nube, además de todo el personal que da apoyo en la coordinación de las actividades de seguridad de la información; y por otra parte, el proveedor de servicios cloud, proporcionar programas de formación y concientización a todo el personal interno, reclamándolo de igual modo a sus proveedores, sobre el adecuado uso de los datos de los clientes.
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5  
+        .row
+          .col-xl-3.fondo18
+            p.mb-0.text-center.text-white.py-3 Dominio 4. Gestión de activos 
+        p.my-5 Busca garantizar que las organizaciones tengan el conocimiento certero frente a los activos con que cuentan para el desarrollo de su core de negocio, como un factor diferencial y necesario para la gestión y administración del riesgo. Los activos pueden clasificarse y tener los controles correspondientes, como se puede observar en el siguiente recurso didáctico:
+        .row.justify-content-center
+          .col-xl-10
+            ImagenInfograficaB.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/figura5.svg')
+
+              .tarjeta.p-3(x="21.4%" y="78%" numero="+")
+                .h5.mb-4 CLASIFICACIÓN
+                p.text-bold Recursos de tipo información:
+                p en esta categoría de activos, se incluyen, pero no se limita a: archivos, manuales, bases de datos, documentación de aplicaciones y servicios, políticas y procedimientos de soporte, planes de continuidad del negocio y planes de recuperación de desastres, entre otras.
+                p.text-bold Recursos de tipo <i>software</i>: 
+                p esto incluye todos los activos relacionados con herramientas software, como: sistemas operativos, aplicaciones propietarias y de terceros, herramientas de desarrollo y publicación de contenidos, utilitarios, entre otros.
+                p.text-bold Recursos de tipo <i>hardware</i>:
+                p hacen parte de esta categoría todo el equipamiento físico, como computadores, servidores, impresoras, procesadores, memorias, monitores; los equipos de comunicación, como <i>switches, routers, PABXs, Access Points, Firewalls</i>, entre otros; los medios de almacenamiento, como discos duros, cintas, dispositivos móviles de almacenamiento de datos, memorias USB, discos externos, entre otros.
+                
+              .tarjeta.p-3(x="82%" y="52%" numero="+")
+                SlyderA(tipo="b")
+                  .row.justify-content-center
+                    .col-xl-11
+                      .h5.mb-5 CONTROLES
+                      figure
+                        img(src='@/assets/curso/tema2/figura6.svg')
+                  .row.justify-content-center
+                    .col-xl-12
+                      .h5.mb-5 1. Responsabilidad sobre los activos
+                      p Responsabilidad sobre los activos
+                      img(src='@/assets/curso/tema2/figura7.svg')
+                  .row.justify-content-center
+                    .col-xl-12
+                      .h5.mb-5 2. Clasificación de la información
+                      p Este control tiene por objetivo determinar el nivel adecuado de protección de la información y recursos informáticos, según su nivel de criticidad. Al hacer la clasificación, deben tenerse en cuenta algunas variables que determinarán su nivel de importancia o criticidad, dentro de las cuales están: sensibilidad, cumplimiento legal o contractual, valor, e importancia para la organización.
+                      .row.justify-content-center
+                        .col-xl-10
+                          img(src='@/assets/curso/tema2/figura8.svg')
+                  .row.justify-content-center
+                    .col-xl-12
+                      .h5.mb-5 3. Manejo de los soportes de almacenamiento
+                      p Se deberían establecer todas las acciones necesarias para evitar la pérdida, robo, manipulación o destrucción de información corporativa que se encuentre almacenada en cualquier medio.
+                      .row.justify-content-center
+                        .col-xl-10
+                          img(src='@/assets/curso/tema2/figura9.svg')
+        .row
+          .col-xl-3.fondo18
+            p.mb-0.text-center.text-white.py-3 Dominio 5. Control de acceso   
+        .row.justify-content-center.my-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img(src='@/assets/curso/tema2/imagen5.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p  Este dominio tiene por objetivo controlar el acceso a los recursos informáticos de la organización a partir de la implementación de restricciones y excepciones sobre quién y en qué nivel puede tener acceso a la información. El usuario es parte fundamental de este dominio, ya que se incluyen los mecanismos de autenticación, como nombres de usuario y contraseñas de acceso.
+        p.mb-5 Para garantizar el cumplimiento de este objetivo, la norma establece los siguientes controles, que puede consultar a continuación:
+        
+        .row.justify-content-center
+          .col-xl-10
+            ImagenInfograficaB.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/botonesLinea.svg')
+
+              .tarjeta.p-3(x="8.8%" y="85.8%" numero="" tooltip="Click para leer...")
+                .h5.mb-4 1. Requisitos de negocio para controlar el acceso
+                img.me-5(src='@/assets/curso/tema2/figura10.png')
+              .tarjeta.p-3(x="29.4%" y="86%" numero="" tooltip="Click para leer...")
+                .h5.mb-4 2. Gestión de acceso de usuario
+                p.my-4 Lo que se pretende en este control es garantizar el acceso a los usuarios autorizados expresamente a esos recursos y/o servicios, y evitar a toda costa el acceso por parte de personal no autorizado.
+                .row.justify-content-center.align-items-center
+                  .col-xl-10.col-md-10.col-sm-10
+                    img.me-5(src='@/assets/curso/tema2/figura11.svg')
+              .tarjeta.p-3(x="91.2%" y="86.1%" numero="" tooltip="Click para leer...")
+                .row.justify-content-center.align-items-center
+                  .col-xl-10.col-md-10.col-sm-10
+                    .h5.mb-4 5. Control de accesos a los datos del cliente en entornos virtuales compartidos 
+                    img.me-5(src='@/assets/curso/tema2/figura12.svg')
+              .tarjeta.p-3(x="50%" y="86.1%" numero="" tooltip="Click para leer...")
+                .h5.mb-4 3. Responsabilidades del usuario
+                .row.justify-content-center.align-items-center
+                  .col-xl-10.col-md-10.col-sm-10
+                    img.me-5(src='@/assets/curso/tema2/figura13.svg')
+              .tarjeta.p-3(x="70.5%" y="86.1%" numero="" tooltip="Click para leer...")
+                .h5.mb-4 4. Control de acceso a sistemas y recursos TI
+                p Busca garantizar que no se presenten accesos no autorizados a la información que es recibida, procesada y almacenada en los sistemas informáticos.
+                .row.justify-content-center.align-items-center
+                  .col-xl-10.col-md-10.col-sm-10
+                    img.me-5(src='@/assets/curso/tema2/figura14.svg')
+        p.mb-5 Para su implementación en ISO 27017 desde el lado del proveedor, se debe garantizar el proporcionar controles de acceso que permitan al cliente restringir el acceso a los servicios de nube contratados. Y por el lado del cliente, debería asegurarse que el acceso a la información de los servicios de nube puede y es restringido tal y como se especifica en su política de control de accesos, incluyendo la restricción de acceso a los servicios, a las funcionalidades de los servicios, además de los datos del cliente que se mantienen en el servicio.
+        .row
+          .col-xl-3.fondo18.mb-5
+            p.mb-0.text-center.text-white.py-3 Dominio 6. Cifrado - Criptografía 
+        .row.justify-content-center.mb-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img(src='@/assets/curso/tema2/imagen6.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p Este es un control que busca el uso de herramientas y estándares criptográficos en la protección de la información que es transportada a través de redes, a partir de un análisis de riesgos hecho a los recursos y servicios, en busca de lograr la protección de la integridad, confidencialidad y disponibilidad de la información. Para ello, cuenta con los siguientes controles:
+        .titulo-sexto.color-acento-contenido.mb-5.ms-4(data-aos="flip-right")
+          h5 Figura 5
+          span <i>Controles de cifrado y criptografía</i>
+        .row.justify-content-center.align-items-center.mb-5
+          .col-xl-8.col-md-10.col-sm-12
+            img(src='@/assets/curso/tema2/grafica1.svg')
+        .row
+          .col-xl-3.fondo18.mb-5.ms-4
+            p.mb-0.text-center.text-white.py-3 Dominio 7. Seguridad física
+    .row.correr-ambos.mt-5
+      #seguridad.col-xl-12.fondo23.px-5
+        img(src='@/assets/curso/tema2/imagen7.png')
+
+        a.boton3.me-3(:href="obtenerLink('#seguras')" target="_self")
+        a.boton4.me-3(:href="obtenerLink('#equipos')" target="_self")
+        .row
+          #seguras.col-xl-2.fondo24.py-2
+            p.mb-0.text-center.text-bold 1. Áreas seguras
+          a.boton5.me-3(:href="obtenerLink('#seguridad')" target="_self")
+        .row.correr-ambos.mt-5
+          .col-xl-12.fondo25
+            .row.justify-content-center.align-items-center
+              .col-xl-7
+                p.ms-5 El objetivo es definir cuáles son las zonas seguras donde están ubicados los recursos informáticos, para delimitar el acceso físico no autorizado y así lograr disminuir los daños e interferencias a la información en estas zonas.
+              .col-xl-4
+                img(src='@/assets/curso/tema2/figura15.svg')
+        .row.justify-content-center.mt-4
+          .col-xl-7.col-md-11.col-sm-11    
+            AcordionA(tipo="b" clase-tarjeta="tarjeta fondo26")
+              .row(titulo="Perímetro de seguridad física:")
+                .col-md-12.mb-4.mb-md-0
+                  p se deberían establecer y utilizar perímetros de seguridad para proteger las áreas que contienen información sensible o crítica.
+
+              .row(titulo="Controles físicos de entrada:")
+                .col-md-12.mb-4.mb-md-0
+                  p definidas las áreas seguras, estas deben contar con controles que permitan el acceso solo a las personas autorizadas.
+
+              .row(titulo="Seguridad de oficinas, salas y demás espacios físicos:")
+                .col-md-12.mb-4.mb-md-0
+                  p todas las zonas y espacios físicos de la organización deben contar con un sistema de seguridad física.
+
+              .row(titulo="Protección contra las amenazas externas y ambientales: ")
+                .col-md-12.mb-4.mb-md-0
+                  p deberían existir controles y políticas que permitan mitigar los daños o riesgos asociados con desastres naturales, accidentes o incidentes que involucren ataques maliciosos.
+
+              .row(titulo="El trabajo en áreas seguras:")
+                .col-md-12.mb-4.mb-md-0
+                  p se deberían diseñar y aplicar políticas y procedimientos para el desarrollo de trabajos y actividades en las áreas seguras definidas.
+
+              .row(titulo="Áreas de acceso público para carga y descarga:")
+                .col-md-12.mb-4.mb-md-0
+                  p se deberían establecer los controles para los puntos de acceso a la organización, como las áreas de entrega y carga/descarga (entre otros), para evitar el ingreso de personas no autorizadas a las dependencias, aislando estos puntos, en la medida de lo posible, de las instalaciones de procesamiento de información.
+          .col-xl-5.col-md-4.col-sm-5
+            img(src='@/assets/curso/tema2/imagen8.jpg')
+
+    .row
+      #equipos.col-xl-3.fondo24.py-2.mt-5
+        p.mb-0.text-center.text-bold 2. Seguridad de los equipos
+    a.boton6.me-3(:href="obtenerLink('#seguridad')" target="_self")
+    .row.correr-ambos.mt-5
+      .col-xl-12.fondo25
+        .row.justify-content-center.align-items-center
+          .col-xl-7
+            p.ms-5 Se deberían establecer las acciones necesarias tendientes a evitar el daño, robo o compromiso de los activos que puedan causar una interrupción o pérdida de servicio.
+          .col-xl-4
+            img(src='@/assets/curso/tema2/figura16.svg')
+    .row.mb-5.my-5
+      .col-md-7.mb-5.mb-md-0
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Emplazamiento y protección de equipos") Los equipos se deberían emplazar y proteger para reducir los riesgos de las amenazas y peligros ambientales y de oportunidades de acceso no autorizado.
+          
+          p.text-small(numero="2" titulo="Instalaciones de suministro") Deberían establecerse los controles necesarios a fin de garantizar el suministro de energía y servicios requeridos para la operación en caso de que se presenten fallas o cortes en el servicio.
+          
+          p.text-small(numero="3" titulo="Seguridad del cableado") Los cables eléctricos y de telecomunicaciones que transportan datos o apoyan los servicios de información se deberían proteger contra la intercepción, interferencia o posibles daños.
+
+          p.text-small(numero="4" titulo="Mantenimiento de los equipos") Los equipos deberían contar con procedimientos y estrategias de mantenimiento adecuado, con el objeto de garantizar su disponibilidad e integridad continua.
+
+          p.text-small(numero="5" titulo="Salida de activos fuera de las dependencias de la empresa") Deberían existir controles que gestionen la salida de cualquier activo o recurso tecnológico fuera de la organización.
+      .col-md-5.mb-5.mb-md-0
+        img(src='@/assets/curso/tema2/imagen9.jpg')
+    .row.justify-content-center.mb-5
+      .col-md-5.mb-5.mb-md-0
+        img(src='@/assets/curso/tema2/imagen10.jpg')
+      .col-md-7.mb-5.mb-md-0
+        LineaTiempoD.color-secundario
+          p.text-small(numero="6" titulo="Seguridad de los equipos y activos fuera de las instalaciones") Si por requerimientos propios de la organización se requiere el trabajo fuera de la empresa, los equipos y activos utilizados para esta actividad deberían contar con toda la protección.
+          
+          p.text-small(numero="7" titulo="Reutilización o retirada segura de dispositivos de almacenamiento") Todos los equipos que tengan dispositivos de almacenamiento deben ser revisados en busca de información sensible antes de su eliminación o reutilización.
+          
+          p.text-small(numero="8" titulo=" Equipo informático de usuario desatendido") Si en la organización existen empleados, contratistas, proveedores o terceros que utilicen equipos no controlados por la organización, son estos los responsables de garantizar la protección adecuada de dichos recursos.
+          
+          p.text-small(numero="9" titulo="Política de puesto de trabajo despejado y bloqueo de pantalla") Se debería adoptar una política de puesto de trabajo despejado, para documentación en papel y para medios de almacenamiento extraíbles, y una política de monitores sin información, para las instalaciones de procesamiento de información
+    .row
+      .col-xl-4.fondo18.mb-5.ms-4
+        p.mb-0.text-center.text-white.py-3 Dominio 8. Seguridad en las operaciones
+    .row.justify-content-center.mb-5.align-items-center
+      .col-xl-5.col-md-6.col-sm-8
+        img(src='@/assets/curso/tema2/imagen11.png')
+      .col-xl-7.col-md-8.col-sm-12
+        p Se debe controlar la realización, actualización y mantenimiento de los procedimientos de operación de la organización; cuando se presenten cambios o actualizaciones previstos o imprevistos, se debe evaluar cuál es el impacto que esto generará sobre los recursos; de igual manera, se deben asignar los responsables dentro de dichos procesos, a fin de minimizar al máximo su impacto en la operación.
+    .titulo-sexto.color-acento-botones.mb-5(data-aos="flip-right")
+      h5 Tabla 1.
+      span <i>Controles para la seguridad en las operaciones</i>
+    .tabla-b.mb-5
+      table
+        tr.fondo27.borde-abajo
+          th.borde-tabla 
+            h5.mb-0.text-dark.text-center CONTROL DE LA NORMA
+          th.borde-tabla
+            h5.mb-0.text-dark.text-center OBJETIVO
+          th 
+            h5.mb-0.text-dark.text-center APLICACIÓN DE CONTROLES
+        tr
+        tr.borde-abajo
+          <td rowspan='7' class='borde-tabla fondo28'>Responsabilidades y procedimientos de operación</td>
+          <th rowspan='7' class='borde-tabla'> Garantizar siempre la disponibilidad y adecuado funcionamiento de los recursos, evitando el acceso físico no autorizado, las interferencias o daños e interferencias a la información de la organización.</th>
+        tr.fondo28
+          td Documentación de procedimientos de operación. Todos los procesos operativos dentro de la organización deben estar debidamente documentados y a disposición cuando sean requeridos.
+        tr
+          td Gestión de cambios. Cualquier tipo de cambio, actualización o modificación debería contar con una política de control de cambios, para evitar afectaciones en la seguridad o en los procesos de negocio.
+        tr.fondo28
+          td Gestión de capacidades. Se debería monitorear el uso de los recursos junto a las proyecciones futuras, en cuanto a requerimientos de capacidad, para garantizar el rendimiento adecuado en los sistemas.
+        tr
+          td Separación de entornos de desarrollo, prueba y producción. Los tres entornos deberían permanecer separados, para reducir los riesgos de acceso no autorizado o de cambios no autorizados en los sistemas en operación.
+        tr.fondo28
+          td Separación de entornos de desarrollo, prueba y producción. Los tres entornos deberían permanecer separados, para reducir los riesgos de acceso no autorizado o de cambios no autorizados en los sistemas en operación.
+        tr
+          td Seguridad operacional del administrador. Este control extendido en ISO/IEC 27017 indica que se deberían definir, documentar y monitorear procedimientos para las operaciones administrativas de un entorno de computación en la nube.
+        tr.borde-abajo.fondo29
+          td.borde-tabla Protección contra código malicioso
+          td.borde-tabla Proveer de políticas, estrategias y herramientas de protección, a fin de evitar la presencia de <i>malware</i>.
+          td Controles contra <i>software</i> malicioso: Deberían de implementarse controles con herramientas que permitan detectar, prevenir y recuperar ante afectaciones ocasionadas por malware y combinar con la concientización adecuada de los usuarios.
+        tr.borde-abajo.fondo28
+          td.borde-tabla Copias de seguridad
+          td.borde-tabla Establecer estrategias que garanticen el respaldo en caso de pérdida o daño de la información.
+          td Copias de seguridad de la información. Deberían de establecerse políticas y procedimientos que obliguen a realizar pruebas regulares de las copias de seguridad realizadas al software, los datos y a las imágenes de sistema operativo.
+        tr.borde-abajo.fondo29
+          <td rowspan='6' class='borde-tabla'>Registro de actividad y supervisión</td>
+          <th rowspan='6' class='borde-tabla'>Registrar los eventos provocados por incidentes de seguridad de la información y generar y conservar las evidencias.</th>
+        tr.fondo29
+          td Registro y gestión de eventos de actividad: Se deberían revisar periódicamente los registros relacionados con incidentes de seguridad producidos.
+        tr.fondo29
+          td Protección de los registros de información. Los registros de incidentes de seguridad deberían ser protegidos contra accesos no autorizados.
+        tr.fondo29
+          td Registros de actividad del administrador y los usuarios de los sistemas. Deberían establecerse estrategias y procedimientos que registren las acciones y el resultado de las mismas hechas por todos los usuarios sobre las aplicaciones, para luego revisar y proteger periódicamente.
+        tr.fondo29
+          td Sincronización de relojes. Se deberían establecer políticas y procesos de actualización y sincronización única en los relojes de los equipos de la organización.
+        tr.fondo29
+          td Monitorización de los servicios de nube. Este control extendido en ISO/IEC 27017 indica que el cliente debería disponer de la capacidad de monitorear aspectos específicos de la operación de los servicios de nube que el cliente utiliza.
+
+        tr.borde-abajo.fondo28
+          td.borde-tabla Gestión del software que se encuentra en producción
+          td.borde-tabla Cuando las aplicaciones y servicios están en producción, se debe garantizar la integridad y disponibilidad de los sistemas operacionales de la organización.
+          td Instalación del <i>software</i> en sistemas en producción. Se deberían implementar procedimientos y políticas de control para evitar la instalación de software en aplicaciones y sistemas que se encuentren en producción.
+        tr.borde-abajo.fondo29
+          <td rowspan='3' class='borde-tabla'>Gestión de la vulnerabilidad técnica</td>
+          <th rowspan='3' class='borde-tabla'>Preparar los servicios y activos para evitar la existencia de vulnerabilidades técnicas que puedan ser explotadas, poniendo en riesgo la organización.</th>
+        tr.fondo29
+          td Gestión de las vulnerabilidades. Se deberían desarrollar estrategias de análisis de vulnerabilidades sobre los sistemas de información, de manera oportuna y periódica, para evaluar qué tan alta es la exposición y, con este insumo, implementar medidas para mitigar los riesgos.
+        tr.fondo29
+          td Restricciones en la instalación de software. Se deberían establecer e implementar las políticas y reglas que determinan el proceso de instalación de software por parte de los usuarios.
+        tr.borde-abajo.fondo28
+          td.borde-tabla Consideraciones de las auditorías a los sistemas informáticos
+          td.borde-tabla Disminuir el impacto que podría generar el realizar actividades de auditoría en los sistemas en producción.
+          td Controles de auditoría. Se deberían establecer estrategias de coordinación y planificación de las actividades de auditoría cuando estas involucren la verificación de los aplicativos, servicios y sistemas en producción. 
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5  
+        .row
+          .col-xl-4.fondo18.mb-5.ms-4
+            p.mb-0.text-center.text-white.py-3 Dominio 9. Seguridad de las comunicaciones
+        .row.justify-content-center.mb-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img(src='@/assets/curso/tema2/imagen12.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p Este es un control que busca la protección de la información que es transportada a través de las redes telemáticas, al igual que la infraestructura que la soporta.
+            p Cuando existe intercambio con otras organizaciones, deberían establecerse acuerdos y políticas que regulen el intercambio y el cumplimiento de la legislación vigente.
+        .titulo-sexto.color-acento-contenido.mb-5.ms-4(data-aos="flip-right")
+          h5 Figura 6
+          span <i>Controles de la seguridad de las comunicaciones</i>
+        .row.justify-content-center
+          .col-xl-10.col-md-10
+            img.mb-5(src='@/assets/curso/tema2/imagen13.svg')
+        .row
+          .col-xl-4.fondo18.mb-5.ms-4
+            p.mb-0.text-center.text-white.py-3 Dominio 9. Seguridad de las comunicaciones
+        .row.justify-content-center.mb-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img.mb-3(src='@/assets/curso/tema2/imagen14.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p Este es un dominio que busca el establecimiento de políticas y procesos formales en todas las fases del ciclo de desarrollo de software y en los procesos de adquisición de aplicaciones. Para este objetivo, se requiere:
+            ul.lista-ul--color(data-aos="slide-left")
+              li 
+                i.fas.fa-caret-right
+                span Asegurar la inclusión de controles para la validación de datos en los procesos de adquisición y el desarrollo de los sistemas informáticos.
+              li
+                i.fas.fa-caret-right
+                span Definir e implementar las normas y procedimientos que serán aplicados durante el ciclo de vida de los aplicativos informáticos y de la infraestructura de base que los soporta.
+              li 
+                i.fas.fa-caret-right
+                span Definir los métodos para proteger la información sensible o crítica.
+              li 
+                i.fas.fa-caret-right
+                span Deben de establecerse medidas de protección especiales sobre los aplicativos o servicios que soportan la operación de la empresa.    
+    p.my-5 En el siguiente recurso didáctico, se especifican los controles relacionados con el dominio de adquisición, desarrollo y mantenimiento de sistemas informáticos:
+    .row.correr-ambos.mt-5
+      .col-xl-12.fondo23.px-5
+        #destino2.row.fondo30.align-items-center
+          .col-xl-3
+            img.subir(src='@/assets/curso/tema2/imagen15.png')
+          .col-xl-3
+            a.boton7.me-3(:href="obtenerLink('#requisitos')" target="_self")
+          .col-xl-3
+            a.boton8.me-3(:href="obtenerLink('#soporte')" target="_self")
+          .col-xl-3
+            a.boton9.me-3(:href="obtenerLink('#datos')" target="_self")
+        .row
+          a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
+          #requisitos.col-xl-4.fondo24.py-2
+            p.mb-0.text-center.text-bold Requisitos de seguridad en los sistemas informáticos
+
+        .row.correr-ambos
+          .col-xl-12.fondo25
+            .row.justify-content-center.align-items-center
+              .col-xl-7
+                p.ms-5 El objetivo es garantizar que la seguridad de la información sea parte integral de los sistemas de información a través de todo su ciclo de vida, esto también incluye los requisitos para los sistemas de información que proporcionan servicios accesibles mediante redes públicas.
+              .col-xl-4
+                img(src='@/assets/curso/tema2/figura17.svg')
+
+            .row.justify-content-center.mt-4
+              .col-xl-8.col-md-11.col-sm-11    
+                AcordionA(tipo="b" clase-tarjeta="tarjeta fondo26")
+                  .row(titulo="Análisis y especificación de los requisitos en materia de seguridad")
+                    .col-md-12.mb-4.mb-md-0
+                      p Al momento de hacer los procesos de especificación de sistemas para la construcción o mantenimiento de las aplicaciones informáticas, se deben incluir los requisitos en materia de seguridad de la información.
+
+                  .row(titulo="Seguridad de las comunicaciones en servicios accesibles desde redes públicas")
+                    .col-md-12.mb-4.mb-md-0
+                      p La información que es enviada y recibida a través de redes públicas debería ser protegida, a fin de evitar acciones fraudulentas, daños o modificación no autorizada. 
+
+                  .row(titulo="Protección de las transacciones realizadas por redes")
+                    .col-md-12.mb-4.mb-md-0
+                      p La información utilizada en transacciones entre servicios o aplicaciones se debería proteger, para evitar la retransmisión y enrutamiento incorrecto para buscar la alteración, divulgación y/o duplicación no autorizada.
+
+
+              .col-xl-4.col-md-4.col-sm-5
+                img(src='@/assets/curso/tema2/imagen16.jpg')
+
+</template>
 <script>
 import BannerInterno from '../components/BannerInterno.vue'
 export default {
@@ -67,6 +576,7 @@ export default {
     BannerInterno,
   },
   data: () => ({
+    modal1: false,
     // variables de vue
   }),
   mounted() {

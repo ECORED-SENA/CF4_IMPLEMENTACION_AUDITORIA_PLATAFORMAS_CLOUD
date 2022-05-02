@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="884.156" height="319.372" viewBox="0 0 884.156 319.372">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_262649" data-name="Rectángulo 262649" width="884.156" height="319.372" transform="translate(0 73.738)" fill="none"/>
+    </clipPath>
+    <filter id="Trazado_464859" x="312.764" y="146.979" width="103.353" height="34.746" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_465296" x="409.81" y="117.875" width="483.347" height="99.883" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464868" x="145.33" y="12.834" width="136.609" height="99.893" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464869" x="243.458" y="86.076" width="59.382" height="154.959" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464870" x="145.33" y="214.384" width="136.609" height="99.893" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464871" x="21.219" y="214.384" width="136.61" height="99.893" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464872" x="0.319" y="86.076" width="59.382" height="154.959" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464873" x="21.219" y="12.833" width="136.61" height="99.895" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_464874" x="40.698" y="53.257" width="221.763" height="221.761" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_708661" data-name="Grupo 708661" transform="translate(4359.919 -660.616)">
+    <g id="Grupo_708625" data-name="Grupo 708625" transform="translate(-4658.919 586.878)">
+      <g id="Grupo_708624" data-name="Grupo 708624" transform="translate(299)" clip-path="url(#clip-path)">
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464859)">
+          <path id="Trazado_464859-2" data-name="Trazado 464859" d="M805.393,230.948a8.37,8.37,0,0,0-8.107,6.311H744.893a8.373,8.373,0,1,0,0,4.125h52.394a8.369,8.369,0,1,0,8.107-10.436" transform="translate(-406.65 -77.97)" fill="#fa6ab7"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_465296)">
+          <path id="Trazado_465296-2" data-name="Trazado 465296" d="M17,0H448.347a17,17,0,0,1,17,17V64.883a17,17,0,0,1-17,17H17a17,17,0,0,1-17-17V17A17,17,0,0,1,17,0Z" transform="translate(418.81 123.88)" fill="#f2f2f2"/>
+        </g>
+        <path id="Trazado_465294" data-name="Trazado 465294" d="M0,74.651v0Z" transform="translate(-393.303 12.616)" fill="#e64a19"/>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464868)">
+          <path id="Trazado_464868-2" data-name="Trazado 464868" d="M653.228,176.194l23.235-13.416c-25.722-42.8-68.687-67.6-118.609-68.478v26.843a114.851,114.851,0,0,1,95.374,55.051" transform="translate(-403.52 -75.47)" fill="#5793ce"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464869)">
+          <path id="Trazado_464869-2" data-name="Trazado 464869" d="M681.043,168.909l-23.23,13.413a115.062,115.062,0,0,1,0,110.134l23.23,13.412c24.2-43.675,24.2-93.286,0-136.959" transform="translate(-405.36 -76.83)" fill="#f2f2f2"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464870)">
+          <path id="Trazado_464870-2" data-name="Trazado 464870" d="M653.229,299.611a114.853,114.853,0,0,1-95.375,55.05V381.5c49.922-.878,92.887-25.683,118.609-68.478Z" transform="translate(-403.52 -79.23)" fill="#5793ce"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464871)">
+          <path id="Trazado_464871-2" data-name="Trazado 464871" d="M454.662,299.611l-23.235,13.415c25.722,42.8,68.688,67.6,118.61,68.478V354.661a114.848,114.848,0,0,1-95.375-55.05" transform="translate(-401.21 -79.23)" fill="#ff2c9c"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464872)">
+          <path id="Trazado_464872-2" data-name="Trazado 464872" d="M437.486,237.389a114.392,114.392,0,0,1,14.033-55.067l-23.231-13.413c-24.2,43.673-24.2,93.285,0,136.959l23.23-13.412a114.4,114.4,0,0,1-14.032-55.067" transform="translate(-400.82 -76.83)" fill="#2a81a5"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464873)">
+          <path id="Trazado_464873-2" data-name="Trazado 464873" d="M550.037,121.143V94.3c-49.922.877-92.888,25.683-118.61,68.479l23.236,13.416a114.843,114.843,0,0,1,95.374-55.051" transform="translate(-401.21 -75.47)" fill="#ff2c9c"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 0, 73.74)" filter="url(#Trazado_464874)">
+          <path id="Trazado_464874-2" data-name="Trazado 464874" d="M655.032,237.357a101.881,101.881,0,1,1-101.88-101.88,101.879,101.879,0,0,1,101.88,101.88" transform="translate(-401.57 -76.22)" fill="#f2f2f2"/>
+        </g>
+        <rect id="Rectángulo_263744" data-name="Rectángulo 263744" width="884.156" height="319.372" transform="translate(0 41.738)" fill="none"/>
+      </g>
+    </g>
+    <text id="Se_debe_hacer_énfasis_en_el_buen_uso_de_las_credenciales_asignadas_para_el_proceso_de_autenticación._" data-name="Se debe hacer énfasis en el buen uso de las credenciales asignadas para el proceso de autenticación.
+" transform="translate(-3913.992 804.433)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Se debe hacer énfasis en el buen uso de las credenciales </tspan><tspan x="0" y="41">asignadas para el proceso de autenticación.</tspan></text>
+    <text id="Se_debe_hacer_énfasis_en_el_buen_uso_de_las_credenciales_asignadas_para_el_proceso_de_autenticación._2" data-name="Se debe hacer énfasis en el buen uso de las credenciales asignadas para el proceso de autenticación.
+" transform="translate(-4294.457 760.181)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="7.849" y="17">Se debe hacer énfasis </tspan><tspan x="11.564" y="41">en el buen uso de las </tspan><tspan x="2.392" y="65">credenciales asignadas </tspan><tspan x="20.708" y="89">para el proceso de </tspan><tspan x="35.782" y="113">autenticación.</tspan></text>
+  </g>
+</svg>

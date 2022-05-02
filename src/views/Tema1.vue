@@ -8,7 +8,7 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    //-Muestras
+    Muestras
     .titulo-principal.mb-5.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span.text-white 1
