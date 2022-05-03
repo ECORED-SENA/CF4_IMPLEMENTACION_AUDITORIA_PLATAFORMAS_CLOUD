@@ -8,7 +8,7 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    //- Muestras
     .titulo-principal.mb-5.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span.text-white 1
@@ -65,7 +65,7 @@
           .col-xl-7.col-md-9(data-aos="zoom-in")
             p Desde el 2008, debido a la crisis financiera que se vivió en ese entonces, el análisis de riesgo ha tomado un papel importante al interior de las organizaciones, pues, antes de la crisis, este aspecto se trabajaba de forma sistemática y aislada de todas las entidades. Sin embargo, a partir de esa fecha, reforzar el control interno de las empresas fue asumido de manera más responsable, mediante el análisis y aplicación de la gestión del riesgo en todos los ámbitos y áreas.
             p.fondo6.p-4 Hoy en día, es posible ver diferentes métodos aplicados al análisis de riesgo y posibilitar su sistematicidad. A continuación, se revisan algunos de estos:
-          .col-xl-4.col-md-3(data-aos="flip-left")
+          .col-xl-4.col-md-3.col-8(data-aos="flip-left")
             img(src="@/assets/curso/tema1/figura3.svg")
 
     .titulo-segundo1.color-acento-contenido.my-5(data-aos="fade")
@@ -78,7 +78,7 @@
             p.ms-5 Esta metodología centra su funcionamiento en el hecho de poder caracterizar los activos en distintos grupos que faciliten la identificación de los riesgos y poder definir los controles o contramedidas necesarias que permitan evitar en un mayor porcentaje los incidentes de seguridad, lo que conlleva a generar un mayor grado de confianza para la organización, sus clientes y usuarios.
             p.ms-5 Desde el año 1997, cuando se publicó la primera versión de la metodología, hasta la actualidad, se ve cómo cada vez se consolida con mayor fuerza el análisis de riesgos como el primer gran proceso que lleva a poder gestionar la seguridad de la información.
             p.ms-5 Identificar los riesgos y evaluarlos es lo que permite definir los planes de tratamiento de riesgos; con la gestión realizada, se puede prevenir o disminuir la probabilidad de que se presenten ataques o incidentes de seguridad que afecten los datos, la información o los servicios que las organizaciones utilizan o prestan a sus clientes para el cumplimiento de su función misional.
-          .col-xl-4.col-md-4(data-aos="slide-down")
+          .col-xl-4.col-md-4.col-8(data-aos="slide-down")
             img(src="@/assets/curso/tema1/figura4.png")
     p.my-4 En cuanto a los objetivos de Magerit, esta metodología establece unas metas de manera directa e indirecta, de acuerdo con el siguiente esquema:
     .row.correr-ambos.fondo8.my-4
@@ -259,7 +259,7 @@
           li 
             i.fas.fa-caret-right
             | Asistir a la administración en lo que se autoriza (o acredita) a los sistemas de TI, sobre la base de la documentación de soporte a partir de los resultados de la gestión de riesgos.      
-      .col-xl-5.col-md-4
+      .col-xl-5.col-md-4.col-8
         img(src="@/assets/curso/tema1/figura10.svg")
       separador
 </template>

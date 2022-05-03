@@ -95,7 +95,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '4.4',
             titulo: 'Metodologías utilizadas en el análisis de riesgos',
-            hash: 'Cómo utilizar el <em>framework CSF</em>',
+            hash: 'riesgos',
           },
         ],
       },
@@ -142,139 +142,110 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Federation of European Risk Management Associations [FERMA]. (2003). Estándares de gerencia de riesgos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.theirm.org/media/6836/rm_standard_spanish_15_11_04-1.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'International Organization for Standardization [ISO]. (s. f.). ISO 31000 — Risk management. Popular Standards. ',
+      link: 'https://www.iso.org/iso-31000-risk-management.html',
+    },
+    {
+      referencia:
+        'International Organization for Standardization [ISO]. (2018). ISO/IEC 27005:2018(en) Information technology — Security techniques — Information security risk management. Online Browsing Platform. ',
+      link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:27005:ed-3:v1:en',
+    },
+    {
+      referencia:
+        'Jesaja, M. (2019). Construcción de modelos de conocimiento de NIST SP 800-181. Universidad Carlos III de Madrid. ',
+      link: 'https://e-archivo.uc3m.es/handle/10016/30383',
+    },
+    {
+      referencia:
+        'Mogull, R., Arlen, J., Gilbert, F., Lane, A., Mortman, D., Peterson, G. y Rothman, M. (2017). Security guidance for critical areas of focus in cloud computing v4. 0. Cloud Security Alliance. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://downloads.cloudsecurityalliance.org/assets/research/security-guidance/security-guidance-v4-FINAL.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Mohanan, S., Sridhar, N., y Bhatia, S. (2021). Comparative Analysis of Cloud Computing Security Frameworks for the Financial Sector. En: X-S Yang, S. Sherratt, N. Dey, A. Joshi (eds) Proceedings of Sixth International Congress on Information and Communication Technology. ',
+      link: 'https://doi.org/10.1007/978-981-16-2380-6_90',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Rizzo, D. (2019). Ciberseguridad implementando el “Nist Cybersecurity Framework”. Universidad de Buenos Aires.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://bibliotecadigital.econ.uba.ar/download/tpos/1502-1460_RizzoD.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Ruben.Ramiro. (2018). Cómo implantar el Framework NIST. Ciberseguridad.BLOG.',
+      link: 'https://ciberseguridad.blog/como-implantar-el-framework-nist',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Amenaza (<i>Threat</i>)',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Son eventos o incidentes que pueden provocar daño o pérdidas en un recurso informático.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Ciberseguridad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de procedimientos y herramientas que se implementan para proteger la información que se genera y procesa a través de computadoras, servidores, dispositivos móviles, redes y sistemas electrónicos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Control',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Directrices y buenas prácticas que deben ser validadas e implementadas en actividades y procesos de adopción de la ciberseguridad.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Dominio',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Conjunto que incluye todos los activos de la información que deben proteger y cumplir en su totalidad.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'ISO',
+      significado: 'Organización de Estándares Internacionales',
     },
     {
-      termino: 'Diseña',
+      termino: 'ISO 27000',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Conjunto de normas de la Organización de Estándares Internacionales orientadas al uso y aplicación de buenas prácticas en relación con el diseño,  la implantación, mantenimiento y gestión del Sistema de Gestión de Seguridad de la Información (SGSI).',
     },
     {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'NIST',
+      significado: 'Instituto Nacional de Estándares y Tecnología americano',
     },
     {
-      termino: 'Tipología',
+      termino: 'Riesgo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es la probabilidad en la ocurrencia de una amenaza  a la seguridad provocando un impacto determinado.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Salvaguarda',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Estrategia o control implementado para la mitigación de los riesgos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Vulnerabilidad (<i>Vulnerability</i>)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un punto débil o de fallo de un activo o control que puede ser explotado por una o más amenazas.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Superintendencia de Industria y Comercio. (s. f.). Guía para la implementación del principio de responsabilidad demostrada (Accountability). ',
+      tipo: 'PDF',
+      link:
+        'https://www.sic.gov.co/sites/default/files/files/Publicaciones/Guia-Accountability.pdf',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      texto: 'Normas ISO. (s. f.). ISO 27001 Seguridad de la información.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      descarga: 'https://www.normas-iso.com/iso-27001/',
     },
   ],
   creditos: {
@@ -286,6 +257,27 @@ export default {
       },
     ],
     contenidoInstruccional: [
+      {
+        nombre: 'Henry Eduardo Bastidas Paruma',
+        cargo: 'Experto temático',
+        centro:
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Regional Distrito Capital, Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Regional distrito capital - Centro de gestión industrial. ',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Tolima - Centro Agropecuario La Granja',
+      },
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
@@ -301,46 +293,54 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: ['Wilson Andrés Arenales Cáceres'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

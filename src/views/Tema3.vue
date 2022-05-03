@@ -85,7 +85,7 @@
       .row.justify-content-center
         .col-xl-4
           .h5.mb-5 Modelo conceptual, arquitectónico y de referencia de la nube.
-          p Las tecnologías actuales y su constante cambio y evolución hacen casi imposible poder definir un modelo arquitectónico y de referencia de la computación en la nube, porque constantemente debería estar siendo actualizado. Sin embargo, podemos puntualizar un modelo simple, donde el software como servicio es soportado por la plataforma como servicio, y esta a su vez es soportada por la infraestructura como servicio, como se explica en la siguiente gráfica
+          p Las tecnologías actuales y su constante cambio y evolución hacen casi imposible poder definir un modelo arquitectónico y de referencia de la computación en la nube, porque constantemente debería estar siendo actualizado. Sin embargo, podemos puntualizar un modelo simple, donde el <i>software</i> como servicio es soportado por la plataforma como servicio, y esta a su vez es soportada por la infraestructura como servicio, como se explica en la siguiente gráfica
         .col-xl-7
           img(src='@/assets/curso/tema3/grafica3.svg')
       .row.justify-content-center
@@ -95,7 +95,7 @@
         .col-xl-7
           img(src='@/assets/curso/tema3/grafica4.svg')
     .row.my-5
-      .col-xl-4.fondo18
+      .col-xl-4.col-10.fondo18
         p.mb-0.text-center.text-white.py-3 Dominio 2. Gobierno y gestión del riesgo corporativo.
     p.mb-5 La gobernanza o el gobierno de la gestión del riesgo es un tema muy extenso, por lo que este recurso se centrará en cómo afecta o se focaliza desde la nube, y esto se ve en 4 aspectos fundamentales, así:
 
@@ -128,7 +128,7 @@
     .row.correr-ambos.my-5.fondo12.p-5
       .col-xl-12.px-5
         .row.justify-content-end.fondo33.p-5
-          .col-xl-7.col-sm-7.py-4.px-4.fondo34
+          .col-xl-7.col-sm-9.col-12.py-4.px-4.fondo34
             p Recuerde que la tarea principal de la seguridad de la información es la de proveer de procesos y controles para proteger la información electrónica y los sistemas que se usan para acceder a ella. Es decir, en una estructura jerárquica simple, la seguridad de la información es una herramienta para la gestión del riesgo de la información, que a su vez es un instrumento para la gestión del riesgo empresarial, y éste se convierte en una herramienta de gobernanza. Los cuatro conceptos están estrechamente relacionados, pero requieren de un enfoque, de procesos, y de herramientas individuales.
     .row.my-5
       .col-xl-6.fondo18
@@ -149,7 +149,7 @@
       .col-md-5.mb-5.mb-md-0
         img(src='@/assets/curso/tema3/imagen5.svg')
     .row.my-5
-      .col-xl-5.fondo18
+      .col-xl-5.col-9.fondo18
         p.mb-0.text-center.text-white.py-3 Dominio 4. Cumplimiento y gestión de auditoría.
     .row.justify-content-center.mt-4
       .col-xl-7.col-md-11.col-sm-11
@@ -199,12 +199,12 @@
             figure
               img(src='@/assets/curso/tema3/imagen9.jpg')
     .row.my-5
-      .col-xl-5.fondo18
+      .col-xl-5.col-8.fondo18
         p.mb-0.text-center.text-white.py-3 Dominio 5. Gobierno de la información.
 
     .row.mb-5.justify-content-center
       .col-xl-5
-        img(src='@/assets/curso/tema3/imagen10.jpg')
+        img.mb-3(src='@/assets/curso/tema3/imagen10.jpg')
       .col-xl-7
         p La seguridad de la información tiene por objetivo principal la protección de los datos que son utilizados en las aplicaciones y sistemas informáticos de las organizaciones. Al migrar servicios a la nube, se vienen nuevos desafíos debido a la elasticidad y entornos multipropietarios, ya que estos datos pueden ser transferidos a entornos externos o públicos.
         p El gobierno de la información/gobierno del dato se define como la garantía ofrecida respecto al uso adecuado de los datos e información, de acuerdo con las políticas, estándares y estrategias organizacionales, donde también se tienen en cuenta los objetivos de regulación (hasta dónde va el alcance de dicha regulación), los objetivos contractuales (cuál es la meta del contrato establecido) y los de negocio (qué y cómo se permite la transacción entre las partes).
@@ -268,19 +268,19 @@
             p En este dominio, se deben tener en cuenta, entre otras, las siguientes recomendaciones:
           .col-xl-5.col-md-6.col-sm-8
             img(src='@/assets/curso/tema3/imagen18.jpg')
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
+        .titulo-sexto.color-acento-contenido.my-5(data-aos="flip-right")
           h5 Figura 8
           span <i>Recomendaciones de seguridad del plano de gestión</i> 
         img(src='@/assets/curso/tema3/grafica5.svg')
         p.my-5.text-center Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
         .row.mt-5
-          .col-xl-4.fondo18
+          .col-xl-4.col-8.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 7. Seguridad de la infraestructura 
         .row.justify-content-center.my-5
           .col-xl-6.col-md-6.col-sm-8
-            img(src='@/assets/curso/tema3/imagen19.jpg')
+            img.mb-3(src='@/assets/curso/tema3/imagen19.jpg')
           .col-xl-6.col-md-10.col-sm-12
-            p.mb-0 La seguridad en la nube es un factor diferencial y clave, este involucra las redes de datos, de telecomunicaciones y de servidores sobre las cuales se construyen las nubes.
+            p.mb-3 La seguridad en la nube es un factor diferencial y clave, este involucra las redes de datos, de telecomunicaciones y de servidores sobre las cuales se construyen las nubes.
             p.fondo35.p-5 Comprende las capas más inferiores de la seguridad, incluyendo desde las instalaciones físicas hasta la configuración e implementación de los componentes de la infraestructura sobre la cual está construida la nube; además de tener presente la seguridad de computación (carga de trabajo), las artes y el almacenamiento.
         p.my-5.text-center Para este dominio, se deben tener en cuenta las siguientes recomendaciones:
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
@@ -291,7 +291,7 @@
             img(src='@/assets/curso/tema3/grafica6.svg')
         p.my-5.text-center Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
         .row.mt-5
-          .col-xl-4.fondo18
+          .col-xl-4.col-8.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 8. Virtualización y contenedores
         .row.justify-content-center.my-5
           .col-xl-8.col-md-10.col-sm-12
@@ -316,7 +316,7 @@
             img(src='@/assets/curso/tema3/grafica8.svg')
         p.my-5.text-center Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0  
         .row.mt-5
-          .col-xl-4.fondo18
+          .col-xl-4.col-7.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 9. Respuesta ante incidentes
     p.mt-5 Este es un aspecto fundamental en cualquier programa de seguridad. Si bien los controles preventivos ayudan a mitigar en gran parte los riesgos, no siempre son efectivos, por lo que las organizaciones deben contar con un plan de respuesta a incidentes, que les permita establecer cómo actuar frente a un ataque, toda vez que los procesos de la nube son distintos, así que se deben adaptar a esta nueva realidad.
     p.mb-5 A continuación, se muestra cómo es el ciclo de vida de respuestas a incidentes, según la recomendación de la norma NIST 800-61 rev2.
@@ -361,7 +361,7 @@
     .row.correr-ambos.fondo31
       .col-xl-12.p-5
         .row.mt-5
-          .col-xl-4.fondo18
+          .col-xl-4.col-7.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 10. Seguridad de aplicaciones
         .row.justify-content-center.my-5
           .col-xl-8.col-md-10.col-sm-12
@@ -385,14 +385,14 @@
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Comprender las capacidades de seguridad de sus proveedores de la nube; no solo su línea base, sino las diversas plataformas y servicios.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura5.svg')
       .row(titulo="Construir la seguridad")
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Construir la seguridad desde el proceso de diseño inicial. Las implementaciones en la nube se diseñan muy a menudo desde cero, creando nuevas oportunidades para involucrar la seguridad desde el inicio.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura6.svg')
 
@@ -400,7 +400,7 @@
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Incluso si no tiene un SDLC formal, considere pasar a la implantación continua y automatizar la seguridad en el proceso de implantación. 
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura7.svg')
 
@@ -408,7 +408,7 @@
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Los modelos de amenazas, SAST y DAST (con fuzzing), deberían estar todos integrados. Las pruebas deben ser configuradas para trabajar en el entorno de la nube y también para revisar las preocupaciones específicas de las plataformas de nube, como las credenciales almacenadas en las API. Comprender las nuevas opciones y requisitos de arquitectura en la nube. Actualizar las políticas y estándares de seguridad para soportarlos, y no simplemente intentar forzar los estándares existentes en un modelo informático completamente diferente.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura8.svg')
 
@@ -416,15 +416,15 @@
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Integrar las pruebas de seguridad en el proceso de implementación.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura9.svg')
 
       .row(titulo="Automatizar controles")
         .col-md-7.mb-4.mb-md-0
-          p.mt-5.ms-5 Utilizar seguridad definida por software para automatizar los controles de seguridad.
+          p.mt-5.ms-5 Utilizar seguridad definida por <i>software</i> para automatizar los controles de seguridad.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura10.svg')
 
@@ -432,13 +432,13 @@
         .col-md-7.mb-4.mb-md-0
           p.mt-5.ms-5 Utilizar seguridad basada en eventos, cuando esté disponible, para automatizar la detección y solución de problemas de seguridad. Usar diferentes entornos de nube para segregar mejor el acceso al nivel de administración y proporcionar a los desarrolladores la libertad que necesitan para configurar los entornos de desarrollo, mientras que también se bloquean los entornos de producción.
       
-        .col-md-3
+        .col-md-3.col-6
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura11.svg')
     .row.correr-ambos.fondo31
       .col-xl-12.p-5
         .row.mt-5
-          .col-xl-4.fondo18
+          .col-xl-4.col-8.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 11. Seguridad y cifrado de datos
         .row.justify-content-center.my-5
           .col-xl-6.col-md-8.col-sm-10.col-12
@@ -456,7 +456,7 @@
           .col-xl-7
             p.my-5 Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
         .row.mt-5
-          .col-xl-5.fondo18
+          .col-xl-5.col-11.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 12. Gestión de identidades, derechos y accesos.
         .row.justify-content-center.my-5
           .col-xl-7.col-md-8.col-sm-10.col-12
@@ -475,8 +475,8 @@
         .row.justify-content-end
           .col-xl-7
             p.my-5 Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
-        .row.mt-5
-          .col-xl-3.fondo18
+        .row.mb-5
+          .col-xl-3.col-7.fondo18
             p.mb-0.text-center.text-white.py-3 Dominio 13. Seguridad como servicio
 
         .row.justify-content-end.mt-5
@@ -491,10 +491,10 @@
                 i.fas.fa-caret-right
                 span Para ser considerado SecaaS, los servicios deben cumplir con las características esenciales de NIST para la computación en la nube, tal como se definen en el Dominio 1. 
           .col-xl-5
-            img(src='@/assets/curso/tema3/figura14.png')
+            img.mb-3(src='@/assets/curso/tema3/figura14.png')
         .row.justify-content-end
           .col-xl-5
-            img(src='@/assets/curso/tema3/figura15.png')
+            img.mb-3(src='@/assets/curso/tema3/figura15.png')
           .col-xl-7
             p Entre otras, las siguientes son las categorías que incluyen este tipo de servicio:
             ul.lista-ul--color(data-aos="slide-left")
