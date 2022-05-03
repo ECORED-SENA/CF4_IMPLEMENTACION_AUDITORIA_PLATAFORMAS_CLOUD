@@ -21,11 +21,12 @@
             img.mover-arribaAbajo(src="@/assets/curso/tema1/pcs.png")
           .col-xl-8.p-5.col-sm-12.col-md-8(data-aos="slide-left")
             p.text-white Analizar los riesgos informáticos es un proceso que comprende una serie de actividades que inician con la identificación y caracterización de los activos, la identificación de las amenazas y vulnerabilidades, y finalmente hacer una evaluación que permita determinar el riesgo en cada activo caracterizado. Este proceso permite la construcción de la matriz de riesgo, que es el insumo que nos lleva a definir un plan de tratamiento de riesgos que, de acuerdo a la norma ISO 27001, da la alternativa de poder mitigar o eliminar el riesgo, transferirlo, o aceptarlo, a partir de la implementación de controles de seguridad.
-
-    .bloque-texto-g.fondo3.p-3.p-sm-4.p-md-5.mt-5(data-aos="flip-left")
+    br
+    .bloque-texto-g.fondo3.p-3.p-sm-4.p-md-5.mt-3(data-aos="flip-left")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema1/figura1.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/BG.png')})`}"
       )
+        img.situar-imagen(src="@/assets/curso/tema1/figura1-copia.svg")
       .bloque-texto-g__texto.p-4
         p.mb-0 Por esta razón, se hace imprescindible la utilización o adopción de una metodología que le permita al personal de tecnología realizar el proceso de una manera más ordenada, especializada y ajustada a las necesidades propias de cada organización.
     separador

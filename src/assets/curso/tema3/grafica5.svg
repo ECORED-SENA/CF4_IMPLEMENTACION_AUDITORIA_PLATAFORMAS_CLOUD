@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1031" height="633" viewBox="0 0 1031 633">
+  <g id="Grupo_710497" data-name="Grupo 710497" transform="translate(-283.676 -6784)">
+    <rect id="Rectángulo_263191" data-name="Rectángulo 263191" width="348" height="59" transform="translate(625.676 6784)" fill="#e2c140"/>
+    <text id="Recomendaciones_de_seguridad_del_plano_de_gestión" data-name="Recomendaciones de seguridad del plano de gestión" transform="translate(668.676 6789)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="1.594" y="19">Recomendaciones de seguridad </tspan><tspan x="49.424" y="43">del plano de gestión</tspan></text>
+    <rect id="Rectángulo_263585" data-name="Rectángulo 263585" width="505" height="426" transform="translate(286.676 6991)" fill="#f5e9ba"/>
+    <rect id="Rectángulo_263586" data-name="Rectángulo 263586" width="505" height="403" transform="translate(809.676 6988)" fill="#f5e9ba"/>
+    <g id="Rectángulo_263584" data-name="Rectángulo 263584" transform="translate(1046.676 6914)" fill="#f5e9ba" stroke="#e8e2b7" stroke-width="1">
+      <rect width="268" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="267" height="29" fill="none"/>
+    </g>
+    <g id="Rectángulo_263583" data-name="Rectángulo 263583" transform="translate(283.676 6914)" fill="#f5e9ba" stroke="#e8e2b7" stroke-width="1">
+      <rect width="250" height="59" stroke="none"/>
+      <rect x="0.5" y="0.5" width="249" height="58" fill="none"/>
+    </g>
+    <text id="Continuidad_del_negocio_" data-name="Continuidad del negocio
+" transform="translate(1084.676 6916)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Continuidad del negocio</tspan></text>
+    <text id="Seguridad_del_plano_de_gestión_meta-estructura_" data-name="Seguridad del plano de gestión (meta-estructura)
+" transform="translate(311.676 6921)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="14.691" y="17">Seguridad del plano de </tspan><tspan x="4.227" y="38">gestión (meta-estructura)</tspan></text>
+    <text id="Confirme_que_haya_una_sólida_seguridad_perimetral_para_conexiones_con_las_API_y_las_consolas_web._Use_una_autenticación_fuerte_y_MFA._múltiple_factor_de_autenticación_Mantenga_estricto_control_de_las_credenciales_de_las_cuentas_de_súper_usuario_y_de_las" data-name="Confirme que haya una sólida seguridad perimetral para conexiones con las API y las consolas web. 
+Use una autenticación fuerte y MFA. (múltiple factor de autenticación)
+Mantenga estricto control de las credenciales de las cuentas de súper usuario y de las" transform="translate(319.676 6997)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Confirme que haya una sólida seguridad perimetral para </tspan><tspan x="0" y="38">conexiones con las API y las consolas web. </tspan><tspan x="0" y="59">Use una autenticación fuerte y MFA. (múltiple factor de </tspan><tspan x="0" y="80">autenticación)</tspan><tspan x="0" y="101">Mantenga estricto control de las credenciales de las cuentas de </tspan><tspan x="0" y="122">súper usuario y de las personas con acceso a estas, y considere </tspan><tspan x="0" y="143">la doble autorización para acceder a ellas.</tspan><tspan x="0" y="164">Establezca cuentas múltiples con su proveedor, así ayudará a </tspan><tspan x="0" y="185">establecer permisos de granularidad suficientes en las distintas </tspan><tspan x="0" y="206">cuentas y a limitar el impacto de posibles incidentes (con SaaS y </tspan><tspan x="0" y="227">PaaS). </tspan><tspan x="0" y="248">Use súper administradores y cuentas de administrador diarias </tspan><tspan x="0" y="269">separadas, en lugar de cuenta de súper administrador para todas </tspan><tspan x="0" y="290">las tareas. </tspan><tspan x="0" y="311">Implemente sistemáticamente cuentas con mínimos privilegios </tspan><tspan x="0" y="332">para el acceso a la meta-estructura. </tspan><tspan x="0" y="353">Esta es la razón por la que existen cuentas de acceso separadas </tspan><tspan x="0" y="374">de las del proveedor para desarrollo y para pruebas en la nube. </tspan><tspan x="0" y="395">Utilice MFA siempre que esté disponible.</tspan></text>
+    <text id="Diseñe_una_arquitectura_de_servicio_que_tenga_en_cuenta_posibles_fallos._Adopte_siempre_un_enfoque_basado_en_el_riesgo._Esto_supone_que_en_el_peor_escenario_puede_ser_aceptable_un_corte_de_servicio_o_indisponibilidad_parcial._Incluya_la_alta_disponibi" data-name="Diseñe una arquitectura de servicio que tenga en cuenta posibles fallos. 
+Adopte siempre un enfoque basado en el riesgo.  Esto supone que, en el peor escenario, puede ser aceptable un corte de servicio o indisponibilidad parcial. 
+Incluya la alta disponibi" transform="translate(842.676 6997)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Diseñe una arquitectura de servicio que tenga en cuenta posibles </tspan><tspan x="0" y="38">fallos. </tspan><tspan x="0" y="59" xml:space="preserve">Adopte siempre un enfoque basado en el riesgo.  Esto supone </tspan><tspan x="0" y="80">que, en el peor escenario, puede ser aceptable un corte de </tspan><tspan x="0" y="101">servicio o indisponibilidad parcial. </tspan><tspan x="0" y="122">Incluya la alta disponibilidad de su proveedor de nube en el </tspan><tspan x="0" y="143" xml:space="preserve">diseño de su servicio.  En SaaS y PaaS esto, a menudo, es más </tspan><tspan x="0" y="164">fácil y más rentable que el equivalente en la infraestructura </tspan><tspan x="0" y="185">tradicional.</tspan><tspan x="0" y="206">Prepárese para una caída ordenada en caso de una interrupción </tspan><tspan x="0" y="227">del servicio del proveedor de la nube.</tspan><tspan x="0" y="248">Para aplicaciones de muy altas necesidades de disponibilidad, </tspan><tspan x="0" y="269">pruebe primero con BC con el mismo proveedor en dos </tspan><tspan x="0" y="290">ubicaciones, antes de intentar BC con otro proveedor. </tspan><tspan x="0" y="311">Los proveedores de nube, incluidos los de nube privada, deben </tspan><tspan x="0" y="332">proporcionar los niveles más altos de disponibilidad y </tspan><tspan x="0" y="353">mecanismos para que sus clientes puedan gestionar la </tspan><tspan x="0" y="374">disponibilidad de sus propios servicios.</tspan></text>
+    <path id="Trazado_466622" data-name="Trazado 466622" d="M-4852.266,3626.756v18" transform="translate(5253.922 3346.244)" fill="none" stroke="#1565c0" stroke-width="3"/>
+    <path id="Trazado_466623" data-name="Trazado 466623" d="M-4852.266,3626.756v47" transform="translate(6049.922 3317.244)" fill="none" stroke="#1565c0" stroke-width="3"/>
+    <g id="Grupo_710162" data-name="Grupo 710162" transform="translate(0 41.723)">
+      <path id="Trazado_466620" data-name="Trazado 466620" d="M-1693.02-4898.722v35.942H-1295v34.854" transform="translate(2492.676 11700)" fill="none" stroke="#1565c0" stroke-width="3"/>
+      <g id="Grupo_710161" data-name="Grupo 710161" transform="translate(401.656 6801.278)">
+        <path id="Trazado_466621" data-name="Trazado 466621" d="M-1295-4898.722v35.942h-398.02v34.854" transform="translate(1693.02 4898.722)" fill="none" stroke="#1565c0" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Grupo_710361" data-name="Grupo 710361" transform="translate(5)">
+      <path id="Path_174439" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7016.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-2" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7057.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-3" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7098.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-4" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7163.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-5" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7247.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-6" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7309.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-7" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7353.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-8" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(299.129 7393.639) rotate(-150)" fill="#ff2c9c"/>
+    </g>
+    <path id="Path_174439-9" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7015.639) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-10" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7058.639) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-11" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7121.667) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-12" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7204.667) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-13" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7246.667) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-14" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(828.128 7311.157) rotate(-150)" fill="#ff2c9c"/>
+  </g>
+</svg>

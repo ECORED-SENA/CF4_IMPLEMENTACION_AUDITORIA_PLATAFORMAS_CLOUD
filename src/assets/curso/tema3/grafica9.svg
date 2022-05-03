@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1041" height="506" viewBox="0 0 1041 506">
+  <defs>
+    <filter id="Rectángulo_263680" x="308" y="0" width="733" height="506" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263679" x="0" y="177" width="208" height="153" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_710374" data-name="Grupo 710374" transform="translate(-282.676 -14585)">
+    <g id="Grupo_710254" data-name="Grupo 710254" transform="translate(0 -10)">
+      <g transform="matrix(1, 0, 0, 1, 282.68, 14595)" filter="url(#Rectángulo_263680)">
+        <rect id="Rectángulo_263680-2" data-name="Rectángulo 263680" width="715" height="488" transform="translate(317 6)" fill="#eee6ba"/>
+      </g>
+      <text id="Comprenda_las_capacidades_específicas_de_la_plataforma_de_nube_que_está_utilizando._No_descarte_la_seguridad_de_datos_del_proveedor_de_nube._En_muchos_casos_es_más_segura_que_construir_la_propia_y_tiene_un_costo_menor._Genere_una_matriz_de_asignación_de" data-name="Comprenda las capacidades específicas de la plataforma de nube que está utilizando. 
+No descarte la seguridad de datos del proveedor de nube. En muchos casos, es más segura que construir la propia y tiene un costo menor. 
+Genere una matriz de asignación de" transform="translate(631.602 14620.867)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Comprenda las capacidades específicas de la plataforma de nube que está utilizando. </tspan><tspan x="0" y="41">No descarte la seguridad de datos del proveedor de nube. En muchos casos, es más segura </tspan><tspan x="0" y="65">que construir la propia y tiene un costo menor. </tspan><tspan x="0" y="89">Genere una matriz de asignación de derechos para determinar los controles de acceso. La </tspan><tspan x="0" y="113">imposición variará dependiendo de las capacidades del proveedor de nube. </tspan><tspan x="0" y="137">Considere CASB (</tspan><tspan y="137" font-family="Roboto-Italic, Roboto" font-style="italic">Cloud</tspan><tspan y="137" xml:space="preserve"> Access Security </tspan><tspan y="137" font-family="Roboto-Italic, Roboto" font-style="italic">Broker</tspan><tspan y="137">) para monitorear los datos que fluyen hacia un </tspan><tspan x="0" y="161">SaaS. Incluso, puede ser útil para algunos PaaS e IaaS, pero apóyese más en las políticas </tspan><tspan x="0" y="185">existentes y en la seguridad del repositorio de datos para esos tipos de grandes migraciones. </tspan><tspan x="0" y="209">Utilice las opciones de cifrado apropiadas, basado en el modelo de amenazas de sus datos, </tspan><tspan x="0" y="233">negocio y requerimientos técnicos. </tspan><tspan x="0" y="257">Considere utilizar las opciones de cifrado y almacenamiento gestionado que ofrezca el </tspan><tspan x="0" y="281">proveedor. Cuando sea posible, utilice claves gestionadas por el cliente. </tspan><tspan x="0" y="305">Aproveche la arquitectura para mejorar la seguridad de los datos. No dependa completamente </tspan><tspan x="0" y="329">de controles de acceso y cifrado.</tspan><tspan x="0" y="353">Asegúrese que exista monitoreo a nivel de API y de datos, y que los</tspan><tspan y="353" xml:space="preserve" font-family="Roboto-Italic, Roboto" font-style="italic"> logs</tspan><tspan y="353" xml:space="preserve"> se ajustan a los </tspan><tspan x="0" y="377">requerimientos de cumplimiento y políticas de ciclo de vida. </tspan><tspan x="0" y="401">Los estándares existen para ayudar a establecer una buena seguridad y el correcto uso de </tspan><tspan x="0" y="425">técnicas y procesos de cifrado y gestión de claves, específicamente, NIST SP-800-57 y ANSI </tspan><tspan x="0" y="449">X9.69 y X9.73.</tspan></text>
+      <path id="Path_174439" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14639.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-2" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14663.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-3" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14711.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-4" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14759.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-5" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14833.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-6" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14879.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-7" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14929.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-8" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 14977.639) rotate(-150)" fill="#ff2c9c"/>
+      <path id="Path_174439-9" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(617.129 15025.639) rotate(-150)" fill="#ff2c9c"/>
+    </g>
+    <g id="Grupo_710253" data-name="Grupo 710253" transform="translate(0 28)">
+      <path id="Trazado_467022" data-name="Trazado 467022" d="M-1619.676,3107h125" transform="translate(2094.676 11700)" fill="none" stroke="#173d7a" stroke-width="3"/>
+      <g transform="matrix(1, 0, 0, 1, 282.68, 14557)" filter="url(#Rectángulo_263679)">
+        <rect id="Rectángulo_263679-2" data-name="Rectángulo 263679" width="190" height="135" transform="translate(9 183)" fill="#e2c140"/>
+      </g>
+      <text id="Minimize_your_develo" data-name="Minimize your develo" transform="translate(302.676 14746)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="7.315" y="19">Recomendaciones </tspan><tspan x="54.64" y="43">para el </tspan><tspan x="14.381" y="67">cumplimiento de </tspan><tspan x="4.256" y="91">seguridad y cifrado </tspan><tspan x="47.301" y="115">de datos</tspan></text>
+    </g>
+  </g>
+</svg>

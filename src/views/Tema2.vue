@@ -169,39 +169,39 @@
             figure
               img(src='@/assets/curso/tema2/controles.svg')
 
-          .tarjeta.fondo22.p-3(x="23%" y="53%" numero="+")
+          .tarjeta.fondo22.p-3(x="23%" y="53%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Asignar responsabilidades
             p Busca que se definan y asignen las tareas y responsabilidades, de una manera clara, en cuanto a la seguridad de  la información.
 
-          .tarjeta.fondo22.p-3(x="23%" y="62.3%" numero="+")
+          .tarjeta.fondo22.p-3(x="23%" y="62.3%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Segregar tareas
             p Se deben segregar tareas y las áreas responsables a fin de poder identificar, si existiesen, conflictos de interés y evitar cambios o modificaciones no autorizadas, mal intencionadas o un uso inadecuado de los activos.
  
-          .tarjeta.fondo22.p-3(x="23%" y="72%" numero="+")
+          .tarjeta.fondo22.p-3(x="23%" y="72%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Contacto con las autoridades
             p Siempre debe existir y mantenerse un contacto directo con las autoridades regulatorias y pertinentes ajustadas al core del negocio.
             p Por su parte, en la implementación de la norma ISO 27017 por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
             p Por su lado, el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
 
-          .tarjeta.fondo22.p-3(x="23%" y="82.5%" numero="+")
+          .tarjeta.fondo22.p-3(x="23%" y="82.5%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Contacto con grupos de interés
             p Busca que la organización haga parte de grupos o comunidades de interés relacionados con la seguridad de la información, y con grupos o sectores relacionados con la industria de la organización, a fin de garantizar el intercambio y actualización permanente.
             p La seguridad de la información debe hacer parte integral de la gestión de proyectos, sin importar el tipo de proyecto a ser diseñado y desarrollado por la organización.
 
-          .tarjeta.fondo22.p-3(x="23%" y="94%" numero="+")
+          .tarjeta.fondo22.p-3(x="23%" y="94%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Gestión de proyectos y la seguridad de la información
             p Por su parte, en la implementación de la norma ISO 27017, por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
             p Por su lado el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
 
-          .tarjeta.fondo22.p-3(x="64.5%" y="53.5%" numero="+")
+          .tarjeta.fondo22.p-3(x="64.5%" y="53.5%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Política de uso de dispositivos móviles
             p Se debería establecer una política formal y se deberían adoptar las medidas de seguridad adecuadas para la protección contra los riesgos derivados del uso de los recursos de informática móvil y las telecomunicaciones.
  
-          .tarjeta.fondo22.p-3(x="64.4%" y="64.3%" numero="+")
+          .tarjeta.fondo22.p-3(x="64.4%" y="64.3%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Teletrabajo
             p Se deben diseñar e implementar las estrategias necesarias que involucren políticas y medidas de protección de la información que es recibida, procesada y almacenada a través de las conexiones remotas y a través de estrategias como el teletrabajo. 
 
-          .tarjeta.fondo22.p-3(x="95.1%" y="68%" numero="+")
+          .tarjeta.fondo22.p-3(x="95.1%" y="68%" numero="+" tooltip="Click para leer...")
             .h5.mb-2 Roles y responsabilidades compartidas 
             p En el entorno de nube: se deberían designar las responsabilidades para los roles compartidos en seguridad en el uso de los servicios de nube, para identificar las partes, documentarlas, comunicarlas e implementarlas.
             p Para su implementación, el cliente de servicios en la nube debe definir sus políticas y procedimientos existentes en línea con su uso en los servicios de nube y concientizar a los usuarios de sus roles y responsabilidades. Por otra parte, el proveedor debe documentar y comunicar sus capacidades, roles y responsabilidades en seguridad de la información  para el uso de los servicios de nube, junto con los roles y responsabilidades que el cliente necesitaría implementar y gestionar en el ámbito del uso de los servicios.
@@ -234,7 +234,7 @@
                 figure
                   img(src='@/assets/curso/tema2/figura5.svg')
 
-              .tarjeta.p-3(x="21.4%" y="78%" numero="+")
+              .tarjeta.p-3(x="21.4%" y="78%" numero="+" tooltip="Click para leer...")
                 .h5.mb-4 CLASIFICACIÓN
                 p.text-bold Recursos de tipo información:
                 p en esta categoría de activos, se incluyen, pero no se limita a: archivos, manuales, bases de datos, documentación de aplicaciones y servicios, políticas y procedimientos de soporte, planes de continuidad del negocio y planes de recuperación de desastres, entre otras.
@@ -243,7 +243,7 @@
                 p.text-bold Recursos de tipo <i>hardware</i>:
                 p hacen parte de esta categoría todo el equipamiento físico, como computadores, servidores, impresoras, procesadores, memorias, monitores; los equipos de comunicación, como <i>switches, routers, PABXs, Access Points, Firewalls</i>, entre otros; los medios de almacenamiento, como discos duros, cintas, dispositivos móviles de almacenamiento de datos, memorias USB, discos externos, entre otros.
                 
-              .tarjeta.p-3(x="82%" y="52%" numero="+")
+              .tarjeta.p-3(x="82%" y="52%" numero="+" tooltip="Click para leer...")
                 SlyderA(tipo="b")
                   .row.justify-content-center
                     .col-xl-11
@@ -435,7 +435,7 @@
         tr
         tr.borde-abajo
           <td rowspan='7' class='borde-tabla fondo28'>Responsabilidades y procedimientos de operación</td>
-          <th rowspan='7' class='borde-tabla'> Garantizar siempre la disponibilidad y adecuado funcionamiento de los recursos, evitando el acceso físico no autorizado, las interferencias o daños e interferencias a la información de la organización.</th>
+          <td rowspan='7' class='borde-tabla'> Garantizar siempre la disponibilidad y adecuado funcionamiento de los recursos, evitando el acceso físico no autorizado, las interferencias o daños e interferencias a la información de la organización.</td>
         tr.fondo28
           td Documentación de procedimientos de operación. Todos los procesos operativos dentro de la organización deben estar debidamente documentados y a disposición cuando sean requeridos.
         tr
@@ -458,7 +458,7 @@
           td Copias de seguridad de la información. Deberían de establecerse políticas y procedimientos que obliguen a realizar pruebas regulares de las copias de seguridad realizadas al software, los datos y a las imágenes de sistema operativo.
         tr.borde-abajo.fondo29
           <td rowspan='6' class='borde-tabla'>Registro de actividad y supervisión</td>
-          <th rowspan='6' class='borde-tabla'>Registrar los eventos provocados por incidentes de seguridad de la información y generar y conservar las evidencias.</th>
+          <td rowspan='6' class='borde-tabla'>Registrar los eventos provocados por incidentes de seguridad de la información y generar y conservar las evidencias.</td>
         tr.fondo29
           td Registro y gestión de eventos de actividad: Se deberían revisar periódicamente los registros relacionados con incidentes de seguridad producidos.
         tr.fondo29
@@ -476,7 +476,7 @@
           td Instalación del <i>software</i> en sistemas en producción. Se deberían implementar procedimientos y políticas de control para evitar la instalación de software en aplicaciones y sistemas que se encuentren en producción.
         tr.borde-abajo.fondo29
           <td rowspan='3' class='borde-tabla'>Gestión de la vulnerabilidad técnica</td>
-          <th rowspan='3' class='borde-tabla'>Preparar los servicios y activos para evitar la existencia de vulnerabilidades técnicas que puedan ser explotadas, poniendo en riesgo la organización.</th>
+          <td rowspan='3' class='borde-tabla'>Preparar los servicios y activos para evitar la existencia de vulnerabilidades técnicas que puedan ser explotadas, poniendo en riesgo la organización.</td>
         tr.fondo29
           td Gestión de las vulnerabilidades. Se deberían desarrollar estrategias de análisis de vulnerabilidades sobre los sistemas de información, de manera oportuna y periódica, para evaluar qué tan alta es la exposición y, con este insumo, implementar medidas para mitigar los riesgos.
         tr.fondo29
@@ -504,7 +504,7 @@
             img.mb-5(src='@/assets/curso/tema2/imagen13.svg')
         .row
           .col-xl-4.fondo18.mb-5.ms-4
-            p.mb-0.text-center.text-white.py-3 Dominio 9. Seguridad de las comunicaciones
+            p.mb-0.text-center.text-white.py-3 Dominio 10. Seguridad de las comunicaciones
         .row.justify-content-center.mb-5.align-items-center
           .col-xl-5.col-md-6.col-sm-8
             img.mb-3(src='@/assets/curso/tema2/imagen14.png')
@@ -548,24 +548,192 @@
               .col-xl-4
                 img(src='@/assets/curso/tema2/figura17.svg')
 
-            .row.justify-content-center.mt-4
-              .col-xl-8.col-md-11.col-sm-11    
-                AcordionA(tipo="b" clase-tarjeta="tarjeta fondo26")
-                  .row(titulo="Análisis y especificación de los requisitos en materia de seguridad")
-                    .col-md-12.mb-4.mb-md-0
-                      p Al momento de hacer los procesos de especificación de sistemas para la construcción o mantenimiento de las aplicaciones informáticas, se deben incluir los requisitos en materia de seguridad de la información.
+    .row.justify-content-center.mt-4.ms-4
+      .col-xl-8.col-md-11.col-sm-11    
+        AcordionA(tipo="b" clase-tarjeta="tarjeta fondo26")
+          .row(titulo="Análisis y especificación de los requisitos en materia de seguridad")
+            .col-md-12.mb-4.mb-md-0
+              p Al momento de hacer los procesos de especificación de sistemas para la construcción o mantenimiento de las aplicaciones informáticas, se deben incluir los requisitos en materia de seguridad de la información.
 
-                  .row(titulo="Seguridad de las comunicaciones en servicios accesibles desde redes públicas")
-                    .col-md-12.mb-4.mb-md-0
-                      p La información que es enviada y recibida a través de redes públicas debería ser protegida, a fin de evitar acciones fraudulentas, daños o modificación no autorizada. 
+          .row(titulo="Seguridad de las comunicaciones en servicios accesibles desde redes públicas")
+            .col-md-12.mb-4.mb-md-0
+              p La información que es enviada y recibida a través de redes públicas debería ser protegida, a fin de evitar acciones fraudulentas, daños o modificación no autorizada. 
 
-                  .row(titulo="Protección de las transacciones realizadas por redes")
-                    .col-md-12.mb-4.mb-md-0
-                      p La información utilizada en transacciones entre servicios o aplicaciones se debería proteger, para evitar la retransmisión y enrutamiento incorrecto para buscar la alteración, divulgación y/o duplicación no autorizada.
+          .row(titulo="Protección de las transacciones realizadas por redes")
+            .col-md-12.mb-4.mb-md-0
+              p La información utilizada en transacciones entre servicios o aplicaciones se debería proteger, para evitar la retransmisión y enrutamiento incorrecto para buscar la alteración, divulgación y/o duplicación no autorizada.
+      .col-xl-4.col-md-4.col-sm-5
+        img(src='@/assets/curso/tema2/imagen16.jpg')
+    .row.my-5
+      a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
+      #soporte.col-xl-6.fondo24.py-2
+        p.mb-0.text-center.text-bold Seguridad en los procesos de desarrollo y soporte de aplicaciones y servicios
+    .row.correr-ambos
+      .col-xl-12.fondo25
+        .row.justify-content-center.align-items-center
+          .col-xl-7
+            p.ms-5.text-bold El Objetivo
+            p.ms-5 Garantizar la seguridad de la información en los entornos de diseño, desarrollo e implementación de los sistemas de información.
+          .col-xl-4
+            img(src='@/assets/curso/tema2/figura18.svg')
 
+    .row.mb-5.my-5
+      .col-md-7.mb-5.mb-md-0
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Política de desarrollo seguro de <i>software</i>") Deberían adoptarse políticas y estrategias de desarrollo de software seguro.
+          
+          p.text-small(numero="2" titulo="Procedimientos de control de cambios") En todas las fases del ciclo de vida de desarrollo de software, se deberían implementar procedimientos formales para el control y la gestión de cambios.
+          
+          p.text-small(numero="3" titulo="Revisión técnica de las aplicaciones") Si se presentan cambios en el sistema operativo de base, las aplicaciones críticas para el negocio se deberían revisar y probar, para garantizar que dichos cambios no hayan producido impactos negativos en la operación o en la seguridad.
 
-              .col-xl-4.col-md-4.col-sm-5
-                img(src='@/assets/curso/tema2/imagen16.jpg')
+          p.text-small(numero="4" titulo="Restricciones a los cambios en los paquetes <i>software</i>") Cuando existan aplicaciones de terceros, se deberían evitar modificaciones, limitándose a cambios estrictamente necesarios. 
+
+          p.text-small(numero="5" titulo="Uso de principios de ingeniería en protección de sistemas") Se deberían aplicar los principios de seguridad en ingeniería a cualquier labor de implementación de sistemas de información.
+      .col-md-5.mb-5.mb-md-0
+        img(src='@/assets/curso/tema2/imagen17.jpg')
+    .row.justify-content-center.mb-5
+      .col-md-5.mb-5.mb-md-0
+        img(src='@/assets/curso/tema2/imagen18.jpg')
+      .col-md-7.mb-5.mb-md-0
+        LineaTiempoD.color-secundario
+          p.text-small(numero="6" titulo="Seguridad en entornos de desarrollo") Si en la organización existen áreas de desarrollo, se deberían establecer procesos y políticas tendientes a proteger adecuadamente estas labores e incluir la integración de sistemas en todo el ciclo de vida de desarrollo.
+          
+          p.text-small(numero="7" titulo="Externalización del desarrollo de <i>software</i>") Todos los equipos que tengan dispositivos de almacenamiento deben ser revisados en busca de información sensible antes de su eliminación o reutilización.
+          
+          p.text-small(numero="8" titulo="Pruebas de funcionalidad durante el desarrollo") En las etapas de desarrollo y en todo el ciclo de vida, se deben realizar pruebas de funcionalidad en materia de seguridad.
+          
+          p.text-small(numero="9" titulo="Pruebas de aceptación") Se deberían realizar planes de prueba y criterios de aceptación para la actualización y/o desarrollo de nuevas funcionalidades o sistemas.
+
+    .row.my-5
+      a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
+      #datos.col-xl-2.fondo24.py-2
+        p.mb-0.text-center.text-bold Datos de prueba
+    img.my-5(src='@/assets/curso/tema2/figura19.svg')
+    .row
+      .col-xl-4.fondo18.mb-5.ms-4
+        p.mb-0.text-center.text-white.py-3 Dominio 11. Relación con los proveedores
+    .row.justify-content-center.mb-5.align-items-center
+      .col-xl-5.col-md-6.col-sm-8
+        img.mb-3(src='@/assets/curso/tema2/imagen19.png')
+      .col-xl-7.col-md-8.col-sm-12
+        p El objetivo es implementar y mantener el nivel apropiado de seguridad de la información y la entrega de los servicios contratados en línea con los acuerdos de entrega de servicios de terceros.
+        p La organización debe chequear la implementación de los acuerdos, monitorear su cumplimiento con los estándares y manejar los cambios, para asegurar que los servicios sean entregados para satisfacer todos los requerimientos acordados con terceras personas.
+        p Los controles aplicados en el dominio 11, relación con los proveedores, se encuentran descritos en la siguiente tabla:
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
+      h5 Tabla 2.
+      span <i>Recomendaciones para el cumplimiento de seguridad y cifrado de datos.</i>
+
+    .tabla-b.mb-5
+      table
+        tr.fondo24.borde-abajo
+          th.borde-tabla 
+            h5.mb-0.text-dark.text-center CONTROL DE LA NORMA
+          th.borde-tabla
+            h5.mb-0.text-dark.text-center OBJETIVO/CONDICIÓN
+          th 
+            h5.mb-0.text-dark.text-center APLICACIÓN DE CONTROLES
+        tr
+        tr.borde-abajo
+          <td rowspan='3' class='borde-tabla fondo28'>Seguridad de la información en las relaciones con proveedores</td>
+          <td rowspan='3' class='borde-tabla fondo28'>Se deberían proteger los datos e información que por su particularidad requieran ser utilizados por proveedores o terceros con quien se tenga algún tipo de contrato o vínculo.</td>
+        tr.fondo28 
+          td Tratamiento del riesgo dentro de acuerdos de suministro. Se deberían establecer y acordar los requerimientos de seguridad pertinentes y ajustados a cada proveedor que requiera acceder, procesar, almacenar, comunicar o proporcionar componentes de infraestructura que soportan la información de la organización.
+        tr.fondo28
+          td Documentación de procedimientos de operación. Todos los procesos operativos dentro de la organización deben estar debidamente documentados y a disposición cuando sean requeridos.
+        tr.borde-abajo
+          <td rowspan='3' class='borde-tabla fondo29'>Gestión de la prestación del servicio por proveedores</td>
+          <td rowspan='3' class='borde-tabla fondo29'>Establecer acuerdos de nivel de seguridad ajustados a cada proveedor que permitan mantener una provisión adecuada y alineada de los servicios con estos acuerdos.</td>
+        tr.fondo29
+          td Supervisión y revisión de los servicios prestados por externos. Las organizaciones deberían de establecer rutinas regulares de revisión, monitoreo y auditoría de los servicios ofrecidos por el proveedor.
+        tr.fondo29 
+          td Gestión de cambios en los servicios prestados por externos. Se deberían establecer las políticas y procedimientos necesarios para la gestión de cambios en los servicios que realizan los proveedores, manteniendo y mejorando las políticas de seguridad de la información, los procedimientos y controles específicos. 
+    .row
+      .col-xl-5.fondo18.mb-5.ms-4
+        p.mb-0.text-center.text-white.py-3 Dominio 12. Gestión de incidentes de seguridad
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5
+        .row.justify-content-center.mb-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img.mb-3(src='@/assets/curso/tema2/imagen20.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p Busca garantizar que los incidentes relacionados con la seguridad de la información y las vulnerabilidades que permiten su ejecución sean comunicados de manera oportuna y formal, para que se apliquen las acciones correctivas necesarias y en el tiempo adecuado.
+        .titulo-sexto.color-acento-contenido.mb-5.ms-4(data-aos="flip-right")
+          h5 Figura 7
+          span <i>Controles de la gestión de incidentes de seguridad</i>  
+        .row.justify-content-center.my-5
+          .col-xl-10
+            img(data-aos="slide-right")(src='@/assets/curso/tema2/grafica2.svg')
+    .row.correr-ambos.my-5
+      .col-xl-12.fondo19.px-5
+        .row
+          .col-xl-6.fondo18.mb-5.ms-4
+            p.mb-0.text-center.text-white.py-3 Dominio 13. Seguridad de la información y la continuidad del negocio
+        .row.justify-content-center.mb-5.align-items-center
+          .col-xl-5.col-md-6.col-sm-8
+            img.mb-3(src='@/assets/curso/tema2/imagen21.png')
+          .col-xl-7.col-md-8.col-sm-12
+            p El objetivo es garantizar el cumplimiento de la seguridad de la información durante las fases de activación, desarrollo y puesta en producción o reactivación de un servicio o aplicación posteriormente a una caída o interferencia, para asegurar que los procesos del negocio se pueden restaurar en los plazos requeridos, sin perder la seguridad de la información.
+        
+        .row.justify-content-center.my-5
+          .col-xl-9
+            img(data-aos="slide-right")(src='@/assets/curso/tema2/grafica3.svg')
+        .row
+          .col-xl-3.fondo18.mb-5.ms-4
+            p.mb-0.text-center.text-white.py-3 Dominio 14. Cumplimiento
+    .row.justify-content-center.mb-5.align-items-center
+      .col-xl-5.col-md-6.col-sm-8
+        img.mb-3(src='@/assets/curso/tema2/imagen22.png')
+      .col-xl-7.col-md-8.col-sm-12
+        p Las administraciones de los sistemas de información están reguladas por disposiciones legales y contractuales, por lo que cada servicio o recurso debe tener claridad en cuanto a sus requisitos normativos y contractuales a cumplir, a fin de evitar sanciones de cualquier tipo como consecuencia del no cumplimiento.
+    p.mb-5 En la siguiente tabla, podrá encontrar, de manera general, los controles aplicados a este dominio.
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
+      h5 Tabla 3.
+      span <i>Controles de cumplimiento</i>
+
+    .tabla-b.mb-5
+      table
+        tr.fondo27.borde-abajo
+          th.borde-tabla 
+            h5.mb-0.text-dark.text-center CONTROL DE LA NORMA
+          th.borde-tabla
+            h5.mb-0.text-dark.text-center OBJETIVO/CONDICIÓN
+          th 
+            h5.mb-0.text-dark.text-center APLICACIÓN DE CONTROLES
+        tr
+        tr.borde-abajo
+          <td rowspan='6' class='borde-tabla fondo28'>Cumplimiento de los requisitos legales y contractuales</td>
+          <td rowspan='6' class='borde-tabla fondo28'>No presenta</td>
+        tr
+          <td class="fondo28" style="width: 350px;">Identificación de la legislación aplicable. 
+            p Se debería identificar, documentar y mantener en constante actualización la información explícita de cada sistema de información, a fin de cumplir con la legislación y normativa de cada servicio o recurso.
+          </td>
+        tr.fondo28
+          td Derechos de propiedad intelectual.
+            p Se deberían establecer políticas de seguridad que obliguen a la utilización de software legal y al respeto por la propiedad intelectual de los fabricantes y proveedores.
+
+        tr.fondo28
+          td Protección de los registros de la organización. 
+            p Según los requerimientos legales, contractuales o legislativos, se debe buscar la protección por pérdidas, destrucción, falsificación, accesos y publicaciones no autorizadas de los registros de los sistemas de información.
+        tr.fondo28
+          td Protección de datos y privacidad de la información personal. 
+            p Según corresponda, se debería garantizar el derecho a la privacidad y protección de los datos personales, de acuerdo con la legislación y el cumplimiento legal requerido.
+        tr.fondo28
+          td Regulación de los controles criptográficos. 
+            p Se deberían utilizar controles de cifrado de datos, en cumplimiento con la legislación, las normativas y los acuerdos establecidos.
+        tr.fondo29
+          <td rowspan='4' class='borde-tabla'>Revisiones a la seguridad de la información</td>
+          <td rowspan='4' class='borde-tabla'>Garantizar que la seguridad de la información se implemente y gestione de acuerdo con las políticas y los procedimientos establecidos por la organización.</td>
+        tr.fondo29
+          td Revisión independiente de la seguridad. 
+            p Se deberían revisar los objetivos de control, los controles, las políticas, los procesos y procedimientos para la seguridad de la información, de manera regular e independiente, planificada o cuando se presenten cambios significativos en la organización.
+
+        tr.fondo29
+          td Cumplimiento de las políticas y normas establecidas para la seguridad. 
+            p Los gerentes deberían revisar periódicamente el cumplimiento de los procedimientos de seguridad dentro de su área de responsabilidad respecto a las políticas, normas y cualquier otro tipo de requisito de seguridad establecido por la organización.
+
+        tr.fondo29
+          td Verificación del cumplimiento. 
+            p Los sistemas de información se deberían revisar periódicamente para verificar su cumplimiento con las políticas, normas y estrategias de seguridad dispuestas por la organización.
 
 </template>
 <script>
