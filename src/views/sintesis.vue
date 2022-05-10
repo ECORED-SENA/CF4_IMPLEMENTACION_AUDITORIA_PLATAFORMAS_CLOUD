@@ -3,12 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.mb-5.color-acento-contenido(data-aos="fade")
-      .titulo-principal__numero
-        span.text-white D
-      h1 Síntesis
     .row.correr-ambos.my-5.fondo36.py-5
-      .col-xl-12.px-5
+      .col-xl-12.px-5.pb-4
         p La seguridad en la nube y los datos de los clientes son una prioridad asumida en los contenidos de este componente, así como la orientación en la implementación de controles y procesos de administración diseñados para mitigar riesgos y mejorar los servicios de sus productos.
         .row.justify-content-center.align-items-center
           .col-xl-8.col-md-10.col-12
@@ -22,17 +18,23 @@
                 span Control: que establece un equilibrio entre eficacia y eficiencia, implementando los controles adecuados para el riesgo asociado.
               li 
                 i.fas.fa-caret-right
-                span Seguridad: proporciona funciones preventivas y de protección, para garantizar un servicio seguro.
+                span.mb-5 Seguridad: proporciona funciones preventivas y de protección, para garantizar un servicio seguro.
           .col-xl-4.col-md-6.col-8
             img.mover-arriba2(src='@/assets/curso/sintesis/figura1.svg')
     .row.justify-content-center.align-items-center
-      .col-xl-10.col-md-10.col-12.fondo37
-        p.text-center Esta responsabilidad compartida para la seguridad se logra cuando son asumidos los roles que desempeñan cada una de las personas o los procesos que hacen parte de la seguridad en la nube. Pues no basta con que el proveedor de servicios en la nube garantice seguridad en su infraestructura física, sino que también corresponde al cliente y al usuario seguir pautas y pasos para responder, de igual forma, a los desafíos generados en el avance que tiene la tecnología en la actualidad.
+      .col-xl-10.col-md-10.col-12.fondo37.mt-3
+        p.text-center.p-4 Esta responsabilidad compartida para la seguridad se logra cuando son asumidos los roles que desempeñan cada una de las personas o los procesos que hacen parte de la seguridad en la nube. Pues no basta con que el proveedor de servicios en la nube garantice seguridad en su infraestructura física, sino que también corresponde al cliente y al usuario seguir pautas y pasos para responder, de igual forma, a los desafíos generados en el avance que tiene la tecnología en la actualidad.
     .row.justify-content-center
       .col-xl-6
         p.text-center El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
     img(src='@/assets/curso/sintesis/grafica1.svg')    
-
+    .row.justify-content-center.my-5
+      .col-lg-3
+        a.anexo.mb-4.text-center(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
 </template>
 
 <script>

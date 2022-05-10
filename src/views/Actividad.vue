@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/actividad/seleccionmultiple.png", alt="Selección múltiple")
+            img(src="@/assets/curso/actividad/seleccion-multiple.svg", alt="Selección múltiple")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica

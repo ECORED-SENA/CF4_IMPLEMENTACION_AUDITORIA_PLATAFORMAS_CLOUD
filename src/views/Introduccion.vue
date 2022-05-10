@@ -10,12 +10,12 @@
       h1 Introducción
     img(src="@/assets/curso/intro/imagen1.png")
     .row.justify-content-center.align-items-center.mover-arriba.mb-3
-      .col-xl-11.fondo1.bordes10(data-aos="slide-right")
-        p.mb-0.p-5 Sea bienvenido al componente formativo “Marcos de seguridad <i>cloud</i>”. Para comenzar el recorrido por el mismo, visualice la información que se muestra a continuación: 
+      .col-xl-11.fondo1(data-aos="slide-right")
+        p.mb-0.px-5.py-4 Sea bienvenido al componente formativo “Marcos de seguridad <i>cloud</i>”. Para comenzar el recorrido por el mismo, visualice la información que se muestra a continuación: 
     figure.mb-5
       .video(data-aos="slide-left")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+
     
     p.mb-5(data-aos="fade-right") Para la elaboración de este componente, se abordaron varios autores conocidos en
       span.text-bold marcos de seguridad <i>cloud</i>

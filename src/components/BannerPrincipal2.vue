@@ -83,7 +83,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
   &__img
-    animation: scale 2s ease-in-out infinite alternate
+    //-animation: scale 2s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem

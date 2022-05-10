@@ -102,8 +102,8 @@ export default {
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        icono: 'fas fa-network-wired',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -119,11 +119,11 @@ export default {
       },
       {
         nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
+        icono: 'far fa-folder',
         titulo: 'Material complementario',
       },
       {
-        icono: 'fas fa-book',
+        icono: 'fas fa-book-open',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
@@ -133,7 +133,7 @@ export default {
         download: 'downloads/material.zip',
       },
       {
-        icono: 'far fa-registered',
+        icono: 'far fa-copyright',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
       },
