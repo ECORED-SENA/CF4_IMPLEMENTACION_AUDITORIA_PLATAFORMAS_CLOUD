@@ -151,7 +151,7 @@
       .col-md-5.mb-md-0(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/imagen5.svg')
     .row.mb-5
-      .col-xl-5.col-lg-5.col-md-7.col-11.fondo18(data-aos="slide-right")
+      .col-xl-5.col-lg-6.col-md-7.col-11.fondo18(data-aos="slide-right")
         p.mb-0.text-center.text-white.py-3.text-bold Dominio 4. Cumplimiento y gestión de auditoría.
     .row.justify-content-center.mt-4
       .col-xl-7.col-md-11.col-sm-11(data-aos="flip-up")
@@ -334,8 +334,8 @@
             img(src='@/assets/curso/tema3/grafica8.svg')
         p.my-5.text-center Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0  
         .row.mt-5
-          .col-xxl-3.col-xl-4.col-lg-5.col-12.fondo18(data-aos="slide-right")
-            p.mb-0.text-center.text-white.py-3 Dominio 9. Respuesta ante incidentes
+          .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-7.col-8.fondo18(data-aos="slide-right")
+            p.mb-0.text-center.text-white.py-3.text-bold Dominio 9. Respuesta ante incidentes
     p.mb-5(data-aos="slide-left") Este es un aspecto fundamental en cualquier programa de seguridad. Si bien los controles preventivos ayudan a mitigar en gran parte los riesgos, no siempre son efectivos, por lo que las organizaciones deben contar con un plan de respuesta a incidentes, que les permita establecer cómo actuar frente a un ataque, toda vez que los procesos de la nube son distintos, así que se deben adaptar a esta nueva realidad.
     p.mb-5(data-aos="slide-left")  A continuación, se muestra cómo es el ciclo de vida de respuestas a incidentes, según la recomendación de la norma NIST 800-61 rev2.
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
@@ -380,8 +380,8 @@
     .row.correr-ambos.fondo31
       .col-xl-12.p-5
         .row
-          .col-xxl-3.col-xl-4.col-lg-5.col-12.fondo18(data-aos="slide-right")
-            p.mb-0.text-center.text-white.py-3 Dominio 10. Seguridad de aplicaciones
+          .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-9.fondo18(data-aos="slide-right")
+            p.mb-0.text-center.text-white.py-3.text-bold Dominio 10. Seguridad de aplicaciones
         .row.justify-content-center.my-5
           .col-xl-8.col-md-10.col-sm-12(data-aos="flip-up")
             p El dominio correspondiente a la seguridad de la aplicación está destinado a los equipos de desarrollo de <i>software</i> y TI que busquen el desarrollo de aplicaciones seguras en entornos de computación en la nube, en especial, PaaS e IaaS (varias de las técnicas en esta sección son usadas para respaldar aplicaciones de SaaS seguras). (CSA, 2018).
@@ -455,8 +455,8 @@
           figure
             img.mb-5.ms-5(src='@/assets/curso/tema3/figura11.svg')
     .row.mt-5
-      .col-xl-4.col-lg-5.col-md-6.col-11.fondo18(data-aos="slide-right")
-        p.mb-0.text-center.text-white.py-3 Dominio 11. Seguridad y cifrado de datos
+      .col-xl-4.col-lg-5.col-md-6.col-sm-8.col-11.fondo18(data-aos="slide-right")
+        p.mb-0.text-center.text-white.py-3.text-bold Dominio 11. Seguridad y cifrado de datos
     .row.correr-ambos.fondo40
       .col-xl-12.p-5
         .row.justify-content-center.mb-5
@@ -475,8 +475,8 @@
           .col-xxl-8.col-xl-9.col-lg-10.col-md-11
             p.texto-end Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
         .row.mt-5
-          .col-xl-5.col-lg-6.col-md-8.col-11.fondo18(data-aos="slide-right")
-            p.mb-0.text-center.text-white.py-3 Dominio 12. Gestión de identidades, derechos y accesos.
+          .col-xl-5.col-lg-6.col-md-8.col-sm-11.col-11.fondo18(data-aos="slide-right")
+            p.mb-0.text-center.text-white.py-3.text-bold Dominio 12. Gestión de identidades, derechos y accesos.
         .row.justify-content-center.my-5
           .col-xl-7.col-md-8.col-sm-10.col-12(data-aos="flip-up")
             p Este dominio se centra principalmente en la gestión de identidades y el control de acceso entre una organización y los proveedores de servicio, o bien entre los proveedores y los servicios ofrecidos. 
@@ -495,8 +495,8 @@
           .col-xxl-8.col-xl-9.col-lg-10.col-md-11
             p.my-5 Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
         .row.mb-5
-          .col-xxl-3.col-xl-4.col-lg-4.col-md-6.col-12.fondo18(data-aos="slide-right")
-            p.mb-0.text-center.text-white.py-3 Dominio 13. Seguridad como servicio
+          .col-xxl-3.col-xl-4.col-lg-4.col-md-6.col-sm-7.col-12.fondo18(data-aos="slide-right")
+            p.mb-0.text-center.text-white.py-3.text-bold Dominio 13. Seguridad como servicio
 
         .row.justify-content-center.mt-5
           .col-xl-7.mb-5(data-aos="slide-right")

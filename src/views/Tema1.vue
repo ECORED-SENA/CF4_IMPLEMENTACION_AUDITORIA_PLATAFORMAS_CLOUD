@@ -74,7 +74,7 @@
     .row.correr-ambos.fondo7
       .col-xl-12
         .row.justify-content-center.align-items-center.pb-4
-          .col-xl-8.col-md-7(data-aos="slide-left")
+          .col-xl-8.col-md-7.col-10(data-aos="slide-left")
             p.ms-5 Esta metodología centra su funcionamiento en el hecho de poder caracterizar los activos en distintos grupos que faciliten la identificación de los riesgos y poder definir los controles o contramedidas necesarias que permitan evitar en un mayor porcentaje los incidentes de seguridad, lo que conlleva a generar un mayor grado de confianza para la organización, sus clientes y usuarios.
             p.ms-5 Desde el año 1997, cuando se publicó la primera versión de la metodología, hasta la actualidad, se ve cómo cada vez se consolida con mayor fuerza el análisis de riesgos como el primer gran proceso que lleva a poder gestionar la seguridad de la información.
             p.ms-5 Identificar los riesgos y evaluarlos es lo que permite definir los planes de tratamiento de riesgos; con la gestión realizada, se puede prevenir o disminuir la probabilidad de que se presenten ataques o incidentes de seguridad que afecten los datos, la información o los servicios que las organizaciones utilizan o prestan a sus clientes para el cumplimiento de su función misional.
@@ -186,17 +186,21 @@
                 span.text-bold Tratamiento del riesgo
                 span : se hace la identificación de los controles o salvaguardas requeridos a partir de un análisis de costo/beneficio.
         .titulo-segundo2.color-acento-contenido.mt-5(data-aos="fade")
-          h3 1.3.4 Metodología
+          h3 Metodología 
             span <i>MEHARI</i>.
-    .row.correr-ambos.mb-5
-      .col-xl-12.fondo10
-        .row.justify-content-center.align-items-center
-          .col-xl-3.col-lg-3.col-md-3.col-sm-6.col-8(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/figura7.svg")
-          .col-xl-8.col-lg-9.p-5.col-sm-12.col-md-9(data-aos="fade-down-right")
-            p.text-white.margen3 Esta metodología fue desarrollada en el año 1998 por CUSIF (<i>Club de la Sécurité De L’information Français</i>); en el año 2007, pasó a ser <I>Open Source</i>. Tiene por objetivo permitir realizar un análisis individual o directo sobre las situaciones o escenarios de riesgo identificados, proporcionando un grupo de herramientas diseñadas específicamente para la gestión de la seguridad, adaptables a niveles distintos de madurez, que pueden ser a corto, mediano o largo plazo.
 
-            p.text-white.margen3 Su principal objetivo es la identificación, evaluación y reducción de riesgos. Para ello, se apoya en bases de datos de conocimiento propias, herramientas y mecanismos desarrollados para este propósito.
+    .row.correr-ambos.mb-5
+      .col-xl-12
+        .row.bg-tema1
+          .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+            .row.align-items-center.justify-content-center
+              .col-xl-3.col-md-4.col-sm-6.col-6.mb-md-0.mb-4(data-aos="fade-right")
+                img(src='@/assets/curso/tema1/figura7.svg' alt='Imagen decorativa')
+              .col-xl-1.col-md-1.col-1  
+              .col-xl-8.col-md-6.col-sm-10.col-10.text-white.esquina.p-4(data-aos="fade-left")
+                p.text-white.mb-0 Esta metodología fue desarrollada en el año 1998 por CUSIF (<i>Club de la Sécurité De L’information Français</i>); en el año 2007, pasó a ser <I>Open Source</i>. Tiene por objetivo permitir realizar un análisis individual o directo sobre las situaciones o escenarios de riesgo identificados, proporcionando un grupo de herramientas diseñadas específicamente para la gestión de la seguridad, adaptables a niveles distintos de madurez, que pueden ser a corto, mediano o largo plazo.
+
+                p.text-white.mb-0 Su principal objetivo es la identificación, evaluación y reducción de riesgos. Para ello, se apoya en bases de datos de conocimiento propias, herramientas y mecanismos desarrollados para este propósito.
 
     TabsB.color-acento-botones.mb-5(data-aos="fade-down-left")
       .py-4.py-md-5(titulo="Método estructurado" :icono="require('@/assets/curso/tema1/nube1.svg')")
@@ -232,7 +236,7 @@
     .row.correr-ambos.mb-5.fondo12
       .col-xl-12
         .titulo-segundo1.color-acento-contenido.my-5.ms-4(data-aos="fade")
-          h3 1.3.5 <i>NIST SP-830 (Instituto Nacional de Estándares y Tecnología).</i>
+          h3 <i>NIST SP-830 (Instituto Nacional de Estándares y Tecnología).</i>
         .row.correr-ambos.mb-5
           .col-xl-12.fondo11.ms-4
             .row.justify-content-center.align-items-center

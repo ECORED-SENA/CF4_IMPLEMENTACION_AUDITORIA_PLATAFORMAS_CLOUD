@@ -49,6 +49,8 @@ export default {
 .banner-principal__info
   padding-left: 80px  !important
   z-index: 3
+  @media screen and ( max-width: 992px)
+    padding-left: 30px !important
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
