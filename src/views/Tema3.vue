@@ -126,7 +126,7 @@
         .col-xl-7(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/imagen4.png')
 
-    .bloque-texto-g.fondo18.p-3.p-sm-4.p-md-5.mt-4
+    .bloque-texto-g.fondo18.p-3.p-sm-4.p-md-5.mt-4(data-aos="slide-right")
       .bloque-texto-g__img1(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen20.png')})`}"
       )

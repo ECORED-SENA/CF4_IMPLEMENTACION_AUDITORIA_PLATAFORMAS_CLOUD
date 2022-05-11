@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Afianzar algunos de los conceptos más importantes de la ciberseguridad en <i>cloud</i>
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad01/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

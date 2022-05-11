@@ -245,7 +245,7 @@ export default {
     {
       texto: 'Normas ISO. (s. f.). ISO 27001 Seguridad de la información.',
       tipo: 'Página web',
-      descarga: 'https://www.normas-iso.com/iso-27001/',
+      link: 'https://www.normas-iso.com/iso-27001/',
     },
   ],
   creditos: {
