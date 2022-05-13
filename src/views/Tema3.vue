@@ -125,17 +125,18 @@
           p Es el conjunto de instrumentos y prácticas para atender la gestión del riesgo de la información. Es importante tener presente que, cuando hablamos de seguridad de la información, no es solamente lo relacionado con la gestión del proceso, pues hay otros actores participantes, como las políticas, los contratos, los seguros, y otros mecanismos que también tienen un rol (incluyendo la seguridad física para la información no digital).
         .col-xl-7(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/imagen4.png')
-
-    .bloque-texto-g.fondo18.p-3.p-sm-4.p-md-5.mt-4(data-aos="slide-right")
-      .bloque-texto-g__img1(
-        :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen20.png')})`}"
-      )
-      .bloque-texto-g__texto1.p-4
-        p.mb-0 Recuerde que la tarea principal de la seguridad de la información es la de proveer de procesos y controles para proteger la información electrónica y los sistemas que se usan para acceder a ella. Es decir, en una estructura jerárquica simple, la seguridad de la información es una herramienta para la gestión del riesgo de la información, que a su vez es un instrumento para la gestión del riesgo empresarial, y éste se convierte en una herramienta de gobernanza. Los cuatro conceptos están estrechamente relacionados, pero requieren de un enfoque, de procesos, y de herramientas individuales.
-    .row.my-5
-      .col-xl-6.col-lg-8.col-sm-10.fondo18(data-aos="slide-right")
-        p.mb-0.text-center.text-white.py-3.text-bold Dominio 3. Cuestiones legales, contratos y descubrimiento electrónico.
-    p.mb-5 En este dominio, se hace referencia a algunas de las dificultades legales más comunes que pueden surgir al mover datos o servicios a la nube y al operar las solicitudes de descubrimiento electrónico emanadas de los procesos judiciales. Este dominio cubre los siguientes aspectos, como puede observarse en el siguiente recurso didáctico:
+    .row.correr-ambos.my-5.fondo47
+      .col-xl-12.px-5
+        .bloque-texto-g.fondo18.p-3.p-sm-4.p-md-5.mt-4(data-aos="slide-right")
+          .bloque-texto-g__img1(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen20.png')})`}"
+          )
+          .bloque-texto-g__texto1.p-4
+            p.mb-0 Recuerde que la tarea principal de la seguridad de la información es la de proveer de procesos y controles para proteger la información electrónica y los sistemas que se usan para acceder a ella. Es decir, en una estructura jerárquica simple, la seguridad de la información es una herramienta para la gestión del riesgo de la información, que a su vez es un instrumento para la gestión del riesgo empresarial, y éste se convierte en una herramienta de gobernanza. Los cuatro conceptos están estrechamente relacionados, pero requieren de un enfoque, de procesos, y de herramientas individuales.
+        .row.my-5
+          .col-xl-6.col-lg-8.col-sm-10.fondo18(data-aos="slide-right")
+            p.mb-0.text-center.text-white.py-3.text-bold Dominio 3. Cuestiones legales, contratos y descubrimiento electrónico.
+        p.mb-5 En este dominio, se hace referencia a algunas de las dificultades legales más comunes que pueden surgir al mover datos o servicios a la nube y al operar las solicitudes de descubrimiento electrónico emanadas de los procesos judiciales. Este dominio cubre los siguientes aspectos, como puede observarse en el siguiente recurso didáctico:
 
     .row.mb-5.mt-5
       .col-md-7.mb-5.mb-md-0

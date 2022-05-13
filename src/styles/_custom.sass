@@ -19,15 +19,25 @@
     position: relative
     top: 0
     left: -50%
-  
+
+.tarjeta-flip__img
+  background-size: 350px 500px !important
+   
 .ajustar-izq
   margin-left: -50px
 
 .ajustar
   position: relative
   bottom: 10px
-  top: 90%
+  top: 85%
   z-index: 99999
+  @media screen and ( max-width: 992px)
+    background-size: contain !important
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    align-content: center
 
 .fondo1
   background-image: url('../assets/curso/intro/fondo1.png')
@@ -257,6 +267,12 @@
   background-repeat: no-repeat
   background-position: center
 
+.fondo47
+  background-image: url('../assets/curso/tema3/fondo6.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
 .tarjeta-flip.tarjeta  .tarjeta-flip__img
   background-size: 100% 100% !important
 
@@ -477,6 +493,10 @@
 .correr-ambos
   margin-left: -50px
   margin-right: -50px
+
+.correr-ambos2
+  margin-left: -70px
+  margin-right: -70px
 
 .bloque-texto-g__texto
     position: relative

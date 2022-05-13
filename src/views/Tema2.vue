@@ -79,7 +79,7 @@
               span trae múltiples beneficios tanto para el proveedor como para el cliente, los cuales se mencionan a continuación:
 
     .row.mb-5.justify-content-between
-      .col-sm-12.col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.mb-4.mb-xl-0(data-aos="slide-right")
+      .col-sm-12.col-xxl-6.col-xl-6.col-lg-6.col-md-10.mb-4.mb-xl-0(data-aos="slide-right")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -102,7 +102,7 @@
               br
               br
               br
-      .col-sm-12.col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.mb-4.mb-xl-0(data-aos="slide-left")
+      .col-sm-12.col-xxl-6.col-xl-6.col-lg-6.col-md-10.mb-4.mb-xl-0(data-aos="slide-left")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -156,10 +156,10 @@
 
               div(x="24.4%" y="87.8%" tooltip="Click para leer...")
                 .row
-                  .col-xl-12
+                  .col-xl-5.col-lg-5.col-md-5.col-sm-12
                     h5.color-texto 1. OBJETIVO
                     p.color-texto La dirección en seguridad de la información, regulada mediante la ISO 27001, tiene como objetivo dar soporte y administrar la gestión de la seguridad de la información alineando la seguridad con todas las particularidades del negocio, la legislación y las regulaciones.
-                  .col-xl-12
+                  .col-xl-7.col-lg-7.col-md-7.col-sm-12
                     img(src='@/assets/curso/tema2/imagen3.png')
 
               div.mx-2(x="77.6%" y="87.8%" tooltip="Click para leer...")
