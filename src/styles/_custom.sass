@@ -19,9 +19,6 @@
     position: relative
     top: 0
     left: -50%
-
-.tarjeta-flip__img
-  background-size: 350px 500px !important
    
 .ajustar-izq
   margin-left: -50px
@@ -274,7 +271,8 @@
   background-position: center
 
 .tarjeta-flip.tarjeta  .tarjeta-flip__img
-  background-size: 100% 100% !important
+  background-size: cover
+
 
 .situar-imagen
   position: relative
@@ -560,7 +558,6 @@
   color: #fff !important
 
 .tarjeta-flip__img 
-  background-size: 100% 90% !important
   background-repeat: no-repeat !important
 
 .img-infografica-b__modal 
@@ -607,28 +604,6 @@
   width: 150%
   margin-left: -25%
 
-/*.img-infografica-b__fondo
-  position: fixed
-  background-color: rgba(0, 0, 0, 0.9)
-  top: 0
-  left: 0
-  bottom: 0
-  right: 0
-  opacity: 0
-  z-index: 110000
-  transition: opacity 0.3s ease-in-out
-
-/*.img-infografica-b__modal
-  background-color: rgba(0, 0, 0, 0.9)
-  animation: entrada-modal 0.2s ease-in-out forwards
-
-/*.img-infografica-b--open .img-infografica-b__img 
-  position: absolute
-  width: 100%
-  pointer-events: auto
-  background-color: rgba(0, 0, 0, 0.9)
-  opacity: 0
-  transition: opacity 0.3s ease-in-out
 @media (min-width: 1401px)
   .boton3
     width: 25%
@@ -863,6 +838,10 @@
 @media (max-width: 465px)
   .slyder-a__bullets__item
     margin: 0 0px
+  .fondo48
+    background-size: 130% 70% !important
+  .ajustar
+    top: 72% 
 
 @media (max-width: 385px)
   .text-maspeq

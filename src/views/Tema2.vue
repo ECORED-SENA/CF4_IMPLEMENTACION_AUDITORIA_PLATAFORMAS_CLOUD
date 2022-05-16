@@ -83,7 +83,7 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/mujer.png')})`}")
+            .tarjeta-flip__img.fondo48(:style="{'background-image': `url(${require('@/assets/curso/tema2/mujer.png')})`}")
               p.ajustar.mb-0.text-center Beneficios para los 
               p.ajustar.mb-0.text-center clientes de servicios <i>cloud</i>
             .tarjeta-flip__contenido.p-4.p-xl-5.fondo16
@@ -106,7 +106,7 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/hombre.png')})`}")
+            .tarjeta-flip__img.fondo48(:style="{'background-image': `url(${require('@/assets/curso/tema2/hombre.png')})`}")
               p.ajustar.mb-0.text-center Beneficios para los 
               p.ajustar.mb-0.text-center proveedores de servicios <i>cloud</i>
             .tarjeta-flip__contenido.p-4.p-xl-5.fondo15
