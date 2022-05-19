@@ -42,7 +42,10 @@
             ul.lista-ul--color(data-aos="slide-right")
               li 
                 i.fas.fa-caret-right
-                span Determinar el responsable de lo que ocurre entre el proveedor y el cliente del servicio <i>cloud</i>. Qué sucede cuando se finaliza un contrato y cómo afecta en la eliminación/devolución de activos.
+                span Determinar el responsable de lo que ocurre entre el proveedor y el cliente del servicio <i>cloud</i>.
+              li 
+                i.fas.fa-caret-right
+                span Qué sucede cuando se finaliza un contrato y cómo afecta en la eliminación/devolución de activos.
               li
                 i.fas.fa-caret-right
                 span Separación y protección del entorno virtual del cliente.
@@ -94,7 +97,7 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right
-                  span.text-dark Reducción de riesgos y aseguramiento en las responsabilidades, tanto del cliente como del proveedor de servicios <i>cloud</i>, lo que facilita la toma de decisiones a la hora de iniciar un proyecto de migración de los servicios on-premise a la nube.
+                  span.text-dark Reducción de riesgos y aseguramiento en las responsabilidades, tanto del cliente como del proveedor de servicios <i>cloud</i>, lo que facilita la toma de decisiones a la hora de iniciar un proyecto de migración de los servicios <i>on-premise</i> a la nube.
                 li
                   i.fas.fa-caret-right
                   span.text-dark Gestión adecuada de los contratos de prestación de servicios con proveedores <i>cloud</i>, sus adiciones y ampliaciones requeridas por la organización.
@@ -134,7 +137,7 @@
         .row.justify-content-center.my-5.align-items-center
           .col-xl-10.col-md-12(data-aos="slide-left")
             img(src="@/assets/curso/tema2/figura4.svg")
-
+        p.mt-5 A continuación, se describen cada uno de estos dominios, teniendo en cuenta los objetivos propuestos para cada uno de ellos.
         .row.mt-5
           .col-xl-3.col-lg-4.col-md-5.col-9.fondo18(data-aos="slide-right")
             p.mb-0.text-center.text-white.py-2.text-bold Dominio 1. Políticas de Seguridad
@@ -211,7 +214,7 @@
                 .h5.mb-2 Contacto con las autoridades
                 p Siempre debe existir y mantenerse un contacto directo con las autoridades regulatorias y pertinentes ajustadas al core del negocio.
                 p Por su parte, en la implementación de la norma ISO 27017 por el lado del cliente de servicios <i>cloud</i>, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
-                p Por su lado, el proveedor de servicios <i>cloud</i> debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+                p Por su lado, el proveedor de servicios <i>cloud</i> debe acordar y documentar los roles en relación con sus clientes, proveedores y <i>partners</i> o suministradores.
 
               .tarjeta.fondo22.p-3(x="23%" y="82.5%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Contacto con grupos de interés
@@ -220,8 +223,7 @@
 
               .tarjeta.fondo22.p-3(x="23%" y="94%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Gestión de proyectos y la seguridad de la información
-                p Por su parte, en la implementación de la norma ISO 27017, por el lado del cliente de servicios <i>cloud</i>, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
-                p Por su lado el proveedor de servicios <i>cloud</i> debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+                p La seguridad de la información debe hacer parte integral de la gestión de proyectos, sin importar el tipo de proyecto a ser diseñado y desarrollado por la organización.
 
               .tarjeta.fondo22.p-3(x="64.5%" y="53.5%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Política de uso de dispositivos móviles

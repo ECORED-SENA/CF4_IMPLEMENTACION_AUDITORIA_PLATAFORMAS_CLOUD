@@ -80,7 +80,7 @@
             p.ms-5 Identificar los riesgos y evaluarlos es lo que permite definir los planes de tratamiento de riesgos; con la gestión realizada, se puede prevenir o disminuir la probabilidad de que se presenten ataques o incidentes de seguridad que afecten los datos, la información o los servicios que las organizaciones utilizan o prestan a sus clientes para el cumplimiento de su función misional.
           .col-xl-4.col-md-4.col-8(data-aos="slide-down")
             img(src="@/assets/curso/tema1/figura4.png")
-    p.my-4 En cuanto a los objetivos de Magerit, esta metodología establece unas metas de manera directa e indirecta, de acuerdo con el siguiente esquema:
+    p.my-4 En cuanto a los objetivos de <i>Magerit</i>, esta metodología establece unas metas de manera directa e indirecta, de acuerdo con el siguiente esquema:
     .row.correr-ambos.fondo8.mt-4
       .col-xl-12
         .row.justify-content-between.align-items-center.py-4
