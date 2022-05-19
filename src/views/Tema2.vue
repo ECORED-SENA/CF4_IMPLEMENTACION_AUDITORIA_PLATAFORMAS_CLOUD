@@ -29,9 +29,9 @@
               span.text-bold ISO 27017 
               span establece los controles de seguridad para servicios en la nube; está formada por 37 controles de seguridad en la nube que complementan la 
               span.text-bold ISO 27002
-              span , y de igual manera, contiene 7 controles nuevos específicos para cloud que, al ser utilizados en conjunto con la norma 
+              span , y de igual manera, contiene 7 controles nuevos específicos para <i>cloud</i> que, al ser utilizados en conjunto con la norma 
               span.text-bold ISO 27001
-              span , establecen controles específicos tanto para el proveedor de servicios cloud como para el cliente de servicios cloud; en ella se aclara cuáles son las responsabilidades y funciones tanto del proveedor como del cliente, a fin de lograr que los servicios ofrecidos y consumidos estén protegidos y se puedan incluir en un proceso de certificación 
+              span , establecen controles específicos tanto para el proveedor de servicios <i>cloud</i> como para el cliente de servicios <i>cloud</i>; en ella se aclara cuáles son las responsabilidades y funciones tanto del proveedor como del cliente, a fin de lograr que los servicios ofrecidos y consumidos estén protegidos y se puedan incluir en un proceso de certificación 
               span.text-bold ISO 27001.
 
     .row.correr-ambos.my-5
@@ -90,14 +90,14 @@
               .row
                 .col-xl-2.col-md-3.col-sm-2.col-2
                   img.my-5(src="@/assets/curso/tema2/nube.svg")
-              h4.text-dark.mb-4 Beneficios para los clientes de servicios cloud
+              h4.text-dark.mb-4 Beneficios para los clientes de servicios <i>cloud</i>
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right
-                  span.text-dark Reducción de riesgos y aseguramiento en las responsabilidades, tanto del cliente como del proveedor de servicios cloud, lo que facilita la toma de decisiones a la hora de iniciar un proyecto de migración de los servicios on-premise a la nube.
+                  span.text-dark Reducción de riesgos y aseguramiento en las responsabilidades, tanto del cliente como del proveedor de servicios <i>cloud</i>, lo que facilita la toma de decisiones a la hora de iniciar un proyecto de migración de los servicios on-premise a la nube.
                 li
                   i.fas.fa-caret-right
-                  span.text-dark Gestión adecuada de los contratos de prestación de servicios con proveedores cloud, sus adiciones y ampliaciones requeridas por la organización.
+                  span.text-dark Gestión adecuada de los contratos de prestación de servicios con proveedores <i>cloud</i>, sus adiciones y ampliaciones requeridas por la organización.
               br
               br
               br
@@ -113,16 +113,16 @@
               .row
                 .col-xl-2.col-md-3.col-sm-2.col-2(data-aos="zoom-left")
                   img.my-5(src="@/assets/curso/tema2/nube.svg")
-              h4.text-dark.mb-4 Beneficios para los proveedores de servicios cloud
+              h4.text-dark.mb-4 Beneficios para los proveedores de servicios <i>cloud</i>
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right
-                  span.text-dark Aumento de la confianza por parte de los clientes que utilizan o consumen servicios cloud. 
+                  span.text-dark Aumento de la confianza por parte de los clientes que utilizan o consumen servicios <i>cloud</i>. 
                 p.ms-3.text-dark Ofrecen mayores niveles de seguridad y protección de datos.
                 li
                   i.fas.fa-caret-right
-                  span.text-dark Generan una ventaja diferenciadora frente a la competencia existente en el mercado cloud.
-                p.ms-3.text-dark Mejora de la reputación y posicionamiento de la marca por la adopción e implementación de un estándar como el de ISO para el servicio cloud.
+                  span.text-dark Generan una ventaja diferenciadora frente a la competencia existente en el mercado <i>cloud</i>.
+                p.ms-3.text-dark Mejora de la reputación y posicionamiento de la marca por la adopción e implementación de un estándar como el de ISO para el servicio <i>cloud</i>.
                 p.ms-3.text-dark Garantía del cumplimiento con las normas legales locales.
                 p.ms-3.mb-5.text-dark Facilidad en la ampliación y accionar en el mercado internacional, ya que estas normas son reconocidas y certificadas a nivel mundial.
     .row.correr-ambos.my-5
@@ -178,7 +178,7 @@
                         p Revisión de las políticas para la seguridad de la información: el dinamismo de la tecnología, de los procesos y la mejora continua requiere que se hagan revisiones periódicas a las políticas de seguridad de la organización a fin de garantizar sus ajustes, adecuación, efectividad e idoneidad de estas políticas.
 
         p.mt-5(data-aos="slide-right") En la implementación de estos controles, según ISO 27017, se requiere, por parte del cliente de servicios en la nube, definir una política específica para la computación en nube, cuyo contenido sea consistente con los niveles de riesgo para los activos y la seguridad de la información considerados aceptables por la organización.  
-        p-mb-5(data-aos="slide-left") Por su parte, el proveedor de servicios cloud debería incrementar sus políticas de seguridad en relación con las actividades de provisión y uso de sus servicios de nube.
+        p-mb-5(data-aos="slide-left") Por su parte, el proveedor de servicios <i>cloud</i> debería incrementar sus políticas de seguridad en relación con las actividades de provisión y uso de sus servicios de nube.
         .row.mt-5
           .col-xl-4.col-xxl-3.col-lg-4.col-md-6.col-9.fondo18(data-aos="slide-left")
             p.mb-0.text-center.text-white.py-2.text-bold Dominio 2. Aspectos organizativos
@@ -210,8 +210,8 @@
               .tarjeta.fondo22.p-3(x="23%" y="72%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Contacto con las autoridades
                 p Siempre debe existir y mantenerse un contacto directo con las autoridades regulatorias y pertinentes ajustadas al core del negocio.
-                p Por su parte, en la implementación de la norma ISO 27017 por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
-                p Por su lado, el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+                p Por su parte, en la implementación de la norma ISO 27017 por el lado del cliente de servicios <i>cloud</i>, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
+                p Por su lado, el proveedor de servicios <i>cloud</i> debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
 
               .tarjeta.fondo22.p-3(x="23%" y="82.5%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Contacto con grupos de interés
@@ -220,8 +220,8 @@
 
               .tarjeta.fondo22.p-3(x="23%" y="94%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Gestión de proyectos y la seguridad de la información
-                p Por su parte, en la implementación de la norma ISO 27017, por el lado del cliente de servicios cloud, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
-                p Por su lado el proveedor de servicios cloud debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
+                p Por su parte, en la implementación de la norma ISO 27017, por el lado del cliente de servicios <i>cloud</i>, debe acordar con el proveedor la designación y descripción de las funciones y responsabilidades que tendrá cada rol, específicamente las funciones o roles de soporte y atención a incidencias.
+                p Por su lado el proveedor de servicios <i>cloud</i> debe acordar y documentar los roles en relación con sus clientes, proveedores y partners o suministradores.
 
               .tarjeta.fondo22.p-3(x="64.5%" y="53.5%" numero="+" tooltip="Click para leer...")
                 .h5.mb-2 Política de uso de dispositivos móviles
@@ -247,10 +247,10 @@
           h5 Figura 4 
           span <i>Controles de la seguridad en cuanto a los recursos humanos</i>
         .row.justify-content-center
-          .col-xl-10.col-md-10.col-sm-11(data-aos="slide-left")
+          .col-lg-12(data-aos="slide-left")
             img(src='@/assets/curso/tema2/organigrama.svg')
         .cajon.p-4.mt-5.color-acento-contenido(data-aos="slide-right")
-          p Para la implementación de estos controles en ISO 27017, el cliente debe incluir en sus programas de formación y concientización a gerentes de negocio, administradores, integradores y usuarios de los servicios de nube, además de todo el personal que da apoyo en la coordinación de las actividades de seguridad de la información; y por otra parte, el proveedor de servicios cloud, proporcionar programas de formación y concientización a todo el personal interno, reclamándolo de igual modo a sus proveedores, sobre el adecuado uso de los datos de los clientes.
+          p Para la implementación de estos controles en ISO 27017, el cliente debe incluir en sus programas de formación y concientización a gerentes de negocio, administradores, integradores y usuarios de los servicios de nube, además de todo el personal que da apoyo en la coordinación de las actividades de seguridad de la información; y por otra parte, el proveedor de servicios <i>cloud</i>, proporcionar programas de formación y concientización a todo el personal interno, reclamándolo de igual modo a sus proveedores, sobre el adecuado uso de los datos de los clientes.
     .row.correr-ambos.my-5
       .col-xl-12.fondo19.px-5  
         .row
@@ -258,37 +258,39 @@
             p.mb-0.text-center.text-white.py-2.text-bold Dominio 4. Gestión de activos 
         p.my-5 Busca garantizar que las organizaciones tengan el conocimiento certero frente a los activos con que cuentan para el desarrollo de su core de negocio, como un factor diferencial y necesario para la gestión y administración del riesgo. Los activos pueden clasificarse y tener los controles correspondientes, como se puede observar en el siguiente recurso didáctico:
         .row.justify-content-center
-          .col-xl-10(data-aos="slide-right")
+          .col-xl-12(data-aos="slide-right")
             ImagenInfograficaB.color-acento-botones.mb-5
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/figura5.svg')
+                  img.img-a.img-t(src='@/assets/curso/tema2/figura5.svg')
 
-              .tarjeta.p-3(x="21.4%" y="78%" numero="+" tooltip="Click para leer...")
+              .tarjeta.p-3(x="26%" y="78.3%" numero="" tooltip="Click para leer...")
                 .h5.mb-4 CLASIFICACIÓN
                 p.text-bold Recursos de tipo información:
-                p en esta categoría de activos, se incluyen, pero no se limita a: archivos, manuales, bases de datos, documentación de aplicaciones y servicios, políticas y procedimientos de soporte, planes de continuidad del negocio y planes de recuperación de desastres, entre otras.
+                p En esta categoría de activos, se incluyen, pero no se limita a: archivos, manuales, bases de datos, documentación de aplicaciones y servicios, políticas y procedimientos de soporte, planes de continuidad del negocio y planes de recuperación de desastres, entre otras.
                 p.text-bold Recursos de tipo <i>software</i>: 
-                p esto incluye todos los activos relacionados con herramientas <i>software</i>, como: sistemas operativos, aplicaciones propietarias y de terceros, herramientas de desarrollo y publicación de contenidos, utilitarios, entre otros.
+                p Esto incluye todos los activos relacionados con herramientas <i>software</i>, como: sistemas operativos, aplicaciones propietarias y de terceros, herramientas de desarrollo y publicación de contenidos, utilitarios, entre otros.
                 p.text-bold Recursos de tipo <i>hardware</i>:
-                p hacen parte de esta categoría todo el equipamiento físico, como computadores, servidores, impresoras, procesadores, memorias, monitores; los equipos de comunicación, como <i>switches, routers, PABXs, Access Points, Firewalls</i>, entre otros; los medios de almacenamiento, como discos duros, cintas, dispositivos móviles de almacenamiento de datos, memorias USB, discos externos, entre otros.
+                p Hacen parte de esta categoría todo el equipamiento físico, como computadores, servidores, impresoras, procesadores, memorias, monitores; los equipos de comunicación, como <i>switches, routers, PABXs, Access Points, Firewalls</i>, entre otros; los medios de almacenamiento, como discos duros, cintas, dispositivos móviles de almacenamiento de datos, memorias USB, discos externos, entre otros.
                 
-              .tarjeta.p-3(x="82%" y="52%" numero="+" tooltip="Click para leer...")
+              .tarjeta.p-3(x="76.9%" y="52%" numero="" tooltip="Click para leer...")
                 SlyderA(tipo="b")
                   .row.justify-content-center
-                    .col-xl-11
+                    .col-xl-12
                       .h5.mb-5 CONTROLES
                       figure
                         img(src='@/assets/curso/tema2/figura6.svg')
                   .row.justify-content-center
                     .col-xl-12
                       .h5.mb-5 1. Responsabilidad sobre los activos
+                      p Se deben identificar los activos categorizados en cada una de las áreas especificadas con anterioridad, de esta forma, se garantizan las estrategias de protección para cada uno.
                       p Responsabilidad sobre los activos
-                      img(src='@/assets/curso/tema2/figura7.svg')
+                      img.mt-5(src='@/assets/curso/tema2/figura7.svg')
                   .row.justify-content-center
                     .col-xl-12
                       .h5.mb-5 2. Clasificación de la información
-                      p Este control tiene por objetivo determinar el nivel adecuado de protección de la información y recursos informáticos, según su nivel de criticidad. Al hacer la clasificación, deben tenerse en cuenta algunas variables que determinarán su nivel de importancia o criticidad, dentro de las cuales están: sensibilidad, cumplimiento legal o contractual, valor, e importancia para la organización.
+                      p Este control tiene por objetivo determinar el nivel adecuado de protección de la información y recursos informáticos, según su nivel de criticidad. 
+                      p Al hacer la clasificación, deben tenerse en cuenta algunas variables que determinarán su nivel de importancia o criticidad, dentro de las cuales están: sensibilidad, cumplimiento legal o contractual, valor, e importancia para la organización.
                       .row.justify-content-center
                         .col-xl-10
                           img(src='@/assets/curso/tema2/figura8.svg')
@@ -310,7 +312,7 @@
         p.mb-5(data-aos="flip-right") Para garantizar el cumplimiento de este objetivo, la norma establece los siguientes controles, que puede consultar a continuación:
         
         .row.justify-content-center
-          .col-xl-10(data-aos="slide-left")
+          .col-xl-12(data-aos="slide-left")
             ImagenInfograficaB.color-acento-botones.mb-5
               template(v-slot:imagen)
                 figure
@@ -339,6 +341,7 @@
                     img.me-5(src='@/assets/curso/tema2/figura20.svg')
               .tarjeta.p-3(x="50%" y="86.1%" numero="" tooltip="Click para leer...")
                 .h5.mb-4 3. Responsabilidades del usuario
+                p Se debe crear conciencia del rol que tienen los usuarios como responsables de la protección de su información asignada para el acceso a los sistemas.
                 .row.justify-content-center.align-items-center
                   .col-xl-10.col-md-10.col-sm-10
                     img.me-5(src='@/assets/curso/tema2/figura13.svg')
@@ -396,27 +399,27 @@
             AcordionA(tipo="b" clase-tarjeta="tarjeta fondo26")
               .row(titulo="Perímetro de seguridad física:")
                 .col-md-12.mb-4.mb-md-0
-                  p se deberían establecer y utilizar perímetros de seguridad para proteger las áreas que contienen información sensible o crítica.
+                  p Se deberían establecer y utilizar perímetros de seguridad para proteger las áreas que contienen información sensible o crítica.
 
               .row(titulo="Controles físicos de entrada:")
                 .col-md-12.mb-4.mb-md-0
-                  p definidas las áreas seguras, estas deben contar con controles que permitan el acceso solo a las personas autorizadas.
+                  p Definidas las áreas seguras, estas deben contar con controles que permitan el acceso solo a las personas autorizadas.
 
               .row(titulo="Seguridad de oficinas, salas y demás espacios físicos:")
                 .col-md-12.mb-4.mb-md-0
-                  p todas las zonas y espacios físicos de la organización deben contar con un sistema de seguridad física.
+                  p Todas las zonas y espacios físicos de la organización deben contar con un sistema de seguridad física.
 
               .row(titulo="Protección contra las amenazas externas y ambientales: ")
                 .col-md-12.mb-4.mb-md-0
-                  p deberían existir controles y políticas que permitan mitigar los daños o riesgos asociados con desastres naturales, accidentes o incidentes que involucren ataques maliciosos.
+                  p Deberían existir controles y políticas que permitan mitigar los daños o riesgos asociados con desastres naturales, accidentes o incidentes que involucren ataques maliciosos.
 
               .row(titulo="El trabajo en áreas seguras:")
                 .col-md-12.mb-4.mb-md-0
-                  p se deberían diseñar y aplicar políticas y procedimientos para el desarrollo de trabajos y actividades en las áreas seguras definidas.
+                  p Se deberían diseñar y aplicar políticas y procedimientos para el desarrollo de trabajos y actividades en las áreas seguras definidas.
 
               .row(titulo="Áreas de acceso público para carga y descarga:")
                 .col-md-12.mb-4.mb-md-0
-                  p se deberían establecer los controles para los puntos de acceso a la organización, como las áreas de entrega y carga/descarga (entre otros), para evitar el ingreso de personas no autorizadas a las dependencias, aislando estos puntos, en la medida de lo posible, de las instalaciones de procesamiento de información.
+                  p Se deberían establecer los controles para los puntos de acceso a la organización, como las áreas de entrega y carga/descarga (entre otros), para evitar el ingreso de personas no autorizadas a las dependencias, aislando estos puntos, en la medida de lo posible, de las instalaciones de procesamiento de información.
           .col-xl-5.col-md-4.col-sm-5.col-8
             img(src='@/assets/curso/tema2/imagen8.jpg')
         .row.mt-3
@@ -453,7 +456,7 @@
         LineaTiempoD.color-secundario
           p.text-small.text-maspeq(numero="6" titulo="<p class='text-maspeq' style='font-weight:bold; margin-top: 10px'>Seguridad de los equipos y activos fuera de las instalaciones</p>") Si por requerimientos propios de la organización se requiere el trabajo fuera de la empresa, los equipos y activos utilizados para esta actividad deberían contar con toda la protección.
           
-          p.text-small.text-maspeq(numero="7" titulo="<p class='text-maspeq' style='font-weight:bold; margin-top: 10px'>Reutilización o retirada segura de dispositivos de almacenamiento</p>") Todos los equipos que tengan dispositivos de almacenamiento deben ser revisados en busca de información sensible antes de su eliminación o reutilización.
+          p.text-small.text-maspeq(numero="7" titulo="<p class='text-maspeq' style='font-weight:bold; margin-top: 10px'>Reutilización o retirada segura de dispositivos de almacenamiento</p>") Si se externaliza el desarrollo de sistemas con terceros, la organización debería contar con las estrategias, políticas y procedimientos para la supervisión y monitoreo de estas actividades en el proveedor.
           
           p.text-small.text-maspeq(numero="8" titulo="<p class='text-maspeq' style='font-weight:bold; margin-top: 12px'>Equipo informático de usuario desatendido</p>") Si en la organización existen empleados, contratistas, proveedores o terceros que utilicen equipos no controlados por la organización, son estos los responsables de garantizar la protección adecuada de dichos recursos.
           
@@ -684,9 +687,11 @@
           <td rowspan='3' class='borde-tabla fondo28'>Seguridad de la información en las relaciones con proveedores</td>
           <td rowspan='3' class='borde-tabla fondo28'>Se deberían proteger los datos e información que por su particularidad requieran ser utilizados por proveedores o terceros con quien se tenga algún tipo de contrato o vínculo.</td>
         tr.fondo28.borde-abajo-gris
-          td Tratamiento del riesgo dentro de acuerdos de suministro. Se deberían establecer y acordar los requerimientos de seguridad pertinentes y ajustados a cada proveedor que requiera acceder, procesar, almacenar, comunicar o proporcionar componentes de infraestructura que soportan la información de la organización.
+          td Política de seguridad de la información para proveedores.<br>Se deberían establecer y firmar acuerdos y políticas de confidencialidad y seguridad que incluyan requisitos de seguridad de la información, con el objetivo de mitigar los riesgos asociados al acceso por parte de proveedores y terceras personas.
+
         tr.fondo28
-          td Documentación de procedimientos de operación. Todos los procesos operativos dentro de la organización deben estar debidamente documentados y a disposición cuando sean requeridos.
+          td Tratamiento del riesgo dentro de acuerdos de suministro.<br>Se deberían establecer y acordar los requerimientos de seguridad pertinentes y ajustados a cada proveedor que requiera acceder, procesar, almacenar, comunicar o proporcionar componentes de infraestructura que soportan la información de la organización.
+
         tr.borde-abajo
           <td rowspan='3' class='borde-tabla fondo29'>Gestión de la prestación del servicio por proveedores</td>
           <td rowspan='3' class='borde-tabla fondo29'>Establecer acuerdos de nivel de seguridad ajustados a cada proveedor que permitan mantener una provisión adecuada y alineada de los servicios con estos acuerdos.</td>
@@ -724,7 +729,27 @@
         .row.justify-content-center.my-5
           .col-xl-9(data-aos="slide-right")
             img(data-aos="slide-right")(src='@/assets/curso/tema2/grafica3.svg')
-        .row
+        .row.justify-content-center
+          .col-lg-6
+            ol.lista-ol
+              li 
+                span.text-bold 1. 
+                p.mb-0 La organización debería disponer de las estrategias de seguridad y protección durante situaciones adversas provocadas por una caída, crisis o fallas de los sistemas.
+
+              li 
+                span.text-bold 2. 
+                p.mb-0 La organización debería establecer, documentar, implementar y mantener los procesos, procedimientos y controles para garantizar el mantenimiento necesario de la seguridad de la información durante situaciones adversas.
+          .col-lg-6                
+            ol.lista-ol
+              li 
+                span.text-bold 3. 
+                p.mb-0 La organización debería hacer revisiones periódicas a los controles de continuidad de seguridad de la información establecidos, para garantizar su validez y eficacia ante situaciones de desastres.
+
+              li 
+                span.text-bold 4. 
+                p.mb-0 Se deberían implementar redundancias con tolerancia a fallos, incluyendo otras instalaciones de procesamiento de datos, en correspondencia con los requerimientos y necesidades de disponibilidad.
+
+        .row.mt-5
           .col-xl-3.col-lg-2.col-md-4.col-7.fondo18.ms-4(data-aos="slide-right")
             p.mb-0.text-center.text-white.py-2.text-bold Dominio 14. Cumplimiento
     .row.justify-content-center.mb-5.align-items-center

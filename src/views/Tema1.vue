@@ -250,8 +250,8 @@
           h5 Figura 2
           span <i>Pasos de la metodología NIST SP-830</i>
         .row.justify-content-center.align-items-center
-          .col-xl-10
-            img(data-aos="fade-down-right")(src="@/assets/curso/tema1/figura9.png")
+          .col-10
+            img.img-a.imgt(data-aos="fade-down-right")(src="@/assets/curso/tema1/figura9.png")
     .row.justify-content-center
       .col-xl-7.col-md-12(data-aos="fade-down-right")
         p.my-4 En cuanto a los objetivos de la metodología NIST SP-830, se tienen los siguientes:

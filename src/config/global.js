@@ -239,8 +239,7 @@ export default {
       texto:
         'Superintendencia de Industria y Comercio. (s. f.). Guía para la implementación del principio de responsabilidad demostrada (Accountability). ',
       tipo: 'PDF',
-      link:
-        'https://www.sic.gov.co/sites/default/files/files/Publicaciones/Guia-Accountability.pdf',
+      descarga: '/downloads/Guia_Accountability.pdf',
     },
     {
       texto: 'Normas ISO. (s. f.). ISO 27001 Seguridad de la información.',

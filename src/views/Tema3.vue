@@ -11,8 +11,8 @@
       .col-xl-12.px-5
         .row.justify-content-center.mb-5
           .col-xl-7.col-md-11(data-aos="flip-up")
-            p Las buenas prácticas que generan seguridad en el escenario de la computación en la nube son uno de los propósitos de Cloud Security Alliance (CSA), por esta razón, han elaborado una hoja de ruta práctica y ejecutable, con el fin de que las organizaciones puedan afrontar el reto que significa el almacenaje en la nube.
-            p Esto no quiere decir que esta organización (CSA) desee crear una nueva clasificación de referencia, por el contrario, se trata de un modelo en armonía con los ya existentes, especialmente el modelo de trabajo NIST Special Publication 800-145, ISO/IEC 17788 e ISO/IEC 17789, solo que hay mayor concentración en aspectos de seguridad requeridos por profesionales en el ramo.
+            p Las buenas prácticas que generan seguridad en el escenario de la computación en la nube son uno de los propósitos de <i>cloud</i> Security Alliance (CSA), por esta razón, han elaborado una hoja de ruta práctica y ejecutable, con el fin de que las organizaciones puedan afrontar el reto que significa el almacenaje en la nube.
+            p Esto no quiere decir que esta organización (CSA) desee crear una nueva clasificación de referencia, por el contrario, se trata de un modelo en armonía con los ya existentes, especialmente el modelo de trabajo #[b NIST] <i>Special Publication </i>800-145, #[b ISO/IEC] 17788 e #[b ISO/IEC] 17789, solo que hay mayor concentración en aspectos de seguridad requeridos por profesionales en el ramo.
           .col-xl-5.col-md-6.col-10(data-aos="zoom-in")
             img(src="@/assets/curso/tema3/figura1.svg")
         .row.justify-content-center.mb-4
@@ -65,15 +65,15 @@
       .col-xxl-5.col-xl-6.col-lg-7.col-md-10.fondo18(data-aos="slide-right")
         p.mb-0.text-center.text-white.py-3.text-bold Dominio 1. Conceptos y arquitecturas de la computación en la nube.
 
-    p.mb-5(data-aos="flip-up") En este dominio, se describe y define la computación en la nube, se referencia una terminología básica, y se detalla la lógica general y el marco arquitectónico utilizados en el resto del documento. (ISMS Forum, 2021)
+    p.mb-5(data-aos="flip-up") En este dominio, se describe y define la computación en la nube, se referencia una terminología básica, y se detalla la lógica general y el marco arquitectónico utilizados en el resto del documento. (ISMS <i>Forum </i>, 2021)
     
     SlyderA.cambio-estilo.fondo32(tipo="b")
       .row.justify-content-center
-        .col-xl-4(data-aos="flip-up")
+        .col-xl-7(data-aos="flip-up")
           .h5.mb-5 Definición y computación en la nube.
           p NIST especifica que “la computación en la nube, es un modelo para permitir el acceso de red generalizado, útil y por solicitud de un grupo compartido de recursos informáticos configurables (es decir, redes, servidores, almacenamiento, aplicaciones y servicios), que pueden aprovisionarse y liberarse rápidamente, con un mínimo esfuerzo o interacción del proveedor de servicio”.
           p Para ISO/IEC, es equivalente, pues es un prototipo que permite el acceso de red a un grupo de recursos compartidos, escalables, y elásticos, físicos o virtuales, con suministro de autoservicio y administración bajo demanda.
-        .col-xl-7(data-aos="zoom-in")
+        .col-xl-5(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema3/grafica1.svg')
       .row.justify-content-center
@@ -83,16 +83,16 @@
         .col-xl-7(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/grafica2.svg')
       .row.justify-content-center
-        .col-xl-4(data-aos="flip-up")
+        .col-xl-7(data-aos="flip-up")
           .h5.mb-5 Modelo conceptual, arquitectónico y de referencia de la nube.
           p Las tecnologías actuales y su constante cambio y evolución hacen casi imposible poder definir un modelo arquitectónico y de referencia de la computación en la nube, porque constantemente debería estar siendo actualizado. Sin embargo, podemos puntualizar un modelo simple, donde el <i>software</i> como servicio es soportado por la plataforma como servicio, y esta a su vez es soportada por la infraestructura como servicio, como se explica en la siguiente gráfica
-        .col-xl-7
+        .col-xl-5
           img(src='@/assets/curso/tema3/grafica3.svg')
       .row.justify-content-center
-        .col-xl-4(data-aos="flip-up")
+        .col-xl-7(data-aos="flip-up")
           .h5.mb-5 Alcance, responsabilidades y modelos de seguridad y cumplimiento de la nube.
-          p La seguridad en cloud y el cumplimiento incluyen todo lo que un equipo de seguridad es responsable actualmente en los servicios on-premise, solo que para este caso aplica para servicios en la nube. Todos los dominios y controles, según el marco utilizado, son los mismos a los utilizados en los servicios tradicionales, solamente cambia la naturaleza de los riesgos, roles y responsabilidades, así como cambia la implementación de los controles, a menudo dramáticamente. A continuación, se muestra un modelo de proceso de seguridad en la nube simple:
-        .col-xl-7(data-aos="zoom-in")
+          p La seguridad en <i>cloud</i> y el cumplimiento incluyen todo lo que un equipo de seguridad es responsable actualmente en los servicios on-premise, solo que para este caso aplica para servicios en la nube. Todos los dominios y controles, según el marco utilizado, son los mismos a los utilizados en los servicios tradicionales, solamente cambia la naturaleza de los riesgos, roles y responsabilidades, así como cambia la implementación de los controles, a menudo dramáticamente. A continuación, se muestra un modelo de proceso de seguridad en la nube simple:
+        .col-xl-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/grafica4.svg')
     .row.my-5
       .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-10.fondo18(data-aos="slide-right")
@@ -145,7 +145,7 @@
           
           p.text-small(numero="2" titulo="Característica del servicio") Comprender qué características y servicios de un proveedor de nube están dentro del alcance de qué auditorías y evaluaciones.
           
-          p.text-small(numero="3" titulo="Cumplimiento") Gestionar el cumplimiento legal y las auditorías a lo largo del tiempo.
+          p.text-small(numero="3" titulo="Cumplimiento legal") Gestionar el cumplimiento legal y las auditorías a lo largo del tiempo.
           p.text-small(numero="4" titulo="Trabajo con reguladores") Trabajar con reguladores y auditores que pueden carecer de experiencia con la tecnología de computación en la nube.
 
           p.text-small(numero="5" titulo="Trabajo con proveedores") Trabajar con proveedores que pueden carecer de experiencia en auditoría y cumplimiento legal normativo.
@@ -188,7 +188,7 @@
         .row
           .col-md-6(data-aos="flip-up")
             h4 Acuerdos de servicios en la nube (contratos)
-            p Corresponde a la obligación que tienen las empresas que adquieren servicios en la nube y ofrecen servicios como PaaS a sus clientes, donde se firman acuerdos de protección de los datos, y también en los contratos de soporte y acuerdos de niveles de servicios SLA firmados entre el proveedor de servicios y el cliente de servicios en la nube.
+            p Corresponde a la obligación que tienen las empresas que adquieren servicios en la nube y ofrecen servicios como <i>PaaS</i> a sus clientes, donde se firman acuerdos de protección de los datos, y también en los contratos de soporte y acuerdos de niveles de servicios SLA firmados entre el proveedor de servicios y el cliente de servicios en la nube.
           .col-md-6.mb-4.mb-md-0(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/tema3/imagen8.jpg')        
@@ -211,13 +211,13 @@
       .col-xl-7.col-lg-6.col-md-10.col-sm-10.col-12(data-aos="flip-up")
         p La seguridad de la información tiene por objetivo principal la protección de los datos que son utilizados en las aplicaciones y sistemas informáticos de las organizaciones. Al migrar servicios a la nube, se vienen nuevos desafíos debido a la elasticidad y entornos multipropietarios, ya que estos datos pueden ser transferidos a entornos externos o públicos.
         p El gobierno de la información/gobierno del dato se define como la garantía ofrecida respecto al uso adecuado de los datos e información, de acuerdo con las políticas, estándares y estrategias organizacionales, donde también se tienen en cuenta los objetivos de regulación (hasta dónde va el alcance de dicha regulación), los objetivos contractuales (cuál es la meta del contrato establecido) y los de negocio (qué y cómo se permite la transacción entre las partes).
-        p En cuanto al gobierno de la información y de los datos, hay una serie de características del uso de la nube y de almacenamiento de información que pueden afectar (ISMS Forum, 2021), entre los cuales están:
+        p En cuanto al gobierno de la información y de los datos, hay una serie de características del uso de la nube y de almacenamiento de información que pueden afectar (ISMS <i>Forum </i>, 2021), entre los cuales están:
 
     SlyderA.cambio-estilo.fondo32(tipo="b")
       .row.justify-content-center
         .col-xl-4(data-aos="flip-up")
           .h5.mb-5 Multi-propiedad
-          p Implica cuidadosamente la seguridad delicada. Cuando se guarda información en nubes públicas, esta se almacena en infraestructuras compartidas con otros propietarios (“tenants”), sobre los que no se puede establecer confianza por completo.
+          p Implica cuidadosamente la seguridad delicada. Cuando se guarda información en nubes públicas, esta se almacena en infraestructuras compartidas con otros propietarios (“<i>tenants</i>”), sobre los que no se puede establecer confianza por completo.
         .col-xl-7(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema3/imagen11.png')
@@ -302,7 +302,7 @@
       .col-xl-8.col-md-10.col-sm-12(data-aos="zoom-in")
         p La virtualización es la tecnología fundamental que permite la computación en la nube; no es solo una herramienta para crear máquinas virtuales, siendo la computación en la nube una tecnología que agrupa una gran cantidad de recursos; es ahí donde la virtualización permite el agrupamiento de estos recursos, que posteriormente serán administrados a través de la orquestación.
         p Los recursos que esencialmente son utilizados para grupos virtualizados son:
-        .row.justify-content-start
+        .row.justify-content-start.my-5
           .col-xl-3.boton10.ms-2
             img.organizar-ico(src='@/assets/curso/tema3/computacion.svg')
             p.text-center.text-bold.mt-3.organizar-texto Computación
@@ -327,6 +327,7 @@
           .col-xl-9.col-md-10.col-sm-10(data-aos="zoom-in")
             img(src='@/assets/curso/tema3/grafica7.svg')
         p.my-5.text-center Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
+        p.mb-5 Las siguientes son algunas de las recomendaciones a tener en cuenta para este dominio.
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
           h5 Figura 11
           span <i>Recomendaciones de seguridad en las capas de control</i>
@@ -385,7 +386,7 @@
             p.mb-0.text-center.text-white.py-3.text-bold Dominio 10. Seguridad de aplicaciones
         .row.justify-content-center.my-5
           .col-xl-8.col-md-10.col-sm-12(data-aos="flip-up")
-            p El dominio correspondiente a la seguridad de la aplicación está destinado a los equipos de desarrollo de <i>software</i> y TI que busquen el desarrollo de aplicaciones seguras en entornos de computación en la nube, en especial, PaaS e IaaS (varias de las técnicas en esta sección son usadas para respaldar aplicaciones de SaaS seguras). (CSA, 2018).
+            p El dominio correspondiente a la seguridad de la aplicación está destinado a los equipos de desarrollo de <i>software</i> y TI que busquen el desarrollo de aplicaciones seguras en entornos de computación en la nube, en especial, <i>PaaS</i> e <i>PaaS</i> (varias de las técnicas en esta sección son usadas para respaldar aplicaciones de <i>SaaS</i> seguras). (CSA, 2018).
             p En este dominio, usted se centrará en:    
             ul.lista-ul--color(data-aos="slide-left")
               li 
@@ -393,7 +394,7 @@
                 span Cómo difiere la seguridad de la aplicación en la nube.
               li
                 i.fas.fa-caret-right
-                span Revisar los aspectos básicos de desarrollo de software seguro y cómo estos cambian en la nube. 
+                span Revisar los aspectos básicos de desarrollo de <i>software</i> seguro y cómo estos cambian en la nube. 
               li 
                 i.fas.fa-caret-right
                 span Aprovechar las capacidades de la nube para desarrollar aplicaciones en la nube más seguras.
@@ -426,7 +427,7 @@
 
       .row(titulo="Modelos de amenazas")
         .col-md-7.mb-4.mb-md-0
-          p.mt-5.ms-5 Los modelos de amenazas, SAST y DAST (con fuzzing), deberían estar todos integrados. Las pruebas deben ser configuradas para trabajar en el entorno de la nube y también para revisar las preocupaciones específicas de las plataformas de nube, como las credenciales almacenadas en las API. Comprender las nuevas opciones y requisitos de arquitectura en la nube. Actualizar las políticas y estándares de seguridad para soportarlos, y no simplemente intentar forzar los estándares existentes en un modelo informático completamente diferente.
+          p.mt-5.ms-5 Los modelos de amenazas, SAST y DAST (con <i>Fuzzing</i>), deberían estar todos integrados. Las pruebas deben ser configuradas para trabajar en el entorno de la nube y también para revisar las preocupaciones específicas de las plataformas de nube, como las credenciales almacenadas en las API. Comprender las nuevas opciones y requisitos de arquitectura en la nube. Actualizar las políticas y estándares de seguridad para soportarlos, y no simplemente intentar forzar los estándares existentes en un modelo informático completamente diferente.
       
         .col-md-3.col-6
           figure
@@ -475,9 +476,12 @@
         .row.justify-content-end
           .col-xxl-8.col-xl-9.col-lg-10.col-md-11
             p.texto-end Nota. Adaptada de la Guía de seguridad de áreas críticas para la computación en la nube V4.0
+    
         .row.mt-5
           .col-xl-5.col-lg-6.col-md-8.col-sm-11.col-11.fondo18(data-aos="slide-right")
             p.mb-0.text-center.text-white.py-3.text-bold Dominio 12. Gestión de identidades, derechos y accesos.
+    .row.correr-ambos.fondo40
+      .col-xl-12.p-5.pt-0          
         .row.justify-content-center.my-5
           .col-xl-7.col-md-8.col-sm-10.col-12(data-aos="flip-up")
             p Este dominio se centra principalmente en la gestión de identidades y el control de acceso entre una organización y los proveedores de servicio, o bien entre los proveedores y los servicios ofrecidos. 
@@ -486,6 +490,7 @@
             p Las siguientes son las recomendaciones para este dominio:
           .col-xl-5.col-md-6.col-sm-6.col-6(data-aos="zoom-in")
             img(src='@/assets/curso/tema3/figura13.svg')
+          
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="flip-right")
           h5 Figura 14
           span <i>Recomendaciones para la gestión de identidades, derechos y accesos</i>
@@ -501,7 +506,7 @@
 
         .row.justify-content-center.mt-5
           .col-xl-7.mb-5(data-aos="slide-right")
-            p Si bien el guía de seguridad de áreas críticas para la computación en la nube v4.0 se centra en la protección de los servicios, plataformas y despliegues hechos en la nube, los proveedores de servicios cloud han desarrollado el servicio SecaaS (Seguridad como servicio), ofreciendo a través de este nuevo modelo capacidades de seguridad como servicio.
+            p Si bien el guía de seguridad de áreas críticas para la computación en la nube v4.0 se centra en la protección de los servicios, plataformas y despliegues hechos en la nube, los proveedores de servicios <i>cloud</i> han desarrollado el servicio SecaaS (Seguridad como servicio), ofreciendo a través de este nuevo modelo capacidades de seguridad como servicio.
             p La seguridad como servicio se corresponde con un abanico amplio de tecnologías, que de forma general deben cumplir con los siguientes criterios: 
             ul.lista-ul--color(data-aos="slide-right")
               li 
@@ -523,7 +528,7 @@
                 span Gestión de identidades, derechos y accesos
               li
                 i.fas.fa-caret-right
-                span Agentes de acceso y seguridad a la nube - Cloud Security Gateway
+                span Agentes de acceso y seguridad a la nube - <i>cloud</i> Security Gateway
               li
                 i.fas.fa-caret-right
                 span Seguridad de correo electrónico

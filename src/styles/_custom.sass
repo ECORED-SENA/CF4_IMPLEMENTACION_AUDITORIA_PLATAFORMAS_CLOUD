@@ -284,6 +284,14 @@
 .bloque-texto-g__img 
   width: 47.2% !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto   
+
 .borde-abajo
   border-bottom: 4px solid #fff !important
 
@@ -846,3 +854,23 @@
 @media (max-width: 385px)
   .text-maspeq
     font-size: 0.6em
+
+.img-infografica__item__dot::before, .img-infografica__item__dot::after, .img-infografica-b__item__dot::before, .img-infografica-b__item__dot::after
+  opacity: .1    
+  
+
+.bg_img
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario, .tarjeta--azul
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 4rem
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/tema3/fondo4.jpg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center 
