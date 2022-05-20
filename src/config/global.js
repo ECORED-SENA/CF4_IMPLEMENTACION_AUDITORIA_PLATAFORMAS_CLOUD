@@ -95,6 +95,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '4.4',
             titulo: 'Cómo utilizar el <em>framework CSF</em>',
+            hash: 'framework',
           },
         ],
       },

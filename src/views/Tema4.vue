@@ -165,7 +165,7 @@
         p.mt-3 Los perfiles son la única formación de una organización, a nivel de sus requisitos y objetivos organizacionales, la tolerancia al riesgo y los recursos, con respecto a los resultados deseados del <i>Framework Core</i>. Pueden utilizarse para identificar las oportunidades de mejora frente a la <i>ciberseguridad</i>, mediante una comparación entre el perfil “actual” y el perfil “objetivo”.
         p En relación con el perfil actual, este permite a las organizaciones hacer una revisión objetiva-real (sin que implique auditorías formales u otras evaluaciones técnicas) del programa de <i>ciberseguridad</i> que se sigue, en relación con el CFS, y de esta forma, enterarse de cuál es la situación que se vive. De acuerdo con el riesgo organizacional, los requisitos de cumplimiento y los objetivos organizacionales, se puede generar el perfil objetivo, que, al ser comparado con el perfil actual, ofrecerá la estrategia de liderazgo y las prioridades para: contratación, capacitación, cambio o actualización de políticas, cambios en los procedimientos y adquisición de tecnología.
     separador
-    #riesgos.titulo-segundo.color-acento-contenido(data-aos="fade")
+    #framework.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.4  Cómo utilizar el <em>framework CSF</em> 
     .row.correr-ambos.mb-5
       .col-xl-12.fondo42
