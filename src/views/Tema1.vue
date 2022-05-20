@@ -143,10 +143,10 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-caret-right
-                | Sistemas (<i>hardware, software</i> y datos)
+                p.mb-0 Sistemas <i>hardware, software</i> y datos
               li
                 i.fas.fa-caret-right
-                | Personal involucrado en los procesos de TI
+                p.mb-0 Personal involucrado en los procesos de TI
         .titulo-segundo2.color-acento-contenido.my-5(data-aos="fade")
           h3 Metodología CORAS (Construir una plataforma para el análisis de riesgos del sistema crítico de seguridad).
         p.mb-5 <i>Fue construida en el año 2001 por SINTEF, la cual es una organización de investigación noruega que recibe financiamiento de organizaciones del sector público y privado. Su desarrollo fue financiado por la Unión Europea bajo el Proyecto CORAS (IST-2000-25031).</i>
