@@ -10,12 +10,12 @@
             img(src="@/assets/curso/actividad/seleccion-multiple.svg", alt="Selección múltiple")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
-        p.mb-4 Conceptos de marcos de seguridad en la auditoría técnica en <i>cloud</i>
+          h2 Conceptos de marcos de seguridad en la auditoría técnica en <i>cloud</i>
+        p.mb-4 Afianzar algunos de los conceptos más importantes de la ciberseguridad en <i>cloud</i>
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Afianzar algunos de los conceptos más importantes de la ciberseguridad en <i>cloud</i>
+              p.fw-bold.mb-0 Selección múltiple.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad01/index.html')" target="_blank")
                 span Realizar

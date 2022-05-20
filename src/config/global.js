@@ -38,7 +38,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Que es el análisis de riesgos',
+            titulo: 'Qué es el análisis de riesgos',
             hash: 'riesgos',
           },
           {
@@ -94,8 +94,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Metodologías utilizadas en el análisis de riesgos',
-            hash: 'riesgos',
+            titulo: 'Cómo utilizar el <em>framework CSF</em>',
           },
         ],
       },
@@ -174,7 +173,7 @@ export default {
     },
     {
       referencia:
-        'Rizzo, D. (2019). Ciberseguridad implementando el “Nist Cybersecurity Framework”. Universidad de Buenos Aires.',
+        'Rizzo, D. (2019). Ciberseguridad implementando el “NIST Cybersecurity Framework”. Universidad de Buenos Aires.',
       link:
         'http://bibliotecadigital.econ.uba.ar/download/tpos/1502-1460_RizzoD.pdf',
     },

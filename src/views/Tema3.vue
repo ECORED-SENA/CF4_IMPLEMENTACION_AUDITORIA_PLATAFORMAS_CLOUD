@@ -19,7 +19,7 @@
           .col-xl-6.col-md-8.col-10(data-aos="zoom-in")
             img(src="@/assets/curso/tema3/figura2.svg")
           .col-xl-6.col-md-11(data-aos="flip-up")
-            p En esta versión 4.0, hay una serie de dominios que deben tenerse en cuenta, estos s            
+            p En esta versión 4.0, hay una serie de dominios que deben tenerse en cuenta, estos son:            
             ul.lista-ul--color(data-aos="slide-left")
               li 
                 i.fas.fa-caret-right
@@ -103,7 +103,7 @@
       .row.justify-content-center
         .col-xl-4(data-aos="flip-up")
           .h5.mb-5 El gobierno incluye
-          p Corresponde con la políticas, procesos y controles internos que determinan cómo funciona la organización. Regula todo lo misional, es decir, la estructura y las políticas internas, hasta el liderazgo de procesos y personas, y cada uno de los mecanismos de gestión para conseguirlo.
+          p Corresponde con las políticas, procesos y controles internos que determinan cómo funciona la organización. Regula todo lo misional, es decir, la estructura y las políticas internas, hasta el liderazgo de procesos y personas, y cada uno de los mecanismos de gestión para conseguirlo.
         .col-xl-7
           figure
             img(src='@/assets/curso/tema3/imagen1.png')
@@ -172,7 +172,7 @@
 
       .col-xl-5.col-md-4.col-sm-5(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/imagen6.jpg')
-    p.my-5(data-aos="flip-up") Algunos temas adicionales, específicos de la nube, a los se debe prestar especial atención, se pueden ver a continuación:
+    p.my-5(data-aos="flip-up") Algunos temas adicionales, específicos de la nube, a los que se debe prestar especial atención, se pueden ver a continuación:
 
     TabsB.color-acento-botones.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Asuntos legales" :icono="require('@/assets/curso/tema3/icono1.svg')")

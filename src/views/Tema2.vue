@@ -377,7 +377,7 @@
             img(src='@/assets/curso/tema2/grafica1.svg')
         .row
           .col-xl-3.col-lg-3.col-md-5.col-sm-6.col-9.fondo18.mb-5.ms-4(data-aos="slide-right")
-            p.mb-0.text-center.text-white.py-2.text-bold Dominio 7. Seguridad física
+            p.mb-0.text-center.text-white.py-2.text-bold Dominio 7. Seguridad física y ambiental
         p Busca minimizar el riesgo en cuanto a las interferencias y fallas en la prestación de los servicios, mediante la definición de perímetros de seguridad y de áreas a proteger, facilitando la implementación de controles de seguridad y protección de las instalaciones donde se realice procesamiento de información contra accesos físicos no autorizados, tal como se observa en el siguiente recurso didáctico:
             
     .row.correr-ambos.mt-5
@@ -485,16 +485,14 @@
             h5.mb-0.text-dark.text-center APLICACIÓN DE CONTROLES
         tr
         tr.borde-abajo.fondo28
-          <td rowspan='7' class='borde-tabla fondo28'>Responsabilidades y procedimientos de operación</td>
-          <td rowspan='7' class='borde-tabla'> Garantizar siempre la disponibilidad y adecuado funcionamiento de los recursos, evitando el acceso físico no autorizado, las interferencias o daños e interferencias a la información de la organización.</td>
+          <td rowspan='6' class='borde-tabla fondo28'>Responsabilidades y procedimientos de operación</td>
+          <td rowspan='6' class='borde-tabla'> Garantizar siempre la disponibilidad y adecuado funcionamiento de los recursos, evitando el acceso físico no autorizado, las interferencias o daños e interferencias a la información de la organización.</td>
         tr.fondo28.borde-abajo-gris
           td Documentación de procedimientos de operación. Todos los procesos operativos dentro de la organización deben estar debidamente documentados y a disposición cuando sean requeridos.
         tr.fondo28.borde-abajo-gris
           td Gestión de cambios. Cualquier tipo de cambio, actualización o modificación debería contar con una política de control de cambios, para evitar afectaciones en la seguridad o en los procesos de negocio.
         tr.fondo28.borde-abajo-gris
           td Gestión de capacidades. Se debería monitorear el uso de los recursos junto a las proyecciones futuras, en cuanto a requerimientos de capacidad, para garantizar el rendimiento adecuado en los sistemas.
-        tr.fondo28.borde-abajo-gris
-          td Separación de entornos de desarrollo, prueba y producción. Los tres entornos deberían permanecer separados, para reducir los riesgos de acceso no autorizado o de cambios no autorizados en los sistemas en operación.
         tr.fondo28.borde-abajo-gris
           td Separación de entornos de desarrollo, prueba y producción. Los tres entornos deberían permanecer separados, para reducir los riesgos de acceso no autorizado o de cambios no autorizados en los sistemas en operación.
         tr.fondo28
