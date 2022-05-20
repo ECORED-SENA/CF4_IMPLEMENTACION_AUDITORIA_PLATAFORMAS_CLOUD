@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Marcos de seguridad <em>cloud</em>',
+    componenteFormativo: 'Marcos de seguridad <em>Cloud</em>',
     descripcionCurso:
       'El presente componente formativo trabaja sobre tres de los marcos más importantes y de mayor adopción en cuanto a ciberseguridad; para lograr este objetivo, es necesario apropiar el tema del análisis de riesgos y las metodologías de aplicación, así como los estándares y los controles vigentes, que pueden ser utilizados para este fin.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
