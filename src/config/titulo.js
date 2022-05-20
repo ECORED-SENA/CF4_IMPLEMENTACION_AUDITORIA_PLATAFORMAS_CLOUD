@@ -1,1 +1,1 @@
-module.exports = 'Marcos de seguridad <em>Cloud</em>'
+module.exports = 'Marcos de seguridad Cloud'
