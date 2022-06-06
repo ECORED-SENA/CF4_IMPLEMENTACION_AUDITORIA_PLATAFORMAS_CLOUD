@@ -253,7 +253,7 @@
             img(src='@/assets/curso/tema2/organigrama.svg')
         .cajon.p-4.mt-5.color-acento-contenido(data-aos="slide-right")
           p Para la implementación de estos controles en ISO 27017, el cliente debe incluir en sus programas de formación y concientización a gerentes de negocio, administradores, integradores y usuarios de los servicios de nube, además de todo el personal que da apoyo en la coordinación de las actividades de seguridad de la información; y por otra parte, el proveedor de servicios <i>cloud</i>, proporcionar programas de formación y concientización a todo el personal interno, reclamándolo de igual modo a sus proveedores, sobre el adecuado uso de los datos de los clientes.
-    .row.correr-ambos.my-5
+    .row.correr-ambos.mt-5
       .col-xl-12.fondo19.px-5  
         .row
           .col-xl-3.col-lg-4.col-8.fondo18(data-aos="slide-right")
@@ -378,17 +378,23 @@
         .row
           .col-xl-3.col-lg-3.col-md-5.col-sm-6.col-9.fondo18.mb-5.ms-4(data-aos="slide-right")
             p.mb-0.text-center.text-white.py-2.text-bold Dominio 7. Seguridad física y ambiental
-        p Busca minimizar el riesgo en cuanto a las interferencias y fallas en la prestación de los servicios, mediante la definición de perímetros de seguridad y de áreas a proteger, facilitando la implementación de controles de seguridad y protección de las instalaciones donde se realice procesamiento de información contra accesos físicos no autorizados, tal como se observa en el siguiente recurso didáctico:
+        p.mb-0 Busca minimizar el riesgo en cuanto a las interferencias y fallas en la prestación de los servicios, mediante la definición de perímetros de seguridad y de áreas a proteger, facilitando la implementación de controles de seguridad y protección de las instalaciones donde se realice procesamiento de información contra accesos físicos no autorizados, tal como se observa en el siguiente recurso didáctico:
             
-    .row.correr-ambos.mt-5
-      #seguridad.col-xl-12.col-12.fondo23.px-5(data-aos="slide-left")
+    .row.correr-ambos.pt-5#menu1
+      .col-xl-12.col-12.fondo23.px-5(data-aos="slide-left")
         img(src='@/assets/curso/tema2/imagen7.png')
-        a.boton3.me-3(:href="obtenerLink('#seguras')" target="_self")
-        a.boton4.me-3(:href="obtenerLink('#equipos')" target="_self")
-        .row
-          #seguras.col-xl-2.col-lg-2.col-md-3.col-5.fondo24.py-2(data-aos="slide-right")
+        a(href="#seguras")
+          a.boton3.me-3
+        a(href="#equipos")
+          a.boton4.me-3
+          
+        #seguras.pt-5        
+        .row.pt-5
+          a(href="#menu1")                
+            .boton5.me-3
+          .col-xl-2.col-lg-2.col-md-3.col-5.fondo24.py-2(data-aos="slide-right")
             p.mb-0.text-center.text-bold 1. Áreas seguras
-          a.boton5.me-3(:href="obtenerLink('#seguridad')" target="_self")
+
         .row.correr-ambos.mt-5
           .col-xl-12.fondo25
             .row.justify-content-center.align-items-center
@@ -424,11 +430,14 @@
                   p Se deberían establecer los controles para los puntos de acceso a la organización, como las áreas de entrega y carga/descarga (entre otros), para evitar el ingreso de personas no autorizadas a las dependencias, aislando estos puntos, en la medida de lo posible, de las instalaciones de procesamiento de información.
           .col-xl-5.col-md-4.col-sm-5.col-8
             img(src='@/assets/curso/tema2/imagen8.jpg')
-        .row.mt-3
+
+        #equipos.pt-5 
+        .row.pt-5
           .col-xl-12
-            a.boton6.me-3.mt-3(data-aos="slide-left")(:href="obtenerLink('#seguridad')" target="_self")
+            a(href="#menu1")                
+              .boton6.mt-3.me-3           
             .row
-              #equipos.col-xl-3.col-lg-4.col-sm-6.col-9.fondo24.py-3.mb-4.col-6(data-aos="slide-right")
+              .col-xl-3.col-lg-4.col-sm-6.col-9.fondo24.py-3.mb-4.col-6(data-aos="slide-right")
                 p.mb-0.text-center.text-bold 2. Seguridad de los equipos
             .row.ajustar-izq.fondo46
               .col-xl-12       
@@ -573,21 +582,26 @@
                 i.fas.fa-caret-right
                 span Deben de establecerse medidas de protección especiales sobre los aplicativos o servicios que soportan la operación de la empresa.    
     p.mb-5 En el siguiente recurso didáctico, se especifican los controles relacionados con el dominio de adquisición, desarrollo y mantenimiento de sistemas informáticos:
-    .row.correr-ambos.mt-5
+    .row.correr-ambos.pt-5#menu2
       .col-xl-12.fondo23.px-5
-        #destino2.row.fondo30.align-items-center
+        .row.fondo30.align-items-center
           .col-xl-3.col-lg-9.col-md-9.col-sm-10.col-10(data-aos="slide-right")
             img.subir(src='@/assets/curso/tema2/imagen15.png')
           .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-6(data-aos="slide-left")
-            a.boton7.me-3(:href="obtenerLink('#requisitos')" target="_self")
+            a(href="#requisitos")
+              .boton7.me-3          
           .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-6(data-aos="slide-left")
-            a.boton8.me-3(:href="obtenerLink('#soporte')" target="_self")
+            a(href="#soporte")
+              .boton8.me-3           
           .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-4(data-aos="slide-left")
-            a.boton9.me-3(:href="obtenerLink('#datos')" target="_self")
+            a(href="#datos")
+              .boton8.me-3         
 
-        .row
-          a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
-          #requisitos.col-xl-5.col-lg-6.col-10.fondo24.py-2.mt-3(data-aos="slide-left")
+        #requisitos.pt-5
+        .row.pt-5
+          a(href="#menu2")         
+            .boton6.me-3
+          .col-xl-5.col-lg-6.col-10.fondo24.py-2.mt-3(data-aos="slide-left")
             p.mb-0.text-center.text-bold Requisitos de seguridad en los sistemas informáticos
 
         .row.correr-ambos
@@ -614,9 +628,12 @@
                   p La información utilizada en transacciones entre servicios o aplicaciones se debería proteger, para evitar la retransmisión y enrutamiento incorrecto para buscar la alteración, divulgación y/o duplicación no autorizada.
           .col-xl-4.col-md-4.col-sm-5(data-aos="slide-left")
             img(src='@/assets/curso/tema2/imagen16.jpg')
-    .row.my-5(data-aos="slide-left")
-      a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
-      #soporte.col-xxl-6.col-xl-7.col-lg-8.col-md-11.col-sm-10.col-8.fondo24.py-2(data-aos="slide-right")
+
+    #soporte.pt-5
+    .row.py-5(data-aos="slide-left")
+      a(href="#menu2")         
+        .boton6.me-3
+      .col-xxl-6.col-xl-7.col-lg-8.col-md-11.col-sm-10.col-8.fondo24.py-2(data-aos="slide-right")
         p.mb-0.text-center.text-bold Seguridad en los procesos de desarrollo y soporte de aplicaciones y servicios
     .row.correr-ambos
       .col-xl-12.fondo25
@@ -654,9 +671,11 @@
           
           p.text-small(numero="9" titulo="Pruebas de aceptación") Se deberían realizar planes de prueba y criterios de aceptación para la actualización y/o desarrollo de nuevas funcionalidades o sistemas.
 
-    .row.my-5
-      a.boton6.me-3(:href="obtenerLink('#destino2')" target="_self")
-      #datos.col-xl-2.col-lg-3.col-5.fondo24.py-2(data-aos="slide-left")
+    #datos.pt-5
+    .row.py-5
+      a(href="#menu2")         
+        .boton6.me-3
+      .col-xl-2.col-lg-3.col-5.fondo24.py-2(data-aos="slide-left")
         p.mb-0.text-center.text-bold Datos de prueba
     img.my-5(data-aos="slide-right")(src='@/assets/curso/tema2/figura19.svg')
     .row
