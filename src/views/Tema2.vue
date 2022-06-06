@@ -384,9 +384,9 @@
       .col-xl-12.col-12.fondo23.px-5(data-aos="slide-left")
         img(src='@/assets/curso/tema2/imagen7.png')
         a(href="#seguras")
-          a.boton3.me-3
+          .boton3.me-3
         a(href="#equipos")
-          a.boton4.me-3
+          .boton4.me-3
           
         #seguras.pt-5        
         .row.pt-5
@@ -590,7 +590,8 @@
           .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-6(data-aos="slide-left")
             a(href="#requisitos")
               .boton7.me-3          
-          .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-6(data-aos="slide-left")
+          .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-6(@mouseover="mostrarIndicador = false")(data-aos="slide-left")
+            .indicador--click(v-if="mostrarIndicador")          
             a(href="#soporte")
               .boton8.me-3           
           .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-4(data-aos="slide-left")
@@ -599,7 +600,7 @@
 
         #requisitos.pt-5
         .row.pt-5
-          a(href="#menu2")         
+          a(href="#menu2")             
             .boton6.me-3
           .col-xl-5.col-lg-6.col-10.fondo24.py-2.mt-3(data-aos="slide-left")
             p.mb-0.text-center.text-bold Requisitos de seguridad en los sistemas informáticos
@@ -836,7 +837,7 @@ export default {
   },
   data: () => ({
     modal1: false,
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
