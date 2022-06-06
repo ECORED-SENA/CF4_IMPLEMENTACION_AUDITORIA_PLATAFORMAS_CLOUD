@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="349" viewBox="0 0 840 349">
+  <defs>
+    <filter id="Trazado_465901" x="0" y="112" width="326" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263076" x="3" y="115" width="321" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263075" x="431" y="26" width="409" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263076-2" x="434" y="29" width="404" height="134" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263075-2" x="431" y="174" width="409" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263076-3" x="434" y="177" width="404" height="134" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_465900" x="0" y="291" width="326" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263076-4" x="3" y="294" width="321" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_709697" data-name="Grupo 709697" transform="translate(-379.506 -9281)">
+    <g id="Grupo_709692" data-name="Grupo 709692" transform="translate(-5 -2)">
+      <g transform="matrix(1, 0, 0, 1, 384.51, 9283)" filter="url(#Trazado_465901)">
+        <path id="Trazado_465901-2" data-name="Trazado 465901" d="M2,0H306a2,2,0,0,1,2,2V136a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(9 118)" fill="#002060"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 384.51, 9283)" filter="url(#Rectángulo_263076)">
+        <rect id="Rectángulo_263076-5" data-name="Rectángulo 263076" width="303" height="132" rx="2" transform="translate(12 121)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_709694" data-name="Grupo 709694" transform="translate(426 -88)">
+      <g transform="matrix(1, 0, 0, 1, -46.49, 9369)" filter="url(#Rectángulo_263075)">
+        <rect id="Rectángulo_263075-3" data-name="Rectángulo 263075" width="391" height="122" rx="2" transform="translate(440 32)" fill="#002060"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -46.49, 9369)" filter="url(#Rectángulo_263076-2)">
+        <rect id="Rectángulo_263076-6" data-name="Rectángulo 263076" width="386" height="116" rx="2" transform="translate(443 35)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_709695" data-name="Grupo 709695" transform="translate(426 60)">
+      <g transform="matrix(1, 0, 0, 1, -46.49, 9221)" filter="url(#Rectángulo_263075-2)">
+        <rect id="Rectángulo_263075-4" data-name="Rectángulo 263075" width="391" height="122" rx="2" transform="translate(440 180)" fill="#002060"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -46.49, 9221)" filter="url(#Rectángulo_263076-3)">
+        <rect id="Rectángulo_263076-7" data-name="Rectángulo 263076" width="386" height="116" rx="2" transform="translate(443 183)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_709693" data-name="Grupo 709693" transform="translate(-5 177)">
+      <g transform="matrix(1, 0, 0, 1, 384.51, 9104)" filter="url(#Trazado_465900)">
+        <path id="Trazado_465900-2" data-name="Trazado 465900" d="M2,0H306a2,2,0,0,1,2,2V38a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(9 297)" fill="#002060"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 384.51, 9104)" filter="url(#Rectángulo_263076-4)">
+        <rect id="Rectángulo_263076-8" data-name="Rectángulo 263076" width="303" height="34" rx="2" transform="translate(12 300)" fill="#002060"/>
+      </g>
+    </g>
+    <text id="Tiene_por_objetivo_lograr_que_se_utilicen_las_técnicas_y_estándares_eficaces_y_más_adecuados_a_fin_de_lograr_cumplir_con_la_triada_de_la_seguridad._" data-name="Tiene por objetivo lograr que se utilicen las técnicas y estándares eficaces y más adecuados, a fin de lograr cumplir con la triada de la seguridad.
+
+" transform="translate(397.969 9413.897)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Tiene por objetivo lograr que se utilicen </tspan><tspan x="0" y="41">las técnicas y estándares eficaces y más </tspan><tspan x="0" y="65">adecuados, a fin de lograr cumplir con la </tspan><tspan x="0" y="89">triada de la seguridad.</tspan></text>
+    <text id="Política_de_uso_de_los_controles_criptográficos:_Se_debería_establecer_una_política_que_determine_las_recomendaciones_para_el_uso_de_controles_criptográficos._" data-name="Política de uso de los controles criptográficos: Se debería establecer una política que determine las recomendaciones para el uso de controles criptográficos.
+
+
+" transform="translate(832.506 9320.897)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Política de uso de los controles criptográficos:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> Se </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">debería establecer una política que determine las </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">recomendaciones para el uso de controles </tspan><tspan x="0" y="89" font-family="Roboto-Regular, Roboto" font-weight="400">criptográficos.</tspan></text>
+    <text id="Gestión_de_claves:_debería_existir_una_política_de_seguridad_que_regule_y_administre_el_ciclo_de_vida_de_las_contraseñas_y_claves_de_los_controles_criptográficos._" data-name="Gestión de claves: debería existir una política de seguridad que regule y administre el ciclo de vida de las contraseñas y claves de los controles criptográficos.
+
+
+
+" transform="translate(832.506 9468)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Gestión de claves:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> debería existir una política de </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">seguridad que regule y administre el ciclo de vida de </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">las contraseñas y claves de los controles </tspan><tspan x="0" y="89" font-family="Roboto-Regular, Roboto" font-weight="400">criptográficos.</tspan></text>
+    <text id="Controles_criptográficos_" data-name="Controles criptográficos
+
+
+" transform="translate(444.506 9586.934)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="19">Controles criptográficos</tspan></text>
+    <text id="Objetivo_" data-name="Objetivo
+" transform="translate(506.506 9332.897)" fill="#12263f" font-size="18" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="19">Objetivo</tspan></text>
+    <text id="Controles_" data-name="Controles 
+
+" transform="translate(874.969 9281)" fill="#12263f" font-size="18" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="19">Controles </tspan></text>
+    <path id="Trazado_465899" data-name="Trazado 465899" d="M-4443.184-2407.934h-82.359v175.6h-83.884" transform="translate(5306.506 11700)" fill="none" stroke="#002060" stroke-width="4"/>
+    <path id="Trazado_465902" data-name="Trazado 465902" d="M-4772.5-2301v-27.8" transform="translate(5315.506 11700)" fill="none" stroke="#002060" stroke-width="4"/>
+    <path id="Trazado_467283" data-name="Trazado 467283" d="M-4772.5-2283.687V-2328.8" transform="translate(5315.506 11865.8)" fill="none" stroke="#002060" stroke-width="4"/>
+  </g>
+</svg>

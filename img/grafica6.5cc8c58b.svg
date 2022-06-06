@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1034.807" height="656.67" viewBox="0 0 1034.807 656.67">
+  <g id="Grupo_712005" data-name="Grupo 712005" transform="translate(-282.868 -7976.963)">
+    <path id="Trazado_466624" data-name="Trazado 466624" d="M-1692.181-3698.681h-51.74v643.452h54.748" transform="translate(2084.819 11685.145)" fill="none" stroke="#1562bb" stroke-width="3"/>
+    <text id="SEGURIDAD_DE_LA_INFRAESTRUCTURA" data-name="SEGURIDAD 
+DE LA INFRAESTRUCTURA" transform="translate(282.868 8404.963) rotate(-90)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="53.648" y="17">SEGURIDAD </tspan><tspan x="0.113" y="38">DE LA INFRAESTRUCTURA</tspan></text>
+    <g id="Grupo_711953" data-name="Grupo 711953" transform="translate(665.113 7987.189)">
+      <path id="Trazado_466626" data-name="Trazado 466626" d="M-4797.146,9932.958h20.253l2.408,1.224v82.481a3.09,3.09,0,0,0,2.023,1.589c1.615.515,20.769,1.479,20.769,1.479" transform="translate(4797.146 -9846.185)" fill="none" stroke="#1565c0" stroke-width="2"/>
+      <path id="Trazado_466631" data-name="Trazado 466631" d="M-4797.146,10019.731h20.253l2.408-1.224v-82.481a3.09,3.09,0,0,1,2.023-1.589c1.615-.515,20.769-1.479,20.769-1.479" transform="translate(4797.146 -9932.958)" fill="none" stroke="#1565c0" stroke-width="2"/>
+    </g>
+    <g id="Grupo_712003" data-name="Grupo 712003" transform="translate(0 -7.546)">
+      <path id="Trazado_466630" data-name="Trazado 466630" d="M-4797.146,10006.459h20.253l2.408-1.038v-69.862a2.972,2.972,0,0,1,2.023-1.348c1.615-.435,20.769-1.252,20.769-1.252" transform="translate(5462.259 -1439.779)" fill="none" stroke="#1565c0" stroke-width="2"/>
+      <path id="Trazado_466633" data-name="Trazado 466633" d="M-4797.146,9932.959h20.253l2.408,1.038v69.862a2.972,2.972,0,0,0,2.023,1.348c1.615.435,20.769,1.252,20.769,1.252" transform="translate(5462.259 -1366.279)" fill="none" stroke="#1565c0" stroke-width="2"/>
+    </g>
+    <g id="Grupo_712004" data-name="Grupo 712004" transform="translate(0 -10.037)">
+      <path id="Trazado_466627" data-name="Trazado 466627" d="M-4797.146,9932.959h20.253l2.408,2.028v136.579a4.333,4.333,0,0,0,2.023,2.633c1.615.852,20.769,2.449,20.769,2.449" transform="translate(5462.259 -1594.459)" fill="none" stroke="#1565c0" stroke-width="2"/>
+      <path id="Trazado_466632" data-name="Trazado 466632" d="M-4797.146,10076.648h20.253l2.408-2.028V9938.041a4.333,4.333,0,0,1,2.023-2.633c1.615-.852,20.769-2.449,20.769-2.449" transform="translate(5462.259 -1737.648)" fill="none" stroke="#1565c0" stroke-width="2"/>
+    </g>
+    <g id="Grupo_710167" data-name="Grupo 710167" transform="translate(0 -10.037)">
+      <text id="En_un_modelo_de_seguridad_compartida_el_proveedor_o_el_responsable_de_mantener_la_plataforma_de_nube_privada_tiene_la_responsabilidad_de_garantizar_que_las_capas_subyacentes_física_abstracción_y_orquestación_sean_seguras._Revisar_las_certificaciones" data-name="En un modelo de seguridad compartida, el proveedor (o el responsable de mantener la plataforma de nube privada) tiene la responsabilidad de garantizar que las capas subyacentes, física, abstracción y orquestación, sean seguras. 
+Revisar las certificaciones" transform="translate(743.676 7987)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">En un modelo de seguridad compartida, el proveedor (o el responsable de </tspan><tspan x="0" y="41">mantener la plataforma de nube privada) tiene la responsabilidad de garantizar </tspan><tspan x="0" y="65">que las capas subyacentes, física, abstracción y orquestación, sean seguras. </tspan><tspan x="0" y="89">Revisar las certificaciones y declaraciones de cumplimiento.</tspan><tspan x="0" y="113">Comprobar periódicamente las certificaciones y declaraciones de cumplimiento, </tspan><tspan x="0" y="137">tanto las estándar como las específicas para la industria, para obtener garantías </tspan><tspan x="0" y="161">de que el proveedor está siguiendo las mejores prácticas y normativas relativas </tspan><tspan x="0" y="185">a la infraestructura en la nube</tspan></text>
+    </g>
+    <text id="Hacer_uso_de_cargas_de_trabajo_inmutables_siempre_que_sea_posible._Mantener_controles_de_seguridad_para_las_cargas_de_trabajo_de_larga_duración_pero_haciendo_uso_de_herramientas_compatibles_con_la_nube._Almacenar_los_registros_fuera_de_las_cargas_de_tr" data-name="Hacer uso de cargas de trabajo inmutables, siempre que sea posible. 
+Mantener controles de seguridad para las cargas de trabajo de larga duración, pero haciendo uso de herramientas compatibles con la nube. 
+Almacenar los registros fuera de las cargas de tr" transform="translate(743.676 8483.142)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Hacer uso de cargas de trabajo inmutables, siempre que sea posible. </tspan><tspan x="0" y="41">Mantener controles de seguridad para las cargas de trabajo de larga duración, </tspan><tspan x="0" y="65">pero haciendo uso de herramientas compatibles con la nube. </tspan><tspan x="0" y="89">Almacenar los registros fuera de las cargas de trabajo. </tspan><tspan x="0" y="113">Comprender y cumplir con las limitaciones de los proveedores de servicios en la </tspan><tspan x="0" y="137">nube con relación a las evaluaciones de seguridad y los tests de intrusión.</tspan></text>
+    <g id="Grupo_710169" data-name="Grupo 710169" transform="translate(0 -10.037)">
+      <text id="Cuando_sea_posible_es_preferible_utilizar_SDN._Usar_las_capacidades_de_las_SDN_para_crear_múltiples_redes_virtuales_o_segmentos_para_incrementar_el_aislamiento_de_red._La_separación_de_cuentas_y_redes_virtuales_limitará_dramáticamente_el_área_de_impacto" data-name="Cuando sea posible, es preferible utilizar SDN.
+Usar las capacidades de las SDN para crear múltiples redes virtuales o segmentos, para incrementar el aislamiento de red. 
+La separación de cuentas y redes virtuales limitará dramáticamente el área de impacto" transform="translate(743.676 8195)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Cuando sea posible, es preferible utilizar SDN.</tspan><tspan x="0" y="41">Usar las capacidades de las SDN para crear múltiples redes virtuales o </tspan><tspan x="0" y="65">segmentos, para incrementar el aislamiento de red. </tspan><tspan x="0" y="89">La separación de cuentas y redes virtuales limitará dramáticamente el área de </tspan><tspan x="0" y="113">impacto.</tspan><tspan x="0" y="137">Implementar la denegación por defecto en los cortafuegos en la nube. </tspan><tspan x="0" y="161">Aplicar cortafuegos en la nube en función de la carga de trabajo, en lugar de por </tspan><tspan x="0" y="185">redes. </tspan><tspan x="0" y="209">Siempre que sea posible, restringir el tráfico entre cargas de trabajo en la misma </tspan><tspan x="0" y="233">subred, utilizando una política de cortafuegos en la nube (grupo de seguridad).</tspan><tspan x="0" y="257">Minimizar las dependencias de dispositivos virtuales que restrinjan la elasticidad </tspan><tspan x="0" y="281">o causen cuellos de botella en el rendimiento.</tspan></text>
+    </g>
+    <g id="Grupo_710168" data-name="Grupo 710168" transform="translate(-3 37.963)">
+      <rect id="Rectángulo_263590" data-name="Rectángulo 263590" width="273" height="70" transform="translate(408.676 8001)" fill="#e2c140"/>
+      <text id="Conocer_la_seguridad_de_infraestructura_de_la_plataforma_del_proveedor_" data-name="Conocer la seguridad de infraestructura de la plataforma del proveedor
+" transform="translate(417.676 8004)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="41.852" y="17">Conocer la seguridad de </tspan><tspan x="2.945" y="38">infraestructura de la plataforma del </tspan><tspan x="92.246" y="59">proveedor</tspan></text>
+    </g>
+    <rect id="Rectángulo_263589" data-name="Rectángulo 263589" width="268" height="32" transform="translate(405.676 8312.963)" fill="#e2c140"/>
+    <text id="Red" transform="translate(525.676 8319.963)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Red</tspan></text>
+    <rect id="Rectángulo_263591" data-name="Rectángulo 263591" width="268" height="32" transform="translate(405.676 8540.963)" fill="#e2c140"/>
+    <text id="Cómputo_carga_de_trabajo_" data-name="Cómputo/carga de trabajo
+" transform="translate(445.676 8546.963)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Cómputo/carga de trabajo</tspan></text>
+    <path id="Path_174439" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 7995.12) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-2" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8068.12) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-3" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8090.769) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-4" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8200.882) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-5" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8226.758) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-6" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8274.122) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-7" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8324.473) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-8" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8394.122) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-9" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8444.473) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-10" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8525.95) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-11" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8597.95) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-12" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(726.128 8574.301) rotate(-150)" fill="#ff2c9c"/>
+  </g>
+</svg>

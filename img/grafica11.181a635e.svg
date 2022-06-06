@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="823.176" height="458" viewBox="0 0 823.176 458">
+  <defs>
+    <filter id="Trazado_467026" x="23.176" y="109" width="776" height="349" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_263679" x="167.176" y="0" width="489" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_710375" data-name="Grupo 710375" transform="translate(-388.5 -17323)">
+    <g transform="matrix(1, 0, 0, 1, 388.5, 17323)" filter="url(#Trazado_467026)">
+      <path id="Trazado_467026-2" data-name="Trazado 467026" d="M0,0H758V331H0Z" transform="translate(32.18 115)" fill="#eee6ba"/>
+    </g>
+    <path id="Trazado_467024" data-name="Trazado 467024" d="M-1304.676,5671.282v43.283h-410.176v48.527" transform="translate(2104.852 11700)" fill="none" stroke="#173d7a" stroke-width="3"/>
+    <path id="Trazado_467025" data-name="Trazado 467025" d="M-1714.852,5671.282v43.283h410.176v48.527" transform="translate(2514.852 11700)" fill="none" stroke="#173d7a" stroke-width="3"/>
+    <g id="Grupo_710271" data-name="Grupo 710271" transform="translate(-135 -233)">
+      <g transform="matrix(1, 0, 0, 1, 523.5, 17556)" filter="url(#Rectángulo_263679)">
+        <rect id="Rectángulo_263679-2" data-name="Rectángulo 263679" width="471" height="42" transform="translate(176.18 6)" fill="#e2c140"/>
+      </g>
+      <text id="Minimize_your_develo" data-name="Minimize your develo" transform="translate(727.676 17571)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="2.107" y="19">Recomendaciones para la seguridad como servicio</tspan></text>
+    </g>
+    <text id="Antes_de_contratar_a_un_proveedor_de_SecaaS_asegúrese_de_comprender_todos_los_requisitos_específicos_de_seguridad_para_el_soporte_de_manejo_de_datos_y_disponibilidad_investigación_y_cumplimiento._Preste_especial_atención_al_manejo_de_datos_regulados_" data-name="Antes de contratar a un proveedor de SecaaS, asegúrese de comprender todos los requisitos específicos de seguridad para el soporte de manejo de datos (y disponibilidad), investigación y cumplimiento.
+
+Preste especial atención al manejo de datos regulados, " transform="translate(452.602 17454.063)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Antes de contratar a un proveedor de SecaaS, asegúrese de comprender todos los requisitos </tspan><tspan x="0" y="41">específicos de seguridad para el soporte de manejo de datos (y disponibilidad), investigación y </tspan><tspan x="0" y="65">cumplimiento.</tspan><tspan x="0" y="89"></tspan><tspan x="0" y="113">Preste especial atención al manejo de datos regulados, como PII.</tspan><tspan x="0" y="137"> </tspan><tspan x="0" y="161">Comprenda sus necesidades de retención de datos y seleccione un proveedor que pueda admitir </tspan><tspan x="0" y="185">fuentes de datos que no creen una situación de bloqueo.</tspan><tspan x="0" y="209"></tspan><tspan x="0" y="233">Asegúrese de que el servicio SecaaS sea compatible con sus planes actuales y futuros, tales como </tspan><tspan x="0" y="257">sus plataformas en la nube (y locales), las estaciones de trabajo y los sistemas operativos móviles </tspan><tspan x="0" y="281">que utiliza, y así sucesivamente.</tspan></text>
+    <path id="Path_174439" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(436.685 17472.639) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-2" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(436.685 17568.639) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-3" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(436.685 17616.908) rotate(-150)" fill="#ff2c9c"/>
+    <path id="Path_174439-4" data-name="Path 174439" d="M5.127,0,0,8.88H10.253Z" transform="translate(436.685 17688.988) rotate(-150)" fill="#ff2c9c"/>
+  </g>
+</svg>
